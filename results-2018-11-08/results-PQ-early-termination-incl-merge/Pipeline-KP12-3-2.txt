@@ -1,0 +1,174 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/Pipeline-KP12-3-2.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mEarly termination chosen for EFsynthminpq, the algorithm will stop once a single valuation is found that minimizes global_time.[0m
+ [0mThis model is an L/U-PTA:[0m
+ [0m- lower-bound parameters {a, e, c}[0m
+ [0m- upper-bound parameters {b, f, d, p_global_time}[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0m  5 states merged within 14 states.[0m
+ [0mMerging, iteration: 10, |PQ|: 14 -> 9[0m
+ [0m  13 states merged within 31 states.[0m
+ [0mMerging, iteration: 20, |PQ|: 31 -> 18[0m
+ [0m  10 states merged within 41 states.[0m
+ [0mMerging, iteration: 30, |PQ|: 41 -> 33[0m
+ [0m  13 states merged within 54 states.[0m
+ [0mMerging, iteration: 40, |PQ|: 54 -> 44[0m
+ [0m  18 states merged within 65 states.[0m
+ [0mMerging, iteration: 50, |PQ|: 65 -> 48[0m
+ [0m  7 states merged within 67 states.[0m
+ [0mMerging, iteration: 60, |PQ|: 67 -> 60[0m
+ [0mt_found: 0.576 second[0m
+ [0mBest time to target location: 5.[0m
+ [0m  10 states merged within 81 states.[0m
+ [0mMerging, iteration: 70, |PQ|: 81 -> 71[0m
+ [0m  5 states merged within 87 states.[0m
+ [0mMerging, iteration: 80, |PQ|: 87 -> 82[0m
+ [0m  8 states merged within 105 states.[0m
+ [0mMerging, iteration: 90, |PQ|: 105 -> 97[0m
+ [0m  12 states merged within 121 states.[0m
+ [0mMerging, iteration: 100, |PQ|: 121 -> 109[0m
+ [0m  7 states merged within 134 states.[0m
+ [0mMerging, iteration: 110, |PQ|: 134 -> 127[0m
+ [0m  17 states merged within 152 states.[0m
+ [0mMerging, iteration: 120, |PQ|: 152 -> 135[0m
+ [0m  9 states merged within 163 states.[0m
+ [0mMerging, iteration: 130, |PQ|: 163 -> 154[0m
+ [0m  11 states merged within 173 states.[0m
+ [0mMerging, iteration: 140, |PQ|: 173 -> 162[0m
+ [0m  12 states merged within 188 states.[0m
+ [0mMerging, iteration: 150, |PQ|: 188 -> 176[0m
+ [0m  7 states merged within 206 states.[0m
+ [0mMerging, iteration: 160, |PQ|: 206 -> 199[0m
+ [0m  14 states merged within 228 states.[0m
+ [0mMerging, iteration: 170, |PQ|: 228 -> 214[0m
+ [0m  10 states merged within 237 states.[0m
+ [0mMerging, iteration: 180, |PQ|: 237 -> 227[0m
+ [0m  9 states merged within 252 states.[0m
+ [0mMerging, iteration: 190, |PQ|: 252 -> 243[0m
+ [0m  8 states merged within 269 states.[0m
+ [0mMerging, iteration: 200, |PQ|: 269 -> 261[0m
+ [0m  13 states merged within 293 states.[0m
+ [0mMerging, iteration: 210, |PQ|: 293 -> 280[0m
+ [0m  18 states merged within 313 states.[0m
+ [0mMerging, iteration: 220, |PQ|: 313 -> 295[0m
+ [0m  11 states merged within 325 states.[0m
+ [0mMerging, iteration: 230, |PQ|: 325 -> 314[0m
+ [0m  8 states merged within 341 states.[0m
+ [0mMerging, iteration: 240, |PQ|: 341 -> 333[0m
+ [0m  15 states merged within 362 states.[0m
+ [0mMerging, iteration: 250, |PQ|: 362 -> 347[0m
+ [0m  12 states merged within 377 states.[0m
+ [0mMerging, iteration: 260, |PQ|: 377 -> 365[0m
+ [0m  9 states merged within 387 states.[0m
+ [0mMerging, iteration: 270, |PQ|: 387 -> 378[0m
+ [0m  5 states merged within 403 states.[0m
+ [0mMerging, iteration: 280, |PQ|: 403 -> 398[0m
+ [0m  12 states merged within 427 states.[0m
+ [0mMerging, iteration: 290, |PQ|: 427 -> 415[0m
+ [0m  17 states merged within 447 states.[0m
+ [0mMerging, iteration: 300, |PQ|: 447 -> 430[0m
+ [0m  14 states merged within 461 states.[0m
+ [0mMerging, iteration: 310, |PQ|: 461 -> 447[0m
+ [0m  12 states merged within 475 states.[0m
+ [0mMerging, iteration: 320, |PQ|: 475 -> 463[0m
+ [0m  6 states merged within 493 states.[0m
+ [0mMerging, iteration: 330, |PQ|: 493 -> 487[0m
+ [0m  12 states merged within 516 states.[0m
+ [0mMerging, iteration: 340, |PQ|: 516 -> 504[0m
+ [0m  11 states merged within 535 states.[0m
+ [0mMerging, iteration: 350, |PQ|: 535 -> 524[0m
+ [0m  12 states merged within 553 states.[0m
+ [0mMerging, iteration: 360, |PQ|: 553 -> 541[0m
+ [0m  15 states merged within 569 states.[0m
+ [0mMerging, iteration: 370, |PQ|: 569 -> 554[0m
+ [0m  16 states merged within 579 states.[0m
+ [0mMerging, iteration: 380, |PQ|: 579 -> 563[0m
+ [0m  5 states merged within 582 states.[0m
+ [0mMerging, iteration: 390, |PQ|: 582 -> 577[0m
+ [0m  4 states merged within 603 states.[0m
+ [0mMerging, iteration: 400, |PQ|: 603 -> 599[0m
+ [0m  5 states merged within 621 states.[0m
+ [0mMerging, iteration: 410, |PQ|: 621 -> 616[0m
+ [0m  8 states merged within 638 states.[0m
+ [0mMerging, iteration: 420, |PQ|: 638 -> 630[0m
+ [0m  13 states merged within 660 states.[0m
+ [0mMerging, iteration: 430, |PQ|: 660 -> 647[0m
+ [0m  13 states merged within 673 states.[0m
+ [0mMerging, iteration: 440, |PQ|: 673 -> 660[0m
+ [0m  8 states merged within 687 states.[0m
+ [0mMerging, iteration: 450, |PQ|: 687 -> 679[0m
+ [0m  16 states merged within 711 states.[0m
+ [0mMerging, iteration: 460, |PQ|: 711 -> 695[0m
+ [0m  10 states merged within 724 states.[0m
+ [0mMerging, iteration: 470, |PQ|: 724 -> 714[0m
+ [0m  6 states merged within 737 states.[0m
+ [0mMerging, iteration: 480, |PQ|: 737 -> 731[0m
+ [0m  15 states merged within 760 states.[0m
+ [0mMerging, iteration: 490, |PQ|: 760 -> 745[0m
+ [0m  6 states merged within 771 states.[0m
+ [0mMerging, iteration: 500, |PQ|: 771 -> 765[0m
+ [0m  19 states merged within 793 states.[0m
+ [0mMerging, iteration: 510, |PQ|: 793 -> 774[0m
+ [0m  16 states merged within 803 states.[0m
+ [0mMerging, iteration: 520, |PQ|: 803 -> 787[0m
+ [0m  8 states merged within 815 states.[0m
+ [0mMerging, iteration: 530, |PQ|: 815 -> 807[0m
+ [0m  11 states merged within 836 states.[0m
+ [0mMerging, iteration: 540, |PQ|: 836 -> 825[0m
+ [0m  12 states merged within 855 states.[0m
+ [0mMerging, iteration: 550, |PQ|: 855 -> 843[0m
+ [0m  17 states merged within 871 states.[0m
+ [0mMerging, iteration: 560, |PQ|: 871 -> 854[0m
+ [0m  9 states merged within 870 states.[0m
+ [0mMerging, iteration: 570, |PQ|: 870 -> 861[0m
+ [0m  11 states merged within 880 states.[0m
+ [0mMerging, iteration: 580, |PQ|: 880 -> 869[0m
+ [0m  4 states merged within 885 states.[0m
+ [0mMerging, iteration: 590, |PQ|: 885 -> 881[0m
+ [0m  10 states merged within 904 states.[0m
+ [0mMerging, iteration: 600, |PQ|: 904 -> 894[0m
+ [0m  5 states merged within 915 states.[0m
+ [0mMerging, iteration: 610, |PQ|: 915 -> 910[0m
+ [0m  5 states merged within 927 states.[0m
+ [0mMerging, iteration: 620, |PQ|: 927 -> 922[0m
+ [0m  9 states merged within 942 states.[0m
+ [0mMerging, iteration: 630, |PQ|: 942 -> 933[0m
+ [0m  5 states merged within 952 states.[0m
+ [0mMerging, iteration: 640, |PQ|: 952 -> 947[0m
+ [0m  8 states merged within 974 states.[0m
+ [0mMerging, iteration: 650, |PQ|: 974 -> 966[0m
+ [0m  13 states merged within 992 states.[0m
+ [0mMerging, iteration: 660, |PQ|: 992 -> 979[0m
+ [0m  10 states merged within 998 states.[0m
+ [0mMerging, iteration: 670, |PQ|: 998 -> 988[0m
+ [0m  7 states merged within 1014 states.[0m
+ [0mMerging, iteration: 680, |PQ|: 1014 -> 1007[0m
+ [0m  11 states merged within 1030 states.[0m
+ [0mMerging, iteration: 690, |PQ|: 1030 -> 1019[0m
+ [0m  12 states merged within 1047 states.[0m
+ [0mMerging, iteration: 700, |PQ|: 1047 -> 1035[0m
+ [0m  8 states merged within 1059 states.[0m
+ [0mMerging, iteration: 710, |PQ|: 1059 -> 1051[0m
+ [0m  15 states merged within 1078 states.[0m
+ [0mMerging, iteration: 720, |PQ|: 1078 -> 1063[0m
+ [0m  4 states merged within 1082 states.[0m
+ [0mMerging, iteration: 730, |PQ|: 1082 -> 1078[0m
+ [0m  5 states merged within 1104 states.[0m
+ [0mMerging, iteration: 740, |PQ|: 1104 -> 1099[0m

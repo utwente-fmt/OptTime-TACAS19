@@ -1,0 +1,1751 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/gear_3000.imi[0m
+ [0mMode: EF-synthesis.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm AGsafe…
+ [0m
+ [0mComputing post^1 from 1 state.[0m
+ [0mComputing post^2 from 2 states.[0m
+ [0mComputing post^3 from 3 states.[0m
+ [0mComputing post^4 from 3 states.[0m
+ [0mComputing post^5 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^6 from 2 states.[0m
+ [0mComputing post^7 from 2 states.[0m
+ [0mComputing post^8 from 2 states.[0m
+ [0mComputing post^9 from 3 states.[0m
+ [0mComputing post^10 from 3 states.[0m
+ [0mComputing post^11 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^12 from 2 states.[0m
+ [0mComputing post^13 from 2 states.[0m
+ [0mComputing post^14 from 2 states.[0m
+ [0mComputing post^15 from 3 states.[0m
+ [0mComputing post^16 from 3 states.[0m
+ [0mComputing post^17 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^18 from 2 states.[0m
+ [0mComputing post^19 from 2 states.[0m
+ [0mComputing post^20 from 2 states.[0m
+ [0mComputing post^21 from 3 states.[0m
+ [0mComputing post^22 from 3 states.[0m
+ [0mComputing post^23 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^24 from 2 states.[0m
+ [0mComputing post^25 from 2 states.[0m
+ [0mComputing post^26 from 2 states.[0m
+ [0mComputing post^27 from 3 states.[0m
+ [0mComputing post^28 from 3 states.[0m
+ [0mComputing post^29 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^30 from 2 states.[0m
+ [0mComputing post^31 from 2 states.[0m
+ [0mComputing post^32 from 2 states.[0m
+ [0mComputing post^33 from 2 states.[0m
+ [0mComputing post^34 from 2 states.[0m
+ [0mComputing post^35 from 2 states.[0m
+ [0mComputing post^36 from 2 states.[0m
+ [0mComputing post^37 from 2 states.[0m
+ [0mComputing post^38 from 2 states.[0m
+ [0mComputing post^39 from 2 states.[0m
+ [0mComputing post^40 from 2 states.[0m
+ [0mComputing post^41 from 3 states.[0m
+ [0mComputing post^42 from 3 states.[0m
+ [0mComputing post^43 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^44 from 2 states.[0m
+ [0mComputing post^45 from 2 states.[0m
+ [0mComputing post^46 from 2 states.[0m
+ [0mComputing post^47 from 2 states.[0m
+ [0mComputing post^48 from 2 states.[0m
+ [0mComputing post^49 from 2 states.[0m
+ [0mComputing post^50 from 2 states.[0m
+ [0mComputing post^51 from 3 states.[0m
+ [0mComputing post^52 from 3 states.[0m
+ [0mComputing post^53 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^54 from 3 states.[0m
+ [0mComputing post^55 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^56 from 3 states.[0m
+ [0mComputing post^57 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^58 from 3 states.[0m
+ [0mComputing post^59 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^60 from 3 states.[0m
+ [0mComputing post^61 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^62 from 3 states.[0m
+ [0mComputing post^63 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^64 from 3 states.[0m
+ [0mComputing post^65 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^66 from 3 states.[0m
+ [0mComputing post^67 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^68 from 3 states.[0m
+ [0mComputing post^69 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^70 from 3 states.[0m
+ [0mComputing post^71 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^72 from 3 states.[0m
+ [0mComputing post^73 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^74 from 3 states.[0m
+ [0mComputing post^75 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^76 from 3 states.[0m
+ [0mComputing post^77 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^78 from 3 states.[0m
+ [0mComputing post^79 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^80 from 3 states.[0m
+ [0mComputing post^81 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^82 from 3 states.[0m
+ [0mComputing post^83 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^84 from 3 states.[0m
+ [0mComputing post^85 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^86 from 3 states.[0m
+ [0mComputing post^87 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^88 from 3 states.[0m
+ [0mComputing post^89 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^90 from 3 states.[0m
+ [0mComputing post^91 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^92 from 3 states.[0m
+ [0mComputing post^93 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^94 from 3 states.[0m
+ [0mComputing post^95 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^96 from 3 states.[0m
+ [0mComputing post^97 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^98 from 3 states.[0m
+ [0mComputing post^99 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^100 from 3 states.[0m
+ [0mComputing post^101 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^102 from 3 states.[0m
+ [0mComputing post^103 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^104 from 3 states.[0m
+ [0mComputing post^105 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^106 from 3 states.[0m
+ [0mComputing post^107 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^108 from 3 states.[0m
+ [0mComputing post^109 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^110 from 3 states.[0m
+ [0mComputing post^111 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^112 from 3 states.[0m
+ [0mComputing post^113 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^114 from 3 states.[0m
+ [0mComputing post^115 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^116 from 3 states.[0m
+ [0mComputing post^117 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^118 from 3 states.[0m
+ [0mComputing post^119 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^120 from 3 states.[0m
+ [0mComputing post^121 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^122 from 3 states.[0m
+ [0mComputing post^123 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^124 from 3 states.[0m
+ [0mComputing post^125 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^126 from 3 states.[0m
+ [0mComputing post^127 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^128 from 3 states.[0m
+ [0mComputing post^129 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^130 from 3 states.[0m
+ [0mComputing post^131 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^132 from 3 states.[0m
+ [0mComputing post^133 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^134 from 3 states.[0m
+ [0mComputing post^135 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^136 from 3 states.[0m
+ [0mComputing post^137 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^138 from 3 states.[0m
+ [0mComputing post^139 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^140 from 3 states.[0m
+ [0mComputing post^141 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^142 from 3 states.[0m
+ [0mComputing post^143 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^144 from 3 states.[0m
+ [0mComputing post^145 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^146 from 3 states.[0m
+ [0mComputing post^147 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^148 from 3 states.[0m
+ [0mComputing post^149 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^150 from 3 states.[0m
+ [0mComputing post^151 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^152 from 3 states.[0m
+ [0mComputing post^153 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^154 from 3 states.[0m
+ [0mComputing post^155 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^156 from 3 states.[0m
+ [0mComputing post^157 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^158 from 3 states.[0m
+ [0mComputing post^159 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^160 from 3 states.[0m
+ [0mComputing post^161 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^162 from 3 states.[0m
+ [0mComputing post^163 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^164 from 3 states.[0m
+ [0mComputing post^165 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^166 from 3 states.[0m
+ [0mComputing post^167 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^168 from 3 states.[0m
+ [0mComputing post^169 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^170 from 3 states.[0m
+ [0mComputing post^171 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^172 from 3 states.[0m
+ [0mComputing post^173 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^174 from 3 states.[0m
+ [0mComputing post^175 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^176 from 3 states.[0m
+ [0mComputing post^177 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^178 from 3 states.[0m
+ [0mComputing post^179 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^180 from 3 states.[0m
+ [0mComputing post^181 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^182 from 3 states.[0m
+ [0mComputing post^183 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^184 from 3 states.[0m
+ [0mComputing post^185 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^186 from 3 states.[0m
+ [0mComputing post^187 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^188 from 3 states.[0m
+ [0mComputing post^189 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^190 from 3 states.[0m
+ [0mComputing post^191 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^192 from 3 states.[0m
+ [0mComputing post^193 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^194 from 2 states.[0m
+ [0mComputing post^195 from 2 states.[0m
+ [0mComputing post^196 from 2 states.[0m
+ [0mComputing post^197 from 2 states.[0m
+ [0mComputing post^198 from 2 states.[0m
+ [0mComputing post^199 from 2 states.[0m
+ [0mComputing post^200 from 2 states.[0m
+ [0mComputing post^201 from 2 states.[0m
+ [0mComputing post^202 from 2 states.[0m
+ [0mComputing post^203 from 2 states.[0m
+ [0mComputing post^204 from 2 states.[0m
+ [0mComputing post^205 from 2 states.[0m
+ [0mComputing post^206 from 2 states.[0m
+ [0mComputing post^207 from 2 states.[0m
+ [0mComputing post^208 from 2 states.[0m
+ [0mComputing post^209 from 2 states.[0m
+ [0mComputing post^210 from 2 states.[0m
+ [0mComputing post^211 from 2 states.[0m
+ [0mComputing post^212 from 2 states.[0m
+ [0mComputing post^213 from 2 states.[0m
+ [0mComputing post^214 from 2 states.[0m
+ [0mComputing post^215 from 2 states.[0m
+ [0mComputing post^216 from 2 states.[0m
+ [0mComputing post^217 from 3 states.[0m
+ [0mComputing post^218 from 3 states.[0m
+ [0mComputing post^219 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^220 from 3 states.[0m
+ [0mComputing post^221 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^222 from 3 states.[0m
+ [0mComputing post^223 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^224 from 3 states.[0m
+ [0mComputing post^225 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^226 from 3 states.[0m
+ [0mComputing post^227 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^228 from 3 states.[0m
+ [0mComputing post^229 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^230 from 3 states.[0m
+ [0mComputing post^231 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^232 from 3 states.[0m
+ [0mComputing post^233 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^234 from 3 states.[0m
+ [0mComputing post^235 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^236 from 3 states.[0m
+ [0mComputing post^237 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^238 from 2 states.[0m
+ [0mComputing post^239 from 2 states.[0m
+ [0mComputing post^240 from 2 states.[0m
+ [0mComputing post^241 from 2 states.[0m
+ [0mComputing post^242 from 2 states.[0m
+ [0mComputing post^243 from 2 states.[0m
+ [0mComputing post^244 from 2 states.[0m
+ [0mComputing post^245 from 2 states.[0m
+ [0mComputing post^246 from 2 states.[0m
+ [0mComputing post^247 from 2 states.[0m
+ [0mComputing post^248 from 2 states.[0m
+ [0mComputing post^249 from 2 states.[0m
+ [0mComputing post^250 from 2 states.[0m
+ [0mComputing post^251 from 2 states.[0m
+ [0mComputing post^252 from 2 states.[0m
+ [0mComputing post^253 from 2 states.[0m
+ [0mComputing post^254 from 2 states.[0m
+ [0mComputing post^255 from 2 states.[0m
+ [0mComputing post^256 from 2 states.[0m
+ [0mComputing post^257 from 2 states.[0m
+ [0mComputing post^258 from 2 states.[0m
+ [0mComputing post^259 from 2 states.[0m
+ [0mComputing post^260 from 2 states.[0m
+ [0mComputing post^261 from 2 states.[0m
+ [0mComputing post^262 from 2 states.[0m
+ [0mComputing post^263 from 2 states.[0m
+ [0mComputing post^264 from 2 states.[0m
+ [0mComputing post^265 from 2 states.[0m
+ [0mComputing post^266 from 2 states.[0m
+ [0mComputing post^267 from 2 states.[0m
+ [0mComputing post^268 from 2 states.[0m
+ [0mComputing post^269 from 2 states.[0m
+ [0mComputing post^270 from 2 states.[0m
+ [0mComputing post^271 from 2 states.[0m
+ [0mComputing post^272 from 2 states.[0m
+ [0mComputing post^273 from 2 states.[0m
+ [0mComputing post^274 from 2 states.[0m
+ [0mComputing post^275 from 2 states.[0m
+ [0mComputing post^276 from 2 states.[0m
+ [0mComputing post^277 from 2 states.[0m
+ [0mComputing post^278 from 2 states.[0m
+ [0mComputing post^279 from 2 states.[0m
+ [0mComputing post^280 from 2 states.[0m
+ [0mComputing post^281 from 2 states.[0m
+ [0mComputing post^282 from 2 states.[0m
+ [0mComputing post^283 from 2 states.[0m
+ [0mComputing post^284 from 2 states.[0m
+ [0mComputing post^285 from 3 states.[0m
+ [0mComputing post^286 from 3 states.[0m
+ [0mComputing post^287 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^288 from 2 states.[0m
+ [0mComputing post^289 from 2 states.[0m
+ [0mComputing post^290 from 2 states.[0m
+ [0mComputing post^291 from 3 states.[0m
+ [0mComputing post^292 from 3 states.[0m
+ [0mComputing post^293 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^294 from 2 states.[0m
+ [0mComputing post^295 from 2 states.[0m
+ [0mComputing post^296 from 2 states.[0m
+ [0mComputing post^297 from 3 states.[0m
+ [0mComputing post^298 from 3 states.[0m
+ [0mComputing post^299 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^300 from 2 states.[0m
+ [0mComputing post^301 from 2 states.[0m
+ [0mComputing post^302 from 2 states.[0m
+ [0mComputing post^303 from 3 states.[0m
+ [0mComputing post^304 from 3 states.[0m
+ [0mComputing post^305 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^306 from 2 states.[0m
+ [0mComputing post^307 from 2 states.[0m
+ [0mComputing post^308 from 2 states.[0m
+ [0mComputing post^309 from 3 states.[0m
+ [0mComputing post^310 from 3 states.[0m
+ [0mComputing post^311 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^312 from 3 states.[0m
+ [0mComputing post^313 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^314 from 3 states.[0m
+ [0mComputing post^315 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^316 from 3 states.[0m
+ [0mComputing post^317 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^318 from 3 states.[0m
+ [0mComputing post^319 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^320 from 3 states.[0m
+ [0mComputing post^321 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^322 from 3 states.[0m
+ [0mComputing post^323 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^324 from 3 states.[0m
+ [0mComputing post^325 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^326 from 3 states.[0m
+ [0mComputing post^327 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^328 from 2 states.[0m
+ [0mComputing post^329 from 2 states.[0m
+ [0mComputing post^330 from 2 states.[0m
+ [0mComputing post^331 from 2 states.[0m
+ [0mComputing post^332 from 2 states.[0m
+ [0mComputing post^333 from 2 states.[0m
+ [0mComputing post^334 from 2 states.[0m
+ [0mComputing post^335 from 2 states.[0m
+ [0mComputing post^336 from 2 states.[0m
+ [0mComputing post^337 from 2 states.[0m
+ [0mComputing post^338 from 2 states.[0m
+ [0mComputing post^339 from 2 states.[0m
+ [0mComputing post^340 from 2 states.[0m
+ [0mComputing post^341 from 2 states.[0m
+ [0mComputing post^342 from 2 states.[0m
+ [0mComputing post^343 from 2 states.[0m
+ [0mComputing post^344 from 2 states.[0m
+ [0mComputing post^345 from 2 states.[0m
+ [0mComputing post^346 from 2 states.[0m
+ [0mComputing post^347 from 2 states.[0m
+ [0mComputing post^348 from 2 states.[0m
+ [0mComputing post^349 from 2 states.[0m
+ [0mComputing post^350 from 2 states.[0m
+ [0mComputing post^351 from 2 states.[0m
+ [0mComputing post^352 from 2 states.[0m
+ [0mComputing post^353 from 2 states.[0m
+ [0mComputing post^354 from 2 states.[0m
+ [0mComputing post^355 from 2 states.[0m
+ [0mComputing post^356 from 2 states.[0m
+ [0mComputing post^357 from 2 states.[0m
+ [0mComputing post^358 from 2 states.[0m
+ [0mComputing post^359 from 2 states.[0m
+ [0mComputing post^360 from 2 states.[0m
+ [0mComputing post^361 from 2 states.[0m
+ [0mComputing post^362 from 2 states.[0m
+ [0mComputing post^363 from 2 states.[0m
+ [0mComputing post^364 from 2 states.[0m
+ [0mComputing post^365 from 2 states.[0m
+ [0mComputing post^366 from 2 states.[0m
+ [0mComputing post^367 from 2 states.[0m
+ [0mComputing post^368 from 2 states.[0m
+ [0mComputing post^369 from 2 states.[0m
+ [0mComputing post^370 from 2 states.[0m
+ [0mComputing post^371 from 2 states.[0m
+ [0mComputing post^372 from 2 states.[0m
+ [0mComputing post^373 from 2 states.[0m
+ [0mComputing post^374 from 2 states.[0m
+ [0mComputing post^375 from 2 states.[0m
+ [0mComputing post^376 from 2 states.[0m
+ [0mComputing post^377 from 2 states.[0m
+ [0mComputing post^378 from 2 states.[0m
+ [0mComputing post^379 from 2 states.[0m
+ [0mComputing post^380 from 2 states.[0m
+ [0mComputing post^381 from 2 states.[0m
+ [0mComputing post^382 from 2 states.[0m
+ [0mComputing post^383 from 3 states.[0m
+ [0mComputing post^384 from 3 states.[0m
+ [0mComputing post^385 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^386 from 3 states.[0m
+ [0mComputing post^387 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^388 from 3 states.[0m
+ [0mComputing post^389 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^390 from 3 states.[0m
+ [0mComputing post^391 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^392 from 3 states.[0m
+ [0mComputing post^393 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^394 from 3 states.[0m
+ [0mComputing post^395 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^396 from 3 states.[0m
+ [0mComputing post^397 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^398 from 3 states.[0m
+ [0mComputing post^399 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^400 from 3 states.[0m
+ [0mComputing post^401 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^402 from 3 states.[0m
+ [0mComputing post^403 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^404 from 3 states.[0m
+ [0mComputing post^405 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^406 from 3 states.[0m
+ [0mComputing post^407 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^408 from 3 states.[0m
+ [0mComputing post^409 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^410 from 3 states.[0m
+ [0mComputing post^411 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^412 from 3 states.[0m
+ [0mComputing post^413 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^414 from 3 states.[0m
+ [0mComputing post^415 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^416 from 3 states.[0m
+ [0mComputing post^417 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^418 from 3 states.[0m
+ [0mComputing post^419 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^420 from 3 states.[0m
+ [0mComputing post^421 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^422 from 3 states.[0m
+ [0mComputing post^423 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^424 from 3 states.[0m
+ [0mComputing post^425 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^426 from 3 states.[0m
+ [0mComputing post^427 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^428 from 3 states.[0m
+ [0mComputing post^429 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^430 from 3 states.[0m
+ [0mComputing post^431 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^432 from 3 states.[0m
+ [0mComputing post^433 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^434 from 3 states.[0m
+ [0mComputing post^435 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^436 from 3 states.[0m
+ [0mComputing post^437 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^438 from 3 states.[0m
+ [0mComputing post^439 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^440 from 3 states.[0m
+ [0mComputing post^441 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^442 from 3 states.[0m
+ [0mComputing post^443 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^444 from 3 states.[0m
+ [0mComputing post^445 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^446 from 3 states.[0m
+ [0mComputing post^447 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^448 from 3 states.[0m
+ [0mComputing post^449 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^450 from 3 states.[0m
+ [0mComputing post^451 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^452 from 3 states.[0m
+ [0mComputing post^453 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^454 from 3 states.[0m
+ [0mComputing post^455 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^456 from 3 states.[0m
+ [0mComputing post^457 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^458 from 3 states.[0m
+ [0mComputing post^459 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^460 from 3 states.[0m
+ [0mComputing post^461 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^462 from 3 states.[0m
+ [0mComputing post^463 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^464 from 3 states.[0m
+ [0mComputing post^465 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^466 from 3 states.[0m
+ [0mComputing post^467 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^468 from 3 states.[0m
+ [0mComputing post^469 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^470 from 3 states.[0m
+ [0mComputing post^471 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^472 from 3 states.[0m
+ [0mComputing post^473 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^474 from 3 states.[0m
+ [0mComputing post^475 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^476 from 3 states.[0m
+ [0mComputing post^477 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^478 from 3 states.[0m
+ [0mComputing post^479 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^480 from 3 states.[0m
+ [0mComputing post^481 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^482 from 3 states.[0m
+ [0mComputing post^483 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^484 from 3 states.[0m
+ [0mComputing post^485 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^486 from 2 states.[0m
+ [0mComputing post^487 from 2 states.[0m
+ [0mComputing post^488 from 2 states.[0m
+ [0mComputing post^489 from 2 states.[0m
+ [0mComputing post^490 from 2 states.[0m
+ [0mComputing post^491 from 2 states.[0m
+ [0mComputing post^492 from 2 states.[0m
+ [0mComputing post^493 from 2 states.[0m
+ [0mComputing post^494 from 2 states.[0m
+ [0mComputing post^495 from 2 states.[0m
+ [0mComputing post^496 from 2 states.[0m
+ [0mComputing post^497 from 2 states.[0m
+ [0mComputing post^498 from 2 states.[0m
+ [0mComputing post^499 from 2 states.[0m
+ [0mComputing post^500 from 2 states.[0m
+ [0mComputing post^501 from 2 states.[0m
+ [0mComputing post^502 from 2 states.[0m
+ [0mComputing post^503 from 2 states.[0m
+ [0mComputing post^504 from 2 states.[0m
+ [0mComputing post^505 from 2 states.[0m
+ [0mComputing post^506 from 2 states.[0m
+ [0mComputing post^507 from 2 states.[0m
+ [0mComputing post^508 from 2 states.[0m
+ [0mComputing post^509 from 2 states.[0m
+ [0mComputing post^510 from 2 states.[0m
+ [0mComputing post^511 from 2 states.[0m
+ [0mComputing post^512 from 2 states.[0m
+ [0mComputing post^513 from 2 states.[0m
+ [0mComputing post^514 from 2 states.[0m
+ [0mComputing post^515 from 2 states.[0m
+ [0mComputing post^516 from 2 states.[0m
+ [0mComputing post^517 from 2 states.[0m
+ [0mComputing post^518 from 2 states.[0m
+ [0mComputing post^519 from 2 states.[0m
+ [0mComputing post^520 from 2 states.[0m
+ [0mComputing post^521 from 2 states.[0m
+ [0mComputing post^522 from 2 states.[0m
+ [0mComputing post^523 from 2 states.[0m
+ [0mComputing post^524 from 2 states.[0m
+ [0mComputing post^525 from 2 states.[0m
+ [0mComputing post^526 from 2 states.[0m
+ [0mComputing post^527 from 3 states.[0m
+ [0mComputing post^528 from 3 states.[0m
+ [0mComputing post^529 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^530 from 3 states.[0m
+ [0mComputing post^531 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^532 from 3 states.[0m
+ [0mComputing post^533 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^534 from 3 states.[0m
+ [0mComputing post^535 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^536 from 3 states.[0m
+ [0mComputing post^537 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^538 from 3 states.[0m
+ [0mComputing post^539 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^540 from 2 states.[0m
+ [0mComputing post^541 from 2 states.[0m
+ [0mComputing post^542 from 2 states.[0m
+ [0mComputing post^543 from 2 states.[0m
+ [0mComputing post^544 from 2 states.[0m
+ [0mComputing post^545 from 2 states.[0m
+ [0mComputing post^546 from 2 states.[0m
+ [0mComputing post^547 from 2 states.[0m
+ [0mComputing post^548 from 2 states.[0m
+ [0mComputing post^549 from 2 states.[0m
+ [0mComputing post^550 from 2 states.[0m
+ [0mComputing post^551 from 2 states.[0m
+ [0mComputing post^552 from 2 states.[0m
+ [0mComputing post^553 from 2 states.[0m
+ [0mComputing post^554 from 2 states.[0m
+ [0mComputing post^555 from 2 states.[0m
+ [0mComputing post^556 from 2 states.[0m
+ [0mComputing post^557 from 3 states.[0m
+ [0mComputing post^558 from 3 states.[0m
+ [0mComputing post^559 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^560 from 2 states.[0m
+ [0mComputing post^561 from 2 states.[0m
+ [0mComputing post^562 from 2 states.[0m
+ [0mComputing post^563 from 3 states.[0m
+ [0mComputing post^564 from 3 states.[0m
+ [0mComputing post^565 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^566 from 2 states.[0m
+ [0mComputing post^567 from 2 states.[0m
+ [0mComputing post^568 from 2 states.[0m
+ [0mComputing post^569 from 3 states.[0m
+ [0mComputing post^570 from 3 states.[0m
+ [0mComputing post^571 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^572 from 2 states.[0m
+ [0mComputing post^573 from 2 states.[0m
+ [0mComputing post^574 from 2 states.[0m
+ [0mComputing post^575 from 3 states.[0m
+ [0mComputing post^576 from 3 states.[0m
+ [0mComputing post^577 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^578 from 2 states.[0m
+ [0mComputing post^579 from 2 states.[0m
+ [0mComputing post^580 from 2 states.[0m
+ [0mComputing post^581 from 2 states.[0m
+ [0mComputing post^582 from 2 states.[0m
+ [0mComputing post^583 from 2 states.[0m
+ [0mComputing post^584 from 2 states.[0m
+ [0mComputing post^585 from 2 states.[0m
+ [0mComputing post^586 from 2 states.[0m
+ [0mComputing post^587 from 2 states.[0m
+ [0mComputing post^588 from 2 states.[0m
+ [0mComputing post^589 from 2 states.[0m
+ [0mComputing post^590 from 2 states.[0m
+ [0mComputing post^591 from 2 states.[0m
+ [0mComputing post^592 from 2 states.[0m
+ [0mComputing post^593 from 2 states.[0m
+ [0mComputing post^594 from 2 states.[0m
+ [0mComputing post^595 from 2 states.[0m
+ [0mComputing post^596 from 2 states.[0m
+ [0mComputing post^597 from 2 states.[0m
+ [0mComputing post^598 from 2 states.[0m
+ [0mComputing post^599 from 2 states.[0m
+ [0mComputing post^600 from 2 states.[0m
+ [0mComputing post^601 from 2 states.[0m
+ [0mComputing post^602 from 2 states.[0m
+ [0mComputing post^603 from 2 states.[0m
+ [0mComputing post^604 from 2 states.[0m
+ [0mComputing post^605 from 2 states.[0m
+ [0mComputing post^606 from 2 states.[0m
+ [0mComputing post^607 from 2 states.[0m
+ [0mComputing post^608 from 2 states.[0m
+ [0mComputing post^609 from 2 states.[0m
+ [0mComputing post^610 from 2 states.[0m
+ [0mComputing post^611 from 2 states.[0m
+ [0mComputing post^612 from 2 states.[0m
+ [0mComputing post^613 from 2 states.[0m
+ [0mComputing post^614 from 2 states.[0m
+ [0mComputing post^615 from 2 states.[0m
+ [0mComputing post^616 from 2 states.[0m
+ [0mComputing post^617 from 2 states.[0m
+ [0mComputing post^618 from 2 states.[0m
+ [0mComputing post^619 from 2 states.[0m
+ [0mComputing post^620 from 2 states.[0m
+ [0mComputing post^621 from 2 states.[0m
+ [0mComputing post^622 from 2 states.[0m
+ [0mComputing post^623 from 2 states.[0m
+ [0mComputing post^624 from 2 states.[0m
+ [0mComputing post^625 from 2 states.[0m
+ [0mComputing post^626 from 2 states.[0m
+ [0mComputing post^627 from 2 states.[0m
+ [0mComputing post^628 from 2 states.[0m
+ [0mComputing post^629 from 2 states.[0m
+ [0mComputing post^630 from 2 states.[0m
+ [0mComputing post^631 from 2 states.[0m
+ [0mComputing post^632 from 2 states.[0m
+ [0mComputing post^633 from 2 states.[0m
+ [0mComputing post^634 from 2 states.[0m
+ [0mComputing post^635 from 2 states.[0m
+ [0mComputing post^636 from 2 states.[0m
+ [0mComputing post^637 from 2 states.[0m
+ [0mComputing post^638 from 2 states.[0m
+ [0mComputing post^639 from 3 states.[0m
+ [0mComputing post^640 from 3 states.[0m
+ [0mComputing post^641 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^642 from 3 states.[0m
+ [0mComputing post^643 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^644 from 3 states.[0m
+ [0mComputing post^645 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^646 from 3 states.[0m
+ [0mComputing post^647 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^648 from 3 states.[0m
+ [0mComputing post^649 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^650 from 3 states.[0m
+ [0mComputing post^651 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^652 from 3 states.[0m
+ [0mComputing post^653 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^654 from 3 states.[0m
+ [0mComputing post^655 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^656 from 3 states.[0m
+ [0mComputing post^657 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^658 from 3 states.[0m
+ [0mComputing post^659 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^660 from 3 states.[0m
+ [0mComputing post^661 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^662 from 3 states.[0m
+ [0mComputing post^663 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^664 from 3 states.[0m
+ [0mComputing post^665 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^666 from 2 states.[0m
+ [0mComputing post^667 from 2 states.[0m
+ [0mComputing post^668 from 2 states.[0m
+ [0mComputing post^669 from 2 states.[0m
+ [0mComputing post^670 from 2 states.[0m
+ [0mComputing post^671 from 2 states.[0m
+ [0mComputing post^672 from 2 states.[0m
+ [0mComputing post^673 from 2 states.[0m
+ [0mComputing post^674 from 2 states.[0m
+ [0mComputing post^675 from 2 states.[0m
+ [0mComputing post^676 from 2 states.[0m
+ [0mComputing post^677 from 2 states.[0m
+ [0mComputing post^678 from 2 states.[0m
+ [0mComputing post^679 from 2 states.[0m
+ [0mComputing post^680 from 2 states.[0m
+ [0mComputing post^681 from 2 states.[0m
+ [0mComputing post^682 from 2 states.[0m
+ [0mComputing post^683 from 2 states.[0m
+ [0mComputing post^684 from 2 states.[0m
+ [0mComputing post^685 from 2 states.[0m
+ [0mComputing post^686 from 2 states.[0m
+ [0mComputing post^687 from 2 states.[0m
+ [0mComputing post^688 from 2 states.[0m
+ [0mComputing post^689 from 2 states.[0m
+ [0mComputing post^690 from 2 states.[0m
+ [0mComputing post^691 from 2 states.[0m
+ [0mComputing post^692 from 2 states.[0m
+ [0mComputing post^693 from 2 states.[0m
+ [0mComputing post^694 from 2 states.[0m
+ [0mComputing post^695 from 2 states.[0m
+ [0mComputing post^696 from 2 states.[0m
+ [0mComputing post^697 from 2 states.[0m
+ [0mComputing post^698 from 2 states.[0m
+ [0mComputing post^699 from 2 states.[0m
+ [0mComputing post^700 from 2 states.[0m
+ [0mComputing post^701 from 2 states.[0m
+ [0mComputing post^702 from 2 states.[0m
+ [0mComputing post^703 from 2 states.[0m
+ [0mComputing post^704 from 2 states.[0m
+ [0mComputing post^705 from 2 states.[0m
+ [0mComputing post^706 from 2 states.[0m
+ [0mComputing post^707 from 3 states.[0m
+ [0mComputing post^708 from 3 states.[0m
+ [0mComputing post^709 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^710 from 3 states.[0m
+ [0mComputing post^711 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^712 from 3 states.[0m
+ [0mComputing post^713 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^714 from 3 states.[0m
+ [0mComputing post^715 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^716 from 3 states.[0m
+ [0mComputing post^717 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^718 from 3 states.[0m
+ [0mComputing post^719 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^720 from 3 states.[0m
+ [0mComputing post^721 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^722 from 3 states.[0m
+ [0mComputing post^723 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^724 from 3 states.[0m
+ [0mComputing post^725 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^726 from 3 states.[0m
+ [0mComputing post^727 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^728 from 3 states.[0m
+ [0mComputing post^729 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^730 from 3 states.[0m
+ [0mComputing post^731 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^732 from 3 states.[0m
+ [0mComputing post^733 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^734 from 3 states.[0m
+ [0mComputing post^735 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^736 from 3 states.[0m
+ [0mComputing post^737 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^738 from 3 states.[0m
+ [0mComputing post^739 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^740 from 3 states.[0m
+ [0mComputing post^741 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^742 from 3 states.[0m
+ [0mComputing post^743 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^744 from 3 states.[0m
+ [0mComputing post^745 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^746 from 3 states.[0m
+ [0mComputing post^747 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^748 from 3 states.[0m
+ [0mComputing post^749 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^750 from 3 states.[0m
+ [0mComputing post^751 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^752 from 3 states.[0m
+ [0mComputing post^753 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^754 from 3 states.[0m
+ [0mComputing post^755 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^756 from 3 states.[0m
+ [0mComputing post^757 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^758 from 3 states.[0m
+ [0mComputing post^759 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^760 from 3 states.[0m
+ [0mComputing post^761 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^762 from 3 states.[0m
+ [0mComputing post^763 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^764 from 3 states.[0m
+ [0mComputing post^765 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^766 from 3 states.[0m
+ [0mComputing post^767 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^768 from 3 states.[0m
+ [0mComputing post^769 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^770 from 3 states.[0m
+ [0mComputing post^771 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^772 from 2 states.[0m
+ [0mComputing post^773 from 3 states.[0m
+ [0mComputing post^774 from 3 states.[0m
+ [0mComputing post^775 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^776 from 2 states.[0m
+ [0mComputing post^777 from 2 states.[0m
+ [0mComputing post^778 from 2 states.[0m
+ [0mComputing post^779 from 3 states.[0m
+ [0mComputing post^780 from 3 states.[0m
+ [0mComputing post^781 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^782 from 3 states.[0m
+ [0mComputing post^783 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^784 from 3 states.[0m
+ [0mComputing post^785 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^786 from 2 states.[0m
+ [0mComputing post^787 from 2 states.[0m
+ [0mComputing post^788 from 2 states.[0m
+ [0mComputing post^789 from 2 states.[0m
+ [0mComputing post^790 from 2 states.[0m
+ [0mComputing post^791 from 2 states.[0m
+ [0mComputing post^792 from 2 states.[0m
+ [0mComputing post^793 from 2 states.[0m
+ [0mComputing post^794 from 2 states.[0m
+ [0mComputing post^795 from 2 states.[0m
+ [0mComputing post^796 from 2 states.[0m
+ [0mComputing post^797 from 2 states.[0m
+ [0mComputing post^798 from 2 states.[0m
+ [0mComputing post^799 from 2 states.[0m
+ [0mComputing post^800 from 2 states.[0m
+ [0mComputing post^801 from 2 states.[0m
+ [0mComputing post^802 from 2 states.[0m
+ [0mComputing post^803 from 2 states.[0m
+ [0mComputing post^804 from 2 states.[0m
+ [0mComputing post^805 from 2 states.[0m
+ [0mComputing post^806 from 2 states.[0m
+ [0mComputing post^807 from 2 states.[0m
+ [0mComputing post^808 from 2 states.[0m
+ [0mComputing post^809 from 2 states.[0m
+ [0mComputing post^810 from 2 states.[0m
+ [0mComputing post^811 from 2 states.[0m
+ [0mComputing post^812 from 2 states.[0m
+ [0mComputing post^813 from 2 states.[0m
+ [0mComputing post^814 from 2 states.[0m
+ [0mComputing post^815 from 2 states.[0m
+ [0mComputing post^816 from 2 states.[0m
+ [0mComputing post^817 from 2 states.[0m
+ [0mComputing post^818 from 2 states.[0m
+ [0mComputing post^819 from 2 states.[0m
+ [0mComputing post^820 from 2 states.[0m
+ [0mComputing post^821 from 2 states.[0m
+ [0mComputing post^822 from 2 states.[0m
+ [0mComputing post^823 from 3 states.[0m
+ [0mComputing post^824 from 3 states.[0m
+ [0mComputing post^825 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^826 from 3 states.[0m
+ [0mComputing post^827 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^828 from 3 states.[0m
+ [0mComputing post^829 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^830 from 3 states.[0m
+ [0mComputing post^831 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^832 from 3 states.[0m
+ [0mComputing post^833 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^834 from 3 states.[0m
+ [0mComputing post^835 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^836 from 2 states.[0m
+ [0mComputing post^837 from 2 states.[0m
+ [0mComputing post^838 from 2 states.[0m
+ [0mComputing post^839 from 2 states.[0m
+ [0mComputing post^840 from 2 states.[0m
+ [0mComputing post^841 from 2 states.[0m
+ [0mComputing post^842 from 2 states.[0m
+ [0mComputing post^843 from 2 states.[0m
+ [0mComputing post^844 from 2 states.[0m
+ [0mComputing post^845 from 2 states.[0m
+ [0mComputing post^846 from 2 states.[0m
+ [0mComputing post^847 from 2 states.[0m
+ [0mComputing post^848 from 2 states.[0m
+ [0mComputing post^849 from 2 states.[0m
+ [0mComputing post^850 from 2 states.[0m
+ [0mComputing post^851 from 2 states.[0m
+ [0mComputing post^852 from 2 states.[0m
+ [0mComputing post^853 from 2 states.[0m
+ [0mComputing post^854 from 2 states.[0m
+ [0mComputing post^855 from 2 states.[0m
+ [0mComputing post^856 from 2 states.[0m
+ [0mComputing post^857 from 2 states.[0m
+ [0mComputing post^858 from 2 states.[0m
+ [0mComputing post^859 from 2 states.[0m
+ [0mComputing post^860 from 2 states.[0m
+ [0mComputing post^861 from 2 states.[0m
+ [0mComputing post^862 from 2 states.[0m
+ [0mComputing post^863 from 2 states.[0m
+ [0mComputing post^864 from 2 states.[0m
+ [0mComputing post^865 from 2 states.[0m
+ [0mComputing post^866 from 2 states.[0m
+ [0mComputing post^867 from 2 states.[0m
+ [0mComputing post^868 from 2 states.[0m
+ [0mComputing post^869 from 2 states.[0m
+ [0mComputing post^870 from 2 states.[0m
+ [0mComputing post^871 from 2 states.[0m
+ [0mComputing post^872 from 2 states.[0m
+ [0mComputing post^873 from 2 states.[0m
+ [0mComputing post^874 from 2 states.[0m
+ [0mComputing post^875 from 2 states.[0m
+ [0mComputing post^876 from 2 states.[0m
+ [0mComputing post^877 from 3 states.[0m
+ [0mComputing post^878 from 3 states.[0m
+ [0mComputing post^879 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^880 from 2 states.[0m
+ [0mComputing post^881 from 2 states.[0m
+ [0mComputing post^882 from 2 states.[0m
+ [0mComputing post^883 from 3 states.[0m
+ [0mComputing post^884 from 3 states.[0m
+ [0mComputing post^885 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^886 from 2 states.[0m
+ [0mComputing post^887 from 2 states.[0m
+ [0mComputing post^888 from 2 states.[0m
+ [0mComputing post^889 from 3 states.[0m
+ [0mComputing post^890 from 3 states.[0m
+ [0mComputing post^891 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^892 from 2 states.[0m
+ [0mComputing post^893 from 2 states.[0m
+ [0mComputing post^894 from 2 states.[0m
+ [0mComputing post^895 from 3 states.[0m
+ [0mComputing post^896 from 3 states.[0m
+ [0mComputing post^897 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^898 from 2 states.[0m
+ [0mComputing post^899 from 2 states.[0m
+ [0mComputing post^900 from 2 states.[0m
+ [0mComputing post^901 from 3 states.[0m
+ [0mComputing post^902 from 3 states.[0m
+ [0mComputing post^903 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^904 from 3 states.[0m
+ [0mComputing post^905 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^906 from 3 states.[0m
+ [0mComputing post^907 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^908 from 3 states.[0m
+ [0mComputing post^909 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^910 from 3 states.[0m
+ [0mComputing post^911 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^912 from 2 states.[0m
+ [0mComputing post^913 from 2 states.[0m
+ [0mComputing post^914 from 2 states.[0m
+ [0mComputing post^915 from 2 states.[0m
+ [0mComputing post^916 from 2 states.[0m
+ [0mComputing post^917 from 2 states.[0m
+ [0mComputing post^918 from 2 states.[0m
+ [0mComputing post^919 from 2 states.[0m
+ [0mComputing post^920 from 2 states.[0m
+ [0mComputing post^921 from 2 states.[0m
+ [0mComputing post^922 from 2 states.[0m
+ [0mComputing post^923 from 2 states.[0m
+ [0mComputing post^924 from 2 states.[0m
+ [0mComputing post^925 from 2 states.[0m
+ [0mComputing post^926 from 2 states.[0m
+ [0mComputing post^927 from 2 states.[0m
+ [0mComputing post^928 from 2 states.[0m
+ [0mComputing post^929 from 2 states.[0m
+ [0mComputing post^930 from 2 states.[0m
+ [0mComputing post^931 from 2 states.[0m
+ [0mComputing post^932 from 2 states.[0m
+ [0mComputing post^933 from 2 states.[0m
+ [0mComputing post^934 from 2 states.[0m
+ [0mComputing post^935 from 2 states.[0m
+ [0mComputing post^936 from 2 states.[0m
+ [0mComputing post^937 from 2 states.[0m
+ [0mComputing post^938 from 2 states.[0m
+ [0mComputing post^939 from 2 states.[0m
+ [0mComputing post^940 from 2 states.[0m
+ [0mComputing post^941 from 2 states.[0m
+ [0mComputing post^942 from 2 states.[0m
+ [0mComputing post^943 from 2 states.[0m
+ [0mComputing post^944 from 2 states.[0m
+ [0mComputing post^945 from 2 states.[0m
+ [0mComputing post^946 from 2 states.[0m
+ [0mComputing post^947 from 2 states.[0m
+ [0mComputing post^948 from 2 states.[0m
+ [0mComputing post^949 from 2 states.[0m
+ [0mComputing post^950 from 2 states.[0m
+ [0mComputing post^951 from 2 states.[0m
+ [0mComputing post^952 from 2 states.[0m
+ [0mComputing post^953 from 2 states.[0m
+ [0mComputing post^954 from 2 states.[0m
+ [0mComputing post^955 from 2 states.[0m
+ [0mComputing post^956 from 2 states.[0m
+ [0mComputing post^957 from 2 states.[0m
+ [0mComputing post^958 from 2 states.[0m
+ [0mComputing post^959 from 2 states.[0m
+ [0mComputing post^960 from 2 states.[0m
+ [0mComputing post^961 from 2 states.[0m
+ [0mComputing post^962 from 2 states.[0m
+ [0mComputing post^963 from 2 states.[0m
+ [0mComputing post^964 from 2 states.[0m
+ [0mComputing post^965 from 2 states.[0m
+ [0mComputing post^966 from 2 states.[0m
+ [0mComputing post^967 from 2 states.[0m
+ [0mComputing post^968 from 2 states.[0m
+ [0mComputing post^969 from 2 states.[0m
+ [0mComputing post^970 from 2 states.[0m
+ [0mComputing post^971 from 2 states.[0m
+ [0mComputing post^972 from 2 states.[0m
+ [0mComputing post^973 from 2 states.[0m
+ [0mComputing post^974 from 2 states.[0m
+ [0mComputing post^975 from 3 states.[0m
+ [0mComputing post^976 from 3 states.[0m
+ [0mComputing post^977 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^978 from 3 states.[0m
+ [0mComputing post^979 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^980 from 3 states.[0m
+ [0mComputing post^981 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^982 from 3 states.[0m
+ [0mComputing post^983 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^984 from 3 states.[0m
+ [0mComputing post^985 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^986 from 3 states.[0m
+ [0mComputing post^987 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^988 from 3 states.[0m
+ [0mComputing post^989 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^990 from 3 states.[0m
+ [0mComputing post^991 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^992 from 3 states.[0m
+ [0mComputing post^993 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^994 from 3 states.[0m
+ [0mComputing post^995 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^996 from 3 states.[0m
+ [0mComputing post^997 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^998 from 3 states.[0m
+ [0mComputing post^999 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1000 from 3 states.[0m
+ [0mComputing post^1001 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1002 from 3 states.[0m
+ [0mComputing post^1003 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1004 from 3 states.[0m
+ [0mComputing post^1005 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1006 from 3 states.[0m
+ [0mComputing post^1007 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1008 from 3 states.[0m
+ [0mComputing post^1009 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1010 from 3 states.[0m
+ [0mComputing post^1011 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1012 from 3 states.[0m
+ [0mComputing post^1013 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1014 from 3 states.[0m
+ [0mComputing post^1015 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1016 from 3 states.[0m
+ [0mComputing post^1017 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1018 from 3 states.[0m
+ [0mComputing post^1019 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1020 from 3 states.[0m
+ [0mComputing post^1021 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1022 from 3 states.[0m
+ [0mComputing post^1023 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1024 from 3 states.[0m
+ [0mComputing post^1025 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1026 from 3 states.[0m
+ [0mComputing post^1027 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1028 from 3 states.[0m
+ [0mComputing post^1029 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1030 from 3 states.[0m
+ [0mComputing post^1031 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1032 from 3 states.[0m
+ [0mComputing post^1033 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1034 from 3 states.[0m
+ [0mComputing post^1035 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1036 from 3 states.[0m
+ [0mComputing post^1037 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1038 from 3 states.[0m
+ [0mComputing post^1039 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1040 from 3 states.[0m
+ [0mComputing post^1041 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1042 from 3 states.[0m
+ [0mComputing post^1043 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1044 from 3 states.[0m
+ [0mComputing post^1045 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1046 from 3 states.[0m
+ [0mComputing post^1047 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1048 from 3 states.[0m
+ [0mComputing post^1049 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1050 from 3 states.[0m
+ [0mComputing post^1051 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1052 from 3 states.[0m
+ [0mComputing post^1053 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1054 from 3 states.[0m
+ [0mComputing post^1055 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1056 from 3 states.[0m
+ [0mComputing post^1057 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1058 from 3 states.[0m
+ [0mComputing post^1059 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1060 from 3 states.[0m
+ [0mComputing post^1061 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1062 from 3 states.[0m
+ [0mComputing post^1063 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1064 from 3 states.[0m
+ [0mComputing post^1065 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1066 from 3 states.[0m
+ [0mComputing post^1067 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1068 from 3 states.[0m
+ [0mComputing post^1069 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1070 from 3 states.[0m
+ [0mComputing post^1071 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1072 from 3 states.[0m
+ [0mComputing post^1073 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1074 from 3 states.[0m
+ [0mComputing post^1075 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1076 from 3 states.[0m
+ [0mComputing post^1077 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1078 from 3 states.[0m
+ [0mComputing post^1079 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1080 from 3 states.[0m
+ [0mComputing post^1081 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1082 from 3 states.[0m
+ [0mComputing post^1083 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1084 from 3 states.[0m
+ [0mComputing post^1085 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1086 from 3 states.[0m
+ [0mComputing post^1087 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1088 from 3 states.[0m
+ [0mComputing post^1089 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1090 from 3 states.[0m
+ [0mComputing post^1091 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1092 from 3 states.[0m
+ [0mComputing post^1093 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1094 from 3 states.[0m
+ [0mComputing post^1095 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1096 from 3 states.[0m
+ [0mComputing post^1097 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1098 from 3 states.[0m
+ [0mComputing post^1099 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1100 from 3 states.[0m
+ [0mComputing post^1101 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1102 from 3 states.[0m
+ [0mComputing post^1103 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1104 from 3 states.[0m
+ [0mComputing post^1105 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1106 from 3 states.[0m
+ [0mComputing post^1107 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1108 from 3 states.[0m
+ [0mComputing post^1109 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1110 from 3 states.[0m
+ [0mComputing post^1111 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1112 from 3 states.[0m
+ [0mComputing post^1113 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1114 from 3 states.[0m
+ [0mComputing post^1115 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1116 from 2 states.[0m
+ [0mComputing post^1117 from 2 states.[0m
+ [0mComputing post^1118 from 2 states.[0m
+ [0mComputing post^1119 from 2 states.[0m
+ [0mComputing post^1120 from 2 states.[0m
+ [0mComputing post^1121 from 2 states.[0m
+ [0mComputing post^1122 from 2 states.[0m
+ [0mComputing post^1123 from 2 states.[0m
+ [0mComputing post^1124 from 2 states.[0m
+ [0mComputing post^1125 from 2 states.[0m
+ [0mComputing post^1126 from 2 states.[0m
+ [0mComputing post^1127 from 2 states.[0m
+ [0mComputing post^1128 from 2 states.[0m
+ [0mComputing post^1129 from 2 states.[0m
+ [0mComputing post^1130 from 2 states.[0m
+ [0mComputing post^1131 from 2 states.[0m
+ [0mComputing post^1132 from 2 states.[0m
+ [0mComputing post^1133 from 2 states.[0m
+ [0mComputing post^1134 from 2 states.[0m
+ [0mComputing post^1135 from 2 states.[0m
+ [0mComputing post^1136 from 2 states.[0m
+ [0mComputing post^1137 from 2 states.[0m
+ [0mComputing post^1138 from 2 states.[0m
+ [0mComputing post^1139 from 2 states.[0m
+ [0mComputing post^1140 from 2 states.[0m
+ [0mComputing post^1141 from 2 states.[0m
+ [0mComputing post^1142 from 2 states.[0m
+ [0mComputing post^1143 from 2 states.[0m
+ [0mComputing post^1144 from 2 states.[0m
+ [0mComputing post^1145 from 2 states.[0m
+ [0mComputing post^1146 from 2 states.[0m
+ [0mComputing post^1147 from 2 states.[0m
+ [0mComputing post^1148 from 2 states.[0m
+ [0mComputing post^1149 from 2 states.[0m
+ [0mComputing post^1150 from 2 states.[0m
+ [0mComputing post^1151 from 2 states.[0m
+ [0mComputing post^1152 from 2 states.[0m
+ [0mComputing post^1153 from 2 states.[0m
+ [0mComputing post^1154 from 2 states.[0m
+ [0mComputing post^1155 from 2 states.[0m
+ [0mComputing post^1156 from 2 states.[0m
+ [0mComputing post^1157 from 2 states.[0m
+ [0mComputing post^1158 from 2 states.[0m
+ [0mComputing post^1159 from 2 states.[0m
+ [0mComputing post^1160 from 2 states.[0m
+ [0mComputing post^1161 from 2 states.[0m
+ [0mComputing post^1162 from 2 states.[0m
+ [0mComputing post^1163 from 2 states.[0m
+ [0mComputing post^1164 from 2 states.[0m
+ [0mComputing post^1165 from 2 states.[0m
+ [0mComputing post^1166 from 2 states.[0m
+ [0mComputing post^1167 from 3 states.[0m
+ [0mComputing post^1168 from 3 states.[0m
+ [0mComputing post^1169 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1170 from 3 states.[0m
+ [0mComputing post^1171 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1172 from 3 states.[0m
+ [0mComputing post^1173 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1174 from 3 states.[0m
+ [0mComputing post^1175 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1176 from 3 states.[0m
+ [0mComputing post^1177 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1178 from 2 states.[0m
+ [0mComputing post^1179 from 2 states.[0m
+ [0mComputing post^1180 from 2 states.[0m
+ [0mComputing post^1181 from 2 states.[0m
+ [0mComputing post^1182 from 2 states.[0m
+ [0mComputing post^1183 from 3 states.[0m
+ [0mComputing post^1184 from 3 states.[0m
+ [0mComputing post^1185 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1186 from 2 states.[0m
+ [0mComputing post^1187 from 2 states.[0m
+ [0mComputing post^1188 from 2 states.[0m
+ [0mComputing post^1189 from 3 states.[0m
+ [0mComputing post^1190 from 3 states.[0m
+ [0mComputing post^1191 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1192 from 2 states.[0m
+ [0mComputing post^1193 from 2 states.[0m
+ [0mComputing post^1194 from 2 states.[0m
+ [0mComputing post^1195 from 3 states.[0m
+ [0mComputing post^1196 from 3 states.[0m
+ [0mComputing post^1197 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1198 from 2 states.[0m
+ [0mComputing post^1199 from 2 states.[0m
+ [0mComputing post^1200 from 2 states.[0m
+ [0mComputing post^1201 from 3 states.[0m
+ [0mComputing post^1202 from 3 states.[0m
+ [0mComputing post^1203 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1204 from 3 states.[0m
+ [0mComputing post^1205 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1206 from 3 states.[0m
+ [0mComputing post^1207 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1208 from 2 states.[0m
+ [0mComputing post^1209 from 2 states.[0m
+ [0mComputing post^1210 from 2 states.[0m
+ [0mComputing post^1211 from 2 states.[0m
+ [0mComputing post^1212 from 2 states.[0m
+ [0mComputing post^1213 from 2 states.[0m
+ [0mComputing post^1214 from 2 states.[0m
+ [0mComputing post^1215 from 2 states.[0m
+ [0mComputing post^1216 from 2 states.[0m
+ [0mComputing post^1217 from 2 states.[0m
+ [0mComputing post^1218 from 2 states.[0m
+ [0mComputing post^1219 from 2 states.[0m
+ [0mComputing post^1220 from 2 states.[0m
+ [0mComputing post^1221 from 2 states.[0m
+ [0mComputing post^1222 from 2 states.[0m
+ [0mComputing post^1223 from 2 states.[0m
+ [0mComputing post^1224 from 2 states.[0m
+ [0mComputing post^1225 from 2 states.[0m
+ [0mComputing post^1226 from 2 states.[0m
+ [0mComputing post^1227 from 2 states.[0m
+ [0mComputing post^1228 from 2 states.[0m
+ [0mComputing post^1229 from 2 states.[0m
+ [0mComputing post^1230 from 2 states.[0m
+ [0mComputing post^1231 from 2 states.[0m
+ [0mComputing post^1232 from 2 states.[0m
+ [0mComputing post^1233 from 2 states.[0m
+ [0mComputing post^1234 from 2 states.[0m
+ [0mComputing post^1235 from 2 states.[0m
+ [0mComputing post^1236 from 2 states.[0m
+ [0mComputing post^1237 from 2 states.[0m
+ [0mComputing post^1238 from 2 states.[0m
+ [0mComputing post^1239 from 2 states.[0m
+ [0mComputing post^1240 from 2 states.[0m
+ [0mComputing post^1241 from 2 states.[0m
+ [0mComputing post^1242 from 2 states.[0m
+ [0mComputing post^1243 from 2 states.[0m
+ [0mComputing post^1244 from 2 states.[0m
+ [0mComputing post^1245 from 2 states.[0m
+ [0mComputing post^1246 from 2 states.[0m
+ [0mComputing post^1247 from 2 states.[0m
+ [0mComputing post^1248 from 2 states.[0m
+ [0mComputing post^1249 from 2 states.[0m
+ [0mComputing post^1250 from 2 states.[0m
+ [0mComputing post^1251 from 2 states.[0m
+ [0mComputing post^1252 from 2 states.[0m
+ [0mComputing post^1253 from 2 states.[0m
+ [0mComputing post^1254 from 2 states.[0m
+ [0mComputing post^1255 from 2 states.[0m
+ [0mComputing post^1256 from 2 states.[0m
+ [0mComputing post^1257 from 2 states.[0m
+ [0mComputing post^1258 from 2 states.[0m
+ [0mComputing post^1259 from 2 states.[0m
+ [0mComputing post^1260 from 2 states.[0m
+ [0mComputing post^1261 from 2 states.[0m
+ [0mComputing post^1262 from 2 states.[0m
+ [0mComputing post^1263 from 2 states.[0m
+ [0mComputing post^1264 from 2 states.[0m
+ [0mComputing post^1265 from 2 states.[0m
+ [0mComputing post^1266 from 2 states.[0m
+ [0mComputing post^1267 from 3 states.[0m
+ [0mComputing post^1268 from 3 states.[0m
+ [0mComputing post^1269 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1270 from 3 states.[0m
+ [0mComputing post^1271 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1272 from 3 states.[0m
+ [0mComputing post^1273 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1274 from 3 states.[0m
+ [0mComputing post^1275 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1276 from 3 states.[0m
+ [0mComputing post^1277 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1278 from 3 states.[0m
+ [0mComputing post^1279 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1280 from 3 states.[0m
+ [0mComputing post^1281 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1282 from 3 states.[0m
+ [0mComputing post^1283 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1284 from 3 states.[0m
+ [0mComputing post^1285 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1286 from 3 states.[0m
+ [0mComputing post^1287 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1288 from 3 states.[0m
+ [0mComputing post^1289 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1290 from 3 states.[0m
+ [0mComputing post^1291 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1292 from 3 states.[0m
+ [0mComputing post^1293 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1294 from 3 states.[0m
+ [0mComputing post^1295 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1296 from 3 states.[0m
+ [0mComputing post^1297 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1298 from 3 states.[0m
+ [0mComputing post^1299 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1300 from 3 states.[0m
+ [0mComputing post^1301 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1302 from 3 states.[0m
+ [0mComputing post^1303 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1304 from 3 states.[0m
+ [0mComputing post^1305 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1306 from 3 states.[0m
+ [0mComputing post^1307 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1308 from 3 states.[0m
+ [0mComputing post^1309 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1310 from 3 states.[0m
+ [0mComputing post^1311 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1312 from 3 states.[0m
+ [0mComputing post^1313 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1314 from 3 states.[0m
+ [0mComputing post^1315 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1316 from 3 states.[0m
+ [0mComputing post^1317 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1318 from 3 states.[0m
+ [0mComputing post^1319 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1320 from 3 states.[0m
+ [0mComputing post^1321 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1322 from 3 states.[0m
+ [0mComputing post^1323 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1324 from 3 states.[0m
+ [0mComputing post^1325 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1326 from 3 states.[0m
+ [0mComputing post^1327 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1328 from 3 states.[0m
+ [0mComputing post^1329 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1330 from 3 states.[0m
+ [0mComputing post^1331 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1332 from 3 states.[0m
+ [0mComputing post^1333 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1334 from 3 states.[0m
+ [0mComputing post^1335 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1336 from 2 states.[0m
+ [0mComputing post^1337 from 3 states.[0m
+ [0mComputing post^1338 from 3 states.[0m
+ [0mComputing post^1339 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1340 from 3 states.[0m
+ [0mComputing post^1341 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1342 from 3 states.[0m
+ [0mComputing post^1343 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1344 from 3 states.[0m
+ [0mComputing post^1345 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1346 from 3 states.[0m
+ [0mComputing post^1347 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1348 from 3 states.[0m
+ [0mComputing post^1349 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1350 from 3 states.[0m
+ [0mComputing post^1351 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1352 from 3 states.[0m
+ [0mComputing post^1353 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1354 from 3 states.[0m
+ [0mComputing post^1355 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1356 from 3 states.[0m
+ [0mComputing post^1357 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1358 from 3 states.[0m
+ [0mComputing post^1359 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1360 from 3 states.[0m
+ [0mComputing post^1361 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1362 from 3 states.[0m
+ [0mComputing post^1363 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1364 from 3 states.[0m
+ [0mComputing post^1365 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1366 from 3 states.[0m
+ [0mComputing post^1367 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1368 from 3 states.[0m
+ [0mComputing post^1369 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1370 from 3 states.[0m
+ [0mComputing post^1371 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1372 from 3 states.[0m
+ [0mComputing post^1373 from 4 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^1374 from 3 states.[0m

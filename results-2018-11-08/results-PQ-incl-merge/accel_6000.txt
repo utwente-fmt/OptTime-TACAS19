@@ -1,0 +1,176 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/accel_6000.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0mMerging, iteration: 10, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 20, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 30, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 40, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 50, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 60, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 70, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 80, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 90, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 100, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 110, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 120, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 130, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 140, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 150, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 160, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 170, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 180, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 190, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 200, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 210, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 220, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 230, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 240, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 250, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 260, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 270, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 280, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 290, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 300, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 310, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 320, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 330, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 340, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 350, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 360, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 370, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 380, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 390, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 400, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 410, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 420, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 430, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 440, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 450, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 460, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 470, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 480, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 490, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 500, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 510, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 520, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 530, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 540, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 550, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 560, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 570, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 580, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 590, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 600, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 610, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 620, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 630, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 640, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 650, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 660, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 670, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 680, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 690, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 700, |PQ|: 4 -> 4[0m
+ [0mMerging, iteration: 710, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 720, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 730, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 740, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 750, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 760, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 770, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 780, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 790, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 800, |PQ|: 4 -> 4[0m
+ [0mMerging, iteration: 810, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 820, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 830, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 840, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 850, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 860, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 870, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 880, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 890, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 900, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 910, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 920, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 930, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 940, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 950, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 960, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 970, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 980, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 990, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1000, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1010, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 1020, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1030, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1040, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 1050, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1060, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 1070, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1080, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1090, |PQ|: 3 -> 3[0m
+ [0mMerging, iteration: 1100, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1110, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 1120, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 1130, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1140, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 1150, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1160, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 1170, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1180, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 1190, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1200, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1210, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1220, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1230, |PQ|: 4 -> 4[0m
+ [0mMerging, iteration: 1240, |PQ|: 1 -> 1[0m
+ [0mMerging, iteration: 1250, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1260, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1270, |PQ|: 2 -> 2[0m
+ [0mMerging, iteration: 1280, |PQ|: 4 -> 4[0m
+ [0mMerging, iteration: 1290, |PQ|: 3 -> 3[0m
+ [0mt_found: 0.494 second[0m
+ [0mBest time to target location: 268.280100001[0m
+ [0mIteration 1293: Target reached in time: 268.280100001[0m
+ [0mt_opt:   0.494 second[0m
+ [0mt_prov:  0.494 second[0m
+ [0mAll states visited up to time bound[0m
+ [0m---------------- Ending exploration ------------------[0m
+ [0mCompleted after 1295 iterations.[0m
+ [0mStates remaining in priority queue: 0[0m
+ [0mWe found 1 constraint(s) that reach the target in min time 268.280100001[0m
+ [0m[0m
+ [0mt_all:   0.494 second[0m
+ [0m---------------- Ending algorithm --------------------[0m
+ [0m
+   [EF-opttime-PQ] State space exploration completed after 14.090 seconds.[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m 25*t > 6463
+ & 6509 >= 25*t
+ & 25*tprime > 6707
+ & 268280200000001 >= 1000000000000*p_global_time
+ & p_global_time > tprime
+ & 25*p10 + 25*t >= 6682[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 14.091 seconds)[0m
+

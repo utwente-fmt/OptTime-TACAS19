@@ -1,0 +1,183 @@
+
+###########
+# Imports #
+###########
+
+library(plyr)
+library(ggplot2)
+library(reshape2)
+
+#######################
+# Auxiliary functions #
+#######################
+
+geom_mean = function(x, na.rm=TRUE){
+  exp(sum(log(x[x > 0]), na.rm=na.rm) / length(x))
+}
+
+# Multiple plot function
+#
+# ggplot objects can be passed in ..., or to plotlist (as a list of ggplot objects)
+# - cols:   Number of columns in layout
+# - layout: A matrix specifying the layout. If present, 'cols' is ignored.
+#
+# If the layout is something like matrix(c(1,2,3,3), nrow=2, byrow=TRUE),
+# then plot 1 will go in the upper left, 2 will go in the upper right, and
+# 3 will go all the way across the bottom.
+#
+multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
+  library(grid)
+  
+  # Make a list from the ... arguments and plotlist
+  plots <- c(list(...), plotlist)
+  
+  numPlots = length(plots)
+  
+  # If layout is NULL, then use 'cols' to determine layout
+  if (is.null(layout)) {
+    # Make the panel
+    # ncol: Number of columns of plots
+    # nrow: Number of rows needed, calculated from # of cols
+    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
+                     ncol = cols, nrow = ceiling(numPlots/cols))
+  }
+  
+  if (numPlots==1) {
+    print(plots[[1]])
+    
+  } else {
+    # Set up the page
+    grid.newpage()
+    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
+    
+    # Make each plot, in the correct location
+    for (i in 1:numPlots) {
+      # Get the i,j matrix positions of the regions that contain this subplot
+      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
+      
+      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
+                                      layout.pos.col = matchidx$col))
+    }
+  }
+}
+
+
+# distinct colors (https://sashat.me/2017/01/11/list-of-20-simple-distinct-colors/)
+RED    = rgb(230/255,  25/255,  75/255, 1)
+BLUE   = rgb(  0/255, 130/255, 200/255, 1)
+GREEN  = rgb( 60/255, 180/255,  75/255, 1)
+ORANGE = rgb(245/255, 130/255,  48/255, 1)
+PURPLE = rgb(145/255,  30/255, 180/255, 1)
+YELLOW = rgb(255/255, 255/255,  25/255, 1)
+CYAN   = rgb( 70/255, 240/255, 240/255, 1)
+MAGENTA= rgb(240/255,  50/255, 230/255, 1)
+LIME   = rgb(210/255, 245/255,  60/255, 1)
+TEAL   = rgb(  0/255, 128/255, 128/255, 1)
+GREY   = rgb(128/255, 128/255, 128/255, 1)
+GRAY   = rgb(128/255, 128/255, 128/255, 1)
+WHITE  = rgb(255/255, 255/255, 255/255, 1)
+BLACK  = rgb(  0/255,   0/255,   0/255, 1)
+
+COLORS = c(RED,BLUE,GREEN,ORANGE,PURPLE,GREY,BLACK,YELLOW,CYAN,MAGENTA,LIME,TEAL)
+
+###############
+# Import data #
+###############
+
+results = read.csv("results_time.csv")
+# results are already filtered, summarized, and combined 
+
+##################
+# Plot functions #
+##################
+
+# Give a speedup plot (to get relative differences)
+f_scatterplot_time_relative = function(d, time_x, time_y, xlab, ylab){
+  p = ggplot(data=d, aes(x=time_x, y=ifelse(time_y/time_x>1000,1000,ifelse(time_y/time_x<0.1,0.1,time_y/time_x)) )) +
+    geom_vline(xintercept=10000,  color=RED, linetype="dashed", size=1) + 
+    geom_hline(yintercept=1000,  color=PURPLE, linetype="dashed", size=1) + 
+    geom_hline(yintercept=0.1,  color=PURPLE, linetype="dashed", size=1) + 
+    geom_hline(yintercept=1,  color=GRAY, linetype="solid", size=1) + 
+    geom_point(shape=4, color=BLUE, stroke=1, size=3) +
+    labs(x=xlab, y=ylab) +
+    theme_light() + 
+    theme(panel.grid.major = element_line(colour = GREY), legend.position="none") +
+    scale_y_log10(limits=c(0.1,1000),breaks=c(0.001,0.01,0.1,1,10,100,1000),
+                  labels=c("0.001","0.01","0.1","1","10","100","1000")) +
+    scale_x_log10(limits=c(0.001,10000),breaks=c(0.001,0.01,0.1,1,10,100,1000),
+                  labels=c("0.001","0.01","0.1","1","10","100","1000"))+
+    theme(axis.text=element_text(size=12), axis.title=element_text(size=14))
+  return(p)
+}
+
+
+f_scatterplot_time = function(d, time_x, time_y, xlab, ylab){
+  p = ggplot(data=d, aes(x=time_x, y=time_y)) +
+    geom_vline(xintercept=10000,  color=RED, linetype="dashed", size=1) + 
+    geom_hline(yintercept=10000,  color=RED, linetype="dashed", size=1) + 
+    geom_vline(xintercept=3600,  color=GRAY, linetype="solid", size=.5) + 
+    geom_hline(yintercept=3600,  color=GRAY, linetype="solid", size=.5) + 
+    geom_vline(xintercept=1,  color=GRAY, linetype="solid", size=.5) + 
+    geom_hline(yintercept=1,  color=GRAY, linetype="solid", size=.5) + 
+    geom_abline(slope=1, color=BLACK, size=.5) +
+    geom_point(shape=4, color=BLUE, stroke=1, size=3) +
+    labs(x=xlab, y=ylab) +
+    theme_light() + 
+    theme(panel.grid.major = element_line(colour = GREY), legend.position="none") +
+    scale_y_log10(limits=c(0.001,10000),breaks=c(0.001,0.01,0.1,1,10,100,1000), labels=c("0.001","0.01","0.1","1","10","100","1000")) +
+    scale_x_log10(limits=c(0.001,10000),breaks=c(0.001,0.01,0.1,1,10,100,1000), labels=c("0.001","0.01","0.1","1","10","100","1000"))+
+    theme(axis.text=element_text(size=12), axis.title=element_text(size=14))
+  return(p)
+}
+
+
+f_scatterplot_time_bounded = function(d, time_x, time_y, xlab, ylab){
+  p = ggplot(data=d, aes(x=ifelse(time_x<0.01,0.01,ifelse(time_x>1000,1000,time_x)),
+                         y=ifelse(time_y<0.01,0.01,ifelse(time_y>1000,1000,time_y)))) +
+    #geom_vline(xintercept=10000,  color=RED, linetype="dashed", size=1) + 
+    #geom_hline(yintercept=10000,  color=RED, linetype="dashed", size=1) + 
+    #geom_vline(xintercept=3600,  color=GRAY, linetype="solid", size=.5) + 
+    #geom_hline(yintercept=3600,  color=GRAY, linetype="solid", size=.5) + 
+    geom_vline(xintercept=1,  color=GRAY, linetype="solid", size=.5) + 
+    geom_hline(yintercept=1,  color=GRAY, linetype="solid", size=.5) + 
+    geom_abline(slope=1, color=BLACK, size=.5) +
+    geom_point(shape=4, color=BLUE, stroke=1, size=3) +
+    labs(x=xlab, y=ylab) +
+    theme_light() + 
+    theme(panel.grid.major = element_line(colour = GREY), legend.position="none") +
+    scale_y_log10(limits=c(0.01,1000),breaks=c(0.001,0.01,0.1,1,10,100,1000), labels=c("0.001","≤0.01","0.1","1","10","100","≥1000")) +
+    scale_x_log10(limits=c(0.01,1000),breaks=c(0.001,0.01,0.1,1,10,100,1000), labels=c("0.001","≤0.01","0.1","1","10","100","≥1000"))+
+    theme(axis.text=element_text(size=12), axis.title=element_text(size=14))
+  return(p)
+}
+
+
+
+# Variables
+plotsdir <- "plots"
+ww <- 5
+hh <- 3
+cex=1.5
+# Create a directory for the output plots
+dir.create(file.path(plotsdir), showWarnings = FALSE)
+
+# Output the plots
+
+f_scatterplot_time(results, results$results.PQ.incl.merge, results$results.EF.incl.merge, "Time MTSynth (sec)", "Time Synth (sec)")
+ggsave(paste(plotsdir,"PQim-EFim.pdf",sep="/"), width=ww, height=hh)
+
+f_scatterplot_time(results, results$results.PQ.incl.merge, results$results.EFsynthmin.incl.merge, "Time MTSynth (sec)", "Time MinPSynth (sec)")
+ggsave(paste(plotsdir,"PQim-SMim.pdf",sep="/"), width=ww, height=hh)
+
+f_scatterplot_time(results, results$results.PQ.early.termination.incl.merge, results$results.PQ.incl.merge, "Time MTReach (sec)", "Time MTSynth (sec)")
+ggsave(paste(plotsdir,"PQetim-PQim.pdf",sep="/"), width=ww, height=hh)
+
+f_scatterplot_time(results, results$results.PQ.incl.merge, results$results.PQ.best.worst.case.incl.merge, "Time MTSynth (sec)", "Time MUBTSynth (sec)")
+ggsave(paste(plotsdir,"PQim-PQubim.pdf",sep="/"), width=ww, height=hh)
+
+f_scatterplot_time(results, results$results.PQ.incl.merge, results$results.PQ, "Time MTSynth (sec)", "Time MTSynth-noRed (sec)")
+ggsave(paste(plotsdir,"PQim-PQ.pdf",sep="/"), width=ww, height=hh)
+
+f_scatterplot_time(results, results$results.EFsynthmin.incl.merge, results$results.EF.incl.merge, "Time MinPSynth (sec)", "Time Synth (sec)")
+ggsave(paste(plotsdir,"SMim-EFim.pdf",sep="/"), width=ww, height=hh)
+

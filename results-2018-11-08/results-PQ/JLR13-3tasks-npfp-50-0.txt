@@ -1,0 +1,43 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/JLR13-3tasks-npfp-50-0.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0mt_found: 0.014 second[0m
+ [0mBest time to target location: 150.[0m
+ [0mIteration 20: Target reached in time: 150.[0m
+ [0mt_opt:   0.014 second[0m
+ [0mt_prov:  0.024 second[0m
+ [0m---------------- Ending exploration ------------------[0m
+ [0mCompleted after 48 iterations.[0m
+ [0mStates remaining in priority queue: 0[0m
+ [0mWe found 4 constraint(s) that reach the target in min time 150.[0m
+ [0m[0m
+ [0mt_all:   0.066 second[0m
+ [0m---------------- Ending algorithm --------------------[0m
+ [0m
+   [EF-opttime-PQ] State space exploration completed after 0.071 second.[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m C3_WORST >= 20
+ & b > 22
+ & 50 >= b
+ & 100 >= C3_WORST
+ & p_global_time = 150[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 0.071 second)[0m
+

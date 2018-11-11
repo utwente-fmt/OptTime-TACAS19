@@ -1,0 +1,46 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/FMTV-1-A3.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0mt_found: 18.901 seconds[0m
+ [0mBest time to target location: 35.[0m
+ [0mIteration 4093: Target reached in time: 35.[0m
+ [0mt_opt:   18.901 seconds[0m
+ [0mt_prov:  22.978 seconds[0m
+ [0mAll states visited up to time bound[0m
+ [0m---------------- Ending exploration ------------------[0m
+ [0mCompleted after 4101 iterations.[0m
+ [0mStates remaining in priority queue: 234[0m
+ [0mWe found 1 constraint(s) that reach the target in min time 35.[0m
+ [0m[0m
+ [0mt_all:   23.004 seconds[0m
+ [0m---------------- Ending algorithm --------------------[0m
+ [0m
+   [EF-opttime-PQ] State space exploration completed after 23.011 seconds.[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m 250*P4_uncertain >= 9999
+ & 667 >= 50*P3_uncertain
+ & p_global_time >= 35
+ & 10001 >= 250*P4_uncertain
+ & 150*P3_uncertain >= 1999
+ & 8750025000000001 >= 250000000000000*p_global_time
+ & e2e = 28 + p_global_time[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 23.011 seconds)[0m
+

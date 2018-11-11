@@ -1,0 +1,32 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/F10.imi[0m
+ [0mMode: EF-minimization.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EFmin…
+ [0m
+ [0mComputing post^1 from 1 state.[0m
+ [0mComputing post^2 from 10 states.[0m
+ [0m  45 states merged within 100 states.[0m
+ [0mComputing post^3 from 55 states.[0m
+ [0mComputing post^4 from 460 states.[0m
+ [0m  1620 states merged within 3430 states.[0m
+ [0mComputing post^5 from 1810 states.[0m
+ [0mComputing post^6 from 14040 states.[0m
+ [0m  32694 states merged within 85344 states.[0m
+ [0mComputing post^7 from 52650 states.[0m
+ [0m  [EFmin] Found a first minimum[0m
+ [0m  [EFmin]  p_global_time > 0[0m
+ [0mt_found: 1426.392 seconds[0m

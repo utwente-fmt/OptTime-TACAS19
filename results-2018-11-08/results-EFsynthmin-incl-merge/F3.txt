@@ -1,0 +1,67 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/F3.imi[0m
+ [0mMode: EF-synth with minimization.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EFmin…
+ [0m
+ [0mComputing post^1 from 1 state.[0m
+ [0mComputing post^2 from 3 states.[0m
+ [0m  3 states merged within 9 states.[0m
+ [0mComputing post^3 from 6 states.[0m
+ [0mComputing post^4 from 12 states.[0m
+ [0m  3 states merged within 21 states.[0m
+ [0mComputing post^5 from 18 states.[0m
+ [0mComputing post^6 from 33 states.[0m
+ [0m  9 states merged within 54 states.[0m
+ [0mComputing post^7 from 45 states.[0m
+ [0m  [EFmin] Found a first minimum[0m
+ [0m  [EFmin]  p_global_time > 0[0m
+ [0mt_found: 0.061 second[0m
+ [0m  4 states merged within 67 states.[0m
+ [0mComputing post^8 from 63 states.[0m
+ [0m  11 states merged within 95 states.[0m
+ [0mComputing post^9 from 84 states.[0m
+ [0m  8 states merged within 104 states.[0m
+ [0mComputing post^10 from 96 states.[0m
+ [0m  10 states merged within 103 states.[0m
+ [0mComputing post^11 from 93 states.[0m
+ [0mComputing post^12 from 99 states.[0m
+ [0m  3 states merged within 90 states.[0m
+ [0mComputing post^13 from 87 states.[0m
+ [0m  3 states merged within 69 states.[0m
+ [0mComputing post^14 from 66 states.[0m
+ [0mComputing post^15 from 54 states.[0m
+ [0m  6 states merged within 36 states.[0m
+ [0mComputing post^16 from 36 states.[0m
+ [0m  6 states merged within 24 states.[0m
+ [0mComputing post^17 from 24 states.[0m
+ [0m  6 states merged within 18 states.[0m
+ [0mComputing post^18 from 18 states.[0m
+ [0mComputing post^19 from 6 states.[0m
+ [0m
+ Fixpoint reached at a depth of 20: 826 states with 1254 transitions in the final state space.[0m
+ [0m
+   [EFmin] Algorithm completed after 0.682 second.[0m
+ [0mt_done:  0.679 second[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m delta > Delta
+ & Delta >= 0
+ & p_global_time > 2*Delta[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 0.684 second)[0m
+

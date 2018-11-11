@@ -1,0 +1,147 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/Test_Thiele.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [93;40m*** Warning: The discrete 'Token_25' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_23' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_21' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_15' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_13' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_11' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mThe model contains stopwatches.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0m  1 state merged within 5 states.[0m
+ [0mMerging, iteration: 10, |PQ|: 5 -> 4[0m
+ [0mMerging, iteration: 20, |PQ|: 8 -> 8[0m
+ [0mMerging, iteration: 30, |PQ|: 8 -> 8[0m
+ [0mMerging, iteration: 40, |PQ|: 8 -> 8[0m
+ [0m  2 states merged within 10 states.[0m
+ [0mMerging, iteration: 50, |PQ|: 10 -> 9[0m
+ [0m  2 states merged within 10 states.[0m
+ [0mMerging, iteration: 60, |PQ|: 10 -> 8[0m
+ [0mMerging, iteration: 70, |PQ|: 12 -> 12[0m
+ [0m  1 state merged within 11 states.[0m
+ [0mMerging, iteration: 80, |PQ|: 11 -> 11[0m
+ [0mMerging, iteration: 90, |PQ|: 11 -> 11[0m
+ [0mMerging, iteration: 100, |PQ|: 14 -> 14[0m
+ [0mMerging, iteration: 110, |PQ|: 18 -> 18[0m
+ [0mMerging, iteration: 120, |PQ|: 18 -> 18[0m
+ [0m  1 state merged within 19 states.[0m
+ [0mMerging, iteration: 130, |PQ|: 19 -> 19[0m
+ [0m  1 state merged within 18 states.[0m
+ [0mMerging, iteration: 140, |PQ|: 18 -> 17[0m
+ [0m  1 state merged within 19 states.[0m
+ [0mMerging, iteration: 150, |PQ|: 19 -> 18[0m
+ [0m  3 states merged within 19 states.[0m
+ [0mMerging, iteration: 160, |PQ|: 19 -> 17[0m
+ [0m  2 states merged within 17 states.[0m
+ [0mMerging, iteration: 170, |PQ|: 17 -> 17[0m
+ [0m  1 state merged within 19 states.[0m
+ [0mMerging, iteration: 180, |PQ|: 19 -> 18[0m
+ [0mMerging, iteration: 190, |PQ|: 18 -> 18[0m
+ [0mt_found: 0.687 second[0m
+ [0mBest time to target location: 200000.[0m
+ [0m  2 states merged within 19 states.[0m
+ [0mMerging, iteration: 200, |PQ|: 19 -> 17[0m
+ [0mMerging, iteration: 210, |PQ|: 20 -> 20[0m
+ [0m  1 state merged within 20 states.[0m
+ [0mMerging, iteration: 220, |PQ|: 20 -> 19[0m
+ [0mMerging, iteration: 230, |PQ|: 21 -> 21[0m
+ [0m  1 state merged within 21 states.[0m
+ [0mMerging, iteration: 240, |PQ|: 21 -> 20[0m
+ [0mMerging, iteration: 250, |PQ|: 24 -> 24[0m
+ [0mMerging, iteration: 260, |PQ|: 25 -> 25[0m
+ [0mMerging, iteration: 270, |PQ|: 29 -> 29[0m
+ [0mMerging, iteration: 280, |PQ|: 32 -> 32[0m
+ [0m  1 state merged within 35 states.[0m
+ [0mMerging, iteration: 290, |PQ|: 35 -> 34[0m
+ [0m  2 states merged within 33 states.[0m
+ [0mMerging, iteration: 300, |PQ|: 33 -> 32[0m
+ [0m  2 states merged within 34 states.[0m
+ [0mMerging, iteration: 310, |PQ|: 34 -> 32[0m
+ [0mMerging, iteration: 320, |PQ|: 34 -> 34[0m
+ [0m  2 states merged within 34 states.[0m
+ [0mMerging, iteration: 330, |PQ|: 34 -> 34[0m
+ [0m  2 states merged within 35 states.[0m
+ [0mMerging, iteration: 340, |PQ|: 35 -> 34[0m
+ [0m  3 states merged within 33 states.[0m
+ [0mMerging, iteration: 350, |PQ|: 33 -> 31[0m
+ [0m  2 states merged within 31 states.[0m
+ [0mMerging, iteration: 360, |PQ|: 31 -> 29[0m
+ [0m  1 state merged within 30 states.[0m
+ [0mMerging, iteration: 370, |PQ|: 30 -> 29[0m
+ [0mMerging, iteration: 380, |PQ|: 29 -> 29[0m
+ [0mMerging, iteration: 390, |PQ|: 29 -> 29[0m
+ [0mMerging, iteration: 400, |PQ|: 27 -> 27[0m
+ [0mMerging, iteration: 410, |PQ|: 27 -> 27[0m
+ [0m  1 state merged within 29 states.[0m
+ [0mMerging, iteration: 420, |PQ|: 29 -> 28[0m
+ [0mMerging, iteration: 430, |PQ|: 25 -> 25[0m
+ [0mMerging, iteration: 440, |PQ|: 25 -> 25[0m
+ [0mIteration 450: Target reached in time: 200000.[0m
+ [0mt_opt:   0.687 second[0m
+ [0mt_prov:  1.651 seconds[0m
+ [0m---------------- Ending exploration ------------------[0m
+ [0mCompleted after 471 iterations.[0m
+ [0mStates remaining in priority queue: 0[0m
+ [0mWe found 21 constraint(s) that reach the target in min time 200000.[0m
+ [0m[0m
+ [0mt_all:   1.658 seconds[0m
+ [0m---------------- Ending algorithm --------------------[0m
+ [0m
+   [EF-opttime-PQ] State space exploration completed after 1.673 seconds.[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m C_task_11 + C_task_15 >= 190019
+ & C_task_11 >= 136936
+ & C_task_15 >= 0
+ & p_global_time = 200000
+ OR
+   90910 >= C_task_11
+ & C_task_11 >= 0
+ & C_task_11 + C_task_15 >= 190019
+ & p_global_time = 200000
+ OR
+   C_task_11 >= 127400
+ & 136047 >= C_task_11
+ & C_task_11 + C_task_15 >= 190019
+ & p_global_time = 200000
+ OR
+   C_task_11 >= 91799
+ & 126511 >= C_task_11
+ & C_task_11 + C_task_15 >= 190019
+ & p_global_time = 200000
+ OR
+   136936 >= C_task_11
+ & C_task_11 > 136047
+ & C_task_15 >= 53083
+ & p_global_time = 200000
+ OR
+   127400 >= C_task_11
+ & C_task_11 > 126511
+ & C_task_15 >= 62619
+ & p_global_time = 200000
+ OR
+   91799 >= C_task_11
+ & C_task_11 > 90910
+ & C_task_15 >= 98220
+ & p_global_time = 200000[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 1.674 seconds)[0m
+

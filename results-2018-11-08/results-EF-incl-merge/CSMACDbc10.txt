@@ -1,0 +1,51 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/CSMACDbc10.imi[0m
+ [0mMode: EF-synthesis.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [93;40m*** Warning: Parameter 'p_global_time' is not necessarily positive in the initial constraint. The behavior of IMITATOR is unspecified in this case. You are advised to add inequality 'p_global_time >= 0' to the initial state of the model.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm AGsafe…
+ [0m
+ [0mComputing post^1 from 1 state.[0m
+ [0mComputing post^2 from 2 states.[0m
+ [0m  1 state merged within 4 states.[0m
+ [0mComputing post^3 from 3 states.[0m
+ [0mComputing post^4 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^5 from 8 states.[0m
+ [0mComputing post^6 from 18 states.[0m
+ [0m  2 states merged within 22 states.[0m
+ [0mComputing post^7 from 20 states.[0m
+ [0m  6 states merged within 36 states.[0m
+ [0mComputing post^8 from 30 states.[0m
+ [0m  2 states merged within 166 states.[0m
+ [0mComputing post^9 from 165 states.[0m
+ [0m  37 states merged within 145 states.[0m
+ [0mComputing post^10 from 116 states.[0m
+ [0m  20 states merged within 1308 states.[0m
+ [0mComputing post^11 from 1306 states.[0m
+ [0m  28 states merged within 304 states.[0m
+ [0mComputing post^12 from 296 states.[0m
+ [0m  58 states merged within 6364 states.[0m
+ [0mComputing post^13 from 6328 states.[0m
+ [0m  159 states merged within 846 states.[0m
+ [0mComputing post^14 from 788 states.[0m
+ [0m  186 states merged within 28740 states.[0m
+ [0mComputing post^15 from 28662 states.[0m
+ [0m  1343 states merged within 4169 states.[0m
+ [0mComputing post^16 from 4004 states.[0m
+ [0m  360 states merged within 122058 states.[0m
+ [0mComputing post^17 from 121986 states.[0m

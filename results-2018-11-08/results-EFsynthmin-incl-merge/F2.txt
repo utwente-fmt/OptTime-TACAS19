@@ -1,0 +1,50 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/F2.imi[0m
+ [0mMode: EF-synth with minimization.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EFmin…
+ [0m
+ [0mComputing post^1 from 1 state.[0m
+ [0mComputing post^2 from 2 states.[0m
+ [0m  1 state merged within 4 states.[0m
+ [0mComputing post^3 from 3 states.[0m
+ [0mComputing post^4 from 4 states.[0m
+ [0mComputing post^5 from 6 states.[0m
+ [0mComputing post^6 from 8 states.[0m
+ [0m  1 state merged within 7 states.[0m
+ [0mComputing post^7 from 6 states.[0m
+ [0m  [EFmin] Found a first minimum[0m
+ [0m  [EFmin]  p_global_time > 0[0m
+ [0mt_found: 0.012 second[0m
+ [0mComputing post^8 from 6 states.[0m
+ [0mComputing post^9 from 6 states.[0m
+ [0mComputing post^10 from 4 states.[0m
+ [0mComputing post^11 from 4 states.[0m
+ [0mComputing post^12 from 2 states.[0m
+ [0m
+ Fixpoint reached at a depth of 13: 52 states with 68 transitions in the final state space.[0m
+ [0m
+   [EFmin] Algorithm completed after 0.025 second.[0m
+ [0mt_done:  0.023 second[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m delta > Delta
+ & Delta >= 0
+ & p_global_time > 2*Delta[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 0.025 second)[0m
+

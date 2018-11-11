@@ -1,0 +1,243 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/blowup-200.imi[0m
+ [0mMode: EF-synth with minimization.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EFmin…
+ [0m
+ [0mComputing post^1 from 1 state.[0m
+ [0mComputing post^2 from 2 states.[0m
+ [0mComputing post^3 from 3 states.[0m
+ [0mComputing post^4 from 3 states.[0m
+ [0mComputing post^5 from 5 states.[0m
+ [0m  [EFmin] Found a first minimum[0m
+ [0m  [EFmin]  100*p_global_time > 9[0m
+ [0mt_found: 0.007 second[0m
+ [0mComputing post^6 from 4 states.[0m
+ [0mComputing post^7 from 7 states.[0m
+ [0mComputing post^8 from 5 states.[0m
+ [0mComputing post^9 from 9 states.[0m
+ [0mComputing post^10 from 6 states.[0m
+ [0mComputing post^11 from 11 states.[0m
+ [0mComputing post^12 from 7 states.[0m
+ [0mComputing post^13 from 13 states.[0m
+ [0mComputing post^14 from 8 states.[0m
+ [0mComputing post^15 from 15 states.[0m
+ [0mComputing post^16 from 9 states.[0m
+ [0mComputing post^17 from 17 states.[0m
+ [0mComputing post^18 from 10 states.[0m
+ [0mComputing post^19 from 19 states.[0m
+ [0mComputing post^20 from 11 states.[0m
+ [0mComputing post^21 from 21 states.[0m
+ [0mComputing post^22 from 12 states.[0m
+ [0mComputing post^23 from 23 states.[0m
+ [0mComputing post^24 from 13 states.[0m
+ [0mComputing post^25 from 25 states.[0m
+ [0mComputing post^26 from 14 states.[0m
+ [0mComputing post^27 from 27 states.[0m
+ [0mComputing post^28 from 15 states.[0m
+ [0mComputing post^29 from 29 states.[0m
+ [0mComputing post^30 from 16 states.[0m
+ [0mComputing post^31 from 31 states.[0m
+ [0mComputing post^32 from 17 states.[0m
+ [0mComputing post^33 from 33 states.[0m
+ [0mComputing post^34 from 18 states.[0m
+ [0mComputing post^35 from 35 states.[0m
+ [0mComputing post^36 from 19 states.[0m
+ [0mComputing post^37 from 37 states.[0m
+ [0mComputing post^38 from 20 states.[0m
+ [0mComputing post^39 from 39 states.[0m
+ [0mComputing post^40 from 21 states.[0m
+ [0mComputing post^41 from 41 states.[0m
+ [0mComputing post^42 from 22 states.[0m
+ [0mComputing post^43 from 43 states.[0m
+ [0mComputing post^44 from 23 states.[0m
+ [0mComputing post^45 from 45 states.[0m
+ [0mComputing post^46 from 24 states.[0m
+ [0mComputing post^47 from 47 states.[0m
+ [0mComputing post^48 from 25 states.[0m
+ [0mComputing post^49 from 49 states.[0m
+ [0mComputing post^50 from 26 states.[0m
+ [0mComputing post^51 from 51 states.[0m
+ [0mComputing post^52 from 27 states.[0m
+ [0mComputing post^53 from 53 states.[0m
+ [0mComputing post^54 from 28 states.[0m
+ [0mComputing post^55 from 55 states.[0m
+ [0mComputing post^56 from 29 states.[0m
+ [0mComputing post^57 from 57 states.[0m
+ [0mComputing post^58 from 30 states.[0m
+ [0mComputing post^59 from 59 states.[0m
+ [0mComputing post^60 from 31 states.[0m
+ [0mComputing post^61 from 61 states.[0m
+ [0mComputing post^62 from 32 states.[0m
+ [0mComputing post^63 from 63 states.[0m
+ [0mComputing post^64 from 33 states.[0m
+ [0mComputing post^65 from 65 states.[0m
+ [0mComputing post^66 from 34 states.[0m
+ [0mComputing post^67 from 67 states.[0m
+ [0mComputing post^68 from 35 states.[0m
+ [0mComputing post^69 from 69 states.[0m
+ [0mComputing post^70 from 36 states.[0m
+ [0mComputing post^71 from 71 states.[0m
+ [0mComputing post^72 from 37 states.[0m
+ [0mComputing post^73 from 73 states.[0m
+ [0mComputing post^74 from 38 states.[0m
+ [0mComputing post^75 from 75 states.[0m
+ [0mComputing post^76 from 39 states.[0m
+ [0mComputing post^77 from 77 states.[0m
+ [0mComputing post^78 from 40 states.[0m
+ [0mComputing post^79 from 79 states.[0m
+ [0mComputing post^80 from 41 states.[0m
+ [0mComputing post^81 from 81 states.[0m
+ [0mComputing post^82 from 42 states.[0m
+ [0mComputing post^83 from 83 states.[0m
+ [0mComputing post^84 from 43 states.[0m
+ [0mComputing post^85 from 85 states.[0m
+ [0mComputing post^86 from 44 states.[0m
+ [0mComputing post^87 from 87 states.[0m
+ [0mComputing post^88 from 45 states.[0m
+ [0mComputing post^89 from 89 states.[0m
+ [0mComputing post^90 from 46 states.[0m
+ [0mComputing post^91 from 91 states.[0m
+ [0mComputing post^92 from 47 states.[0m
+ [0mComputing post^93 from 93 states.[0m
+ [0mComputing post^94 from 48 states.[0m
+ [0mComputing post^95 from 95 states.[0m
+ [0mComputing post^96 from 49 states.[0m
+ [0mComputing post^97 from 97 states.[0m
+ [0mComputing post^98 from 50 states.[0m
+ [0mComputing post^99 from 99 states.[0m
+ [0mComputing post^100 from 51 states.[0m
+ [0mComputing post^101 from 101 states.[0m
+ [0mComputing post^102 from 52 states.[0m
+ [0mComputing post^103 from 103 states.[0m
+ [0mComputing post^104 from 53 states.[0m
+ [0mComputing post^105 from 105 states.[0m
+ [0mComputing post^106 from 54 states.[0m
+ [0mComputing post^107 from 107 states.[0m
+ [0mComputing post^108 from 55 states.[0m
+ [0mComputing post^109 from 109 states.[0m
+ [0mComputing post^110 from 56 states.[0m
+ [0mComputing post^111 from 111 states.[0m
+ [0mComputing post^112 from 57 states.[0m
+ [0mComputing post^113 from 113 states.[0m
+ [0mComputing post^114 from 58 states.[0m
+ [0mComputing post^115 from 115 states.[0m
+ [0mComputing post^116 from 59 states.[0m
+ [0mComputing post^117 from 117 states.[0m
+ [0mComputing post^118 from 60 states.[0m
+ [0mComputing post^119 from 119 states.[0m
+ [0mComputing post^120 from 61 states.[0m
+ [0mComputing post^121 from 121 states.[0m
+ [0mComputing post^122 from 62 states.[0m
+ [0mComputing post^123 from 123 states.[0m
+ [0mComputing post^124 from 63 states.[0m
+ [0mComputing post^125 from 125 states.[0m
+ [0mComputing post^126 from 64 states.[0m
+ [0mComputing post^127 from 127 states.[0m
+ [0mComputing post^128 from 65 states.[0m
+ [0mComputing post^129 from 129 states.[0m
+ [0mComputing post^130 from 66 states.[0m
+ [0mComputing post^131 from 131 states.[0m
+ [0mComputing post^132 from 67 states.[0m
+ [0mComputing post^133 from 133 states.[0m
+ [0mComputing post^134 from 68 states.[0m
+ [0mComputing post^135 from 135 states.[0m
+ [0mComputing post^136 from 69 states.[0m
+ [0mComputing post^137 from 137 states.[0m
+ [0mComputing post^138 from 70 states.[0m
+ [0mComputing post^139 from 139 states.[0m
+ [0mComputing post^140 from 71 states.[0m
+ [0mComputing post^141 from 141 states.[0m
+ [0mComputing post^142 from 72 states.[0m
+ [0mComputing post^143 from 143 states.[0m
+ [0mComputing post^144 from 73 states.[0m
+ [0mComputing post^145 from 145 states.[0m
+ [0mComputing post^146 from 74 states.[0m
+ [0mComputing post^147 from 147 states.[0m
+ [0mComputing post^148 from 75 states.[0m
+ [0mComputing post^149 from 149 states.[0m
+ [0mComputing post^150 from 76 states.[0m
+ [0mComputing post^151 from 151 states.[0m
+ [0mComputing post^152 from 77 states.[0m
+ [0mComputing post^153 from 153 states.[0m
+ [0mComputing post^154 from 78 states.[0m
+ [0mComputing post^155 from 155 states.[0m
+ [0mComputing post^156 from 79 states.[0m
+ [0mComputing post^157 from 157 states.[0m
+ [0mComputing post^158 from 80 states.[0m
+ [0mComputing post^159 from 159 states.[0m
+ [0mComputing post^160 from 81 states.[0m
+ [0mComputing post^161 from 161 states.[0m
+ [0mComputing post^162 from 82 states.[0m
+ [0mComputing post^163 from 163 states.[0m
+ [0mComputing post^164 from 83 states.[0m
+ [0mComputing post^165 from 165 states.[0m
+ [0mComputing post^166 from 84 states.[0m
+ [0mComputing post^167 from 167 states.[0m
+ [0mComputing post^168 from 85 states.[0m
+ [0mComputing post^169 from 169 states.[0m
+ [0mComputing post^170 from 86 states.[0m
+ [0mComputing post^171 from 171 states.[0m
+ [0mComputing post^172 from 87 states.[0m
+ [0mComputing post^173 from 173 states.[0m
+ [0mComputing post^174 from 88 states.[0m
+ [0mComputing post^175 from 175 states.[0m
+ [0mComputing post^176 from 89 states.[0m
+ [0mComputing post^177 from 177 states.[0m
+ [0mComputing post^178 from 90 states.[0m
+ [0mComputing post^179 from 179 states.[0m
+ [0mComputing post^180 from 91 states.[0m
+ [0mComputing post^181 from 181 states.[0m
+ [0mComputing post^182 from 92 states.[0m
+ [0mComputing post^183 from 183 states.[0m
+ [0mComputing post^184 from 93 states.[0m
+ [0mComputing post^185 from 185 states.[0m
+ [0mComputing post^186 from 94 states.[0m
+ [0mComputing post^187 from 187 states.[0m
+ [0mComputing post^188 from 95 states.[0m
+ [0mComputing post^189 from 189 states.[0m
+ [0mComputing post^190 from 96 states.[0m
+ [0mComputing post^191 from 191 states.[0m
+ [0mComputing post^192 from 97 states.[0m
+ [0mComputing post^193 from 193 states.[0m
+ [0mComputing post^194 from 98 states.[0m
+ [0mComputing post^195 from 195 states.[0m
+ [0mComputing post^196 from 99 states.[0m
+ [0mComputing post^197 from 197 states.[0m
+ [0mComputing post^198 from 100 states.[0m
+ [0mComputing post^199 from 199 states.[0m
+ [0mComputing post^200 from 101 states.[0m
+ [0mComputing post^201 from 201 states.[0m
+ [0mComputing post^202 from 101 states.[0m
+ [0mComputing post^203 from 100 states.[0m
+ [0m
+ Fixpoint reached at a depth of 204: 15552 states with 15551 transitions in the final state space.[0m
+ [0m
+   [EFmin] Algorithm completed after 55.275 seconds.[0m
+ [0mt_done:  55.261 seconds[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m p2 >= 0
+ & p3 >= 0
+ & 100*p1 > 9
+ & 3 >= 25*p_global_time
+ & p_global_time > p1
+ & t = 0
+ & p1 = tprime[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 55.275 seconds)[0m
+

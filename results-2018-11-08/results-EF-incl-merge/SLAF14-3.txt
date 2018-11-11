@@ -1,0 +1,658 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/SLAF14-3.imi[0m
+ [0mMode: EF-synthesis.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [93;40m*** Warning: The synclab 't1_pre' is not used in (at least) the automaton 'sched_CPU1' where it is declared: it will thus be removed from the whole model.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mThe model contains stopwatches.[0m
+ [0mStarting running algorithm AGsafe…
+ [0m
+ [0mComputing post^1 from 1 state.[0m
+ [0mComputing post^2 from 3 states.[0m
+ [0mComputing post^3 from 6 states.[0m
+ [0mComputing post^4 from 10 states.[0m
+ [0mComputing post^5 from 9 states.[0m
+ [0mComputing post^6 from 9 states.[0m
+ [0mComputing post^7 from 9 states.[0m
+ [0mComputing post^8 from 5 states.[0m
+ [0mComputing post^9 from 2 states.[0m
+ [0mComputing post^10 from 1 state.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^11 from 3 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0mComputing post^12 from 6 states.[0m
+ [0m  1 state merged within 7 states.[0m
+ [0mComputing post^13 from 6 states.[0m
+ [0mComputing post^14 from 8 states.[0m
+ [0mComputing post^15 from 10 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  2 states merged within 13 states.[0m
+ [0mComputing post^16 from 11 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  1 state merged within 11 states.[0m
+ [0mComputing post^17 from 10 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  2 states merged within 12 states.[0m
+ [0mComputing post^18 from 10 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  1 state merged within 15 states.[0m
+ [0mComputing post^19 from 14 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  1 state merged within 17 states.[0m
+ [0mComputing post^20 from 16 states.[0m
+ [0m  1 state merged within 15 states.[0m
+ [0mComputing post^21 from 14 states.[0m
+ [0mComputing post^22 from 16 states.[0m
+ [0mComputing post^23 from 23 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  1 state merged within 28 states.[0m
+ [0mComputing post^24 from 27 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  4 states merged within 34 states.[0m
+ [0mComputing post^25 from 31 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  4 states merged within 34 states.[0m
+ [0mComputing post^26 from 32 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  4 states merged within 31 states.[0m
+ [0mComputing post^27 from 29 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  3 states merged within 21 states.[0m
+ [0mComputing post^28 from 20 states.[0m
+ [0m  5 states merged within 24 states.[0m
+ [0mComputing post^29 from 21 states.[0m
+ [0m  4 states merged within 29 states.[0m
+ [0mComputing post^30 from 27 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  4 states merged within 34 states.[0m
+ [0mComputing post^31 from 32 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  4 states merged within 49 states.[0m
+ [0mComputing post^32 from 46 states.[0m
+ [0m  3 states merged within 50 states.[0m
+ [0mComputing post^33 from 48 states.[0m
+ [0m  5 states merged within 56 states.[0m
+ [0mComputing post^34 from 52 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  5 states merged within 58 states.[0m
+ [0mComputing post^35 from 54 states.[0m
+ [0m  10 states merged within 65 states.[0m
+ [0mComputing post^36 from 60 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  10 states merged within 66 states.[0m
+ [0mComputing post^37 from 63 states.[0m
+ [0m  13 states merged within 68 states.[0m
+ [0mComputing post^38 from 61 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  12 states merged within 68 states.[0m
+ [0mComputing post^39 from 64 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  14 states merged within 62 states.[0m
+ [0mComputing post^40 from 57 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  15 states merged within 63 states.[0m
+ [0mComputing post^41 from 60 states.[0m
+ [0m  14 states merged within 69 states.[0m
+ [0mComputing post^42 from 67 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  16 states merged within 79 states.[0m
+ [0mComputing post^43 from 75 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  13 states merged within 83 states.[0m
+ [0mComputing post^44 from 80 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  20 states merged within 99 states.[0m
+ [0mComputing post^45 from 93 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  22 states merged within 105 states.[0m
+ [0mComputing post^46 from 100 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  25 states merged within 107 states.[0m
+ [0mComputing post^47 from 102 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  32 states merged within 112 states.[0m
+ [0mComputing post^48 from 102 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  36 states merged within 122 states.[0m
+ [0mComputing post^49 from 118 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  45 states merged within 147 states.[0m
+ [0mComputing post^50 from 139 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  53 states merged within 170 states.[0m
+ [0mComputing post^51 from 157 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  47 states merged within 183 states.[0m
+ [0mComputing post^52 from 176 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  48 states merged within 214 states.[0m
+ [0mComputing post^53 from 208 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  58 states merged within 284 states.[0m
+ [0mComputing post^54 from 277 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  75 states merged within 334 states.[0m
+ [0mComputing post^55 from 318 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  92 states merged within 368 states.[0m
+ [0mComputing post^56 from 348 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  116 states merged within 384 states.[0m
+ [0mComputing post^57 from 363 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  146 states merged within 405 states.[0m
+ [0mComputing post^58 from 378 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  181 states merged within 432 states.[0m
+ [0mComputing post^59 from 411 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  201 states merged within 428 states.[0m
+ [0mComputing post^60 from 397 states.[0m
+ [0m  199 states merged within 409 states.[0m
+ [0mComputing post^61 from 385 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  197 states merged within 384 states.[0m
+ [0mComputing post^62 from 369 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  199 states merged within 367 states.[0m
+ [0mComputing post^63 from 347 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  191 states merged within 358 states.[0m
+ [0mComputing post^64 from 340 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  193 states merged within 355 states.[0m
+ [0mComputing post^65 from 330 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  193 states merged within 352 states.[0m
+ [0mComputing post^66 from 333 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  184 states merged within 357 states.[0m
+ [0mComputing post^67 from 332 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  162 states merged within 344 states.[0m
+ [0mComputing post^68 from 330 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  169 states merged within 343 states.[0m
+ [0mComputing post^69 from 321 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  159 states merged within 341 states.[0m
+ [0mComputing post^70 from 322 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  177 states merged within 345 states.[0m
+ [0mComputing post^71 from 320 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  190 states merged within 358 states.[0m
+ [0mComputing post^72 from 333 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  196 states merged within 365 states.[0m
+ [0mComputing post^73 from 353 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  216 states merged within 404 states.[0m
+ [0mComputing post^74 from 381 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  221 states merged within 424 states.[0m
+ [0mComputing post^75 from 393 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  205 states merged within 411 states.[0m
+ [0mComputing post^76 from 391 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  221 states merged within 440 states.[0m
+ [0mComputing post^77 from 401 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  201 states merged within 433 states.[0m
+ [0mComputing post^78 from 411 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  224 states merged within 447 states.[0m
+ [0mComputing post^79 from 421 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  246 states merged within 500 states.[0m
+ [0mComputing post^80 from 464 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  241 states merged within 509 states.[0m
+ [0mComputing post^81 from 489 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  277 states merged within 533 states.[0m
+ [0mComputing post^82 from 488 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  290 states merged within 552 states.[0m
+ [0mComputing post^83 from 513 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  291 states merged within 543 states.[0m
+ [0mComputing post^84 from 509 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  294 states merged within 571 states.[0m
+ [0mComputing post^85 from 544 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  319 states merged within 625 states.[0m
+ [0mComputing post^86 from 585 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  341 states merged within 663 states.[0m
+ [0mComputing post^87 from 613 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  355 states merged within 694 states.[0m
+ [0mComputing post^88 from 647 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  358 states merged within 703 states.[0m
+ [0mComputing post^89 from 655 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  367 states merged within 727 states.[0m
+ [0mComputing post^90 from 691 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  398 states merged within 746 states.[0m
+ [0mComputing post^91 from 707 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  432 states merged within 782 states.[0m
+ [0mComputing post^92 from 733 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  425 states merged within 766 states.[0m
+ [0mComputing post^93 from 738 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  439 states merged within 793 states.[0m
+ [0mComputing post^94 from 751 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  486 states merged within 836 states.[0m
+ [0mComputing post^95 from 801 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  512 states merged within 879 states.[0m
+ [0mComputing post^96 from 848 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  543 states merged within 911 states.[0m
+ [0mComputing post^97 from 858 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  532 states merged within 925 states.[0m
+ [0mComputing post^98 from 883 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  555 states merged within 948 states.[0m
+ [0mComputing post^99 from 905 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  549 states merged within 982 states.[0m
+ [0mComputing post^100 from 952 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  567 states merged within 1059 states.[0m
+ [0mComputing post^101 from 1032 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  616 states merged within 1104 states.[0m
+ [0mComputing post^102 from 1054 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  696 states merged within 1233 states.[0m
+ [0mComputing post^103 from 1170 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  659 states merged within 1288 states.[0m
+ [0mComputing post^104 from 1257 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  739 states merged within 1370 states.[0m
+ [0mComputing post^105 from 1318 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  808 states merged within 1497 states.[0m
+ [0mComputing post^106 from 1458 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m

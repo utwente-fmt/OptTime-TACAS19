@@ -1,0 +1,1021 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/coffeeDrinker.imi[0m
+ [0mMode: EF-synth with minimization.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EFmin…
+ [0m
+ [0mComputing post^1 from 1 state.[0m
+ [0mComputing post^2 from 1 state.[0m
+ [0m  [EFmin] Found a first minimum[0m
+ [0m  [EFmin]  p_global_time >= 0[0m
+ [0mt_found: 0.003 second[0m
+ [0mComputing post^3 from 3 states.[0m
+ [0mComputing post^4 from 5 states.[0m
+ [0mComputing post^5 from 8 states.[0m
+ [0m  1 state merged within 11 states.[0m
+ [0mComputing post^6 from 10 states.[0m
+ [0m  5 states merged within 11 states.[0m
+ [0mComputing post^7 from 7 states.[0m
+ [0m  3 states merged within 10 states.[0m
+ [0mComputing post^8 from 10 states.[0m
+ [0m  5 states merged within 13 states.[0m
+ [0mComputing post^9 from 13 states.[0m
+ [0m  9 states merged within 19 states.[0m
+ [0mComputing post^10 from 18 states.[0m
+ [0m  15 states merged within 21 states.[0m
+ [0mComputing post^11 from 16 states.[0m
+ [0m  11 states merged within 18 states.[0m
+ [0mComputing post^12 from 14 states.[0m
+ [0m  10 states merged within 18 states.[0m
+ [0mComputing post^13 from 18 states.[0m
+ [0m  14 states merged within 24 states.[0m
+ [0mComputing post^14 from 23 states.[0m
+ [0m  23 states merged within 29 states.[0m
+ [0mComputing post^15 from 24 states.[0m
+ [0m  21 states merged within 28 states.[0m
+ [0mComputing post^16 from 23 states.[0m
+ [0m  18 states merged within 26 states.[0m
+ [0mComputing post^17 from 22 states.[0m
+ [0m  19 states merged within 29 states.[0m
+ [0mComputing post^18 from 28 states.[0m
+ [0m  27 states merged within 33 states.[0m
+ [0mComputing post^19 from 29 states.[0m
+ [0m  29 states merged within 36 states.[0m
+ [0mComputing post^20 from 31 states.[0m
+ [0m  27 states merged within 35 states.[0m
+ [0mComputing post^21 from 31 states.[0m
+ [0m  26 states merged within 36 states.[0m
+ [0mComputing post^22 from 32 states.[0m
+ [0m  33 states merged within 39 states.[0m
+ [0mComputing post^23 from 34 states.[0m
+ [0m  34 states merged within 41 states.[0m
+ [0mComputing post^24 from 36 states.[0m
+ [0m  37 states merged within 45 states.[0m
+ [0mComputing post^25 from 39 states.[0m
+ [0m  36 states merged within 46 states.[0m
+ [0mComputing post^26 from 41 states.[0m
+ [0m  42 states merged within 48 states.[0m
+ [0mComputing post^27 from 38 states.[0m
+ [0m  38 states merged within 45 states.[0m
+ [0mComputing post^28 from 41 states.[0m
+ [0m  41 states merged within 49 states.[0m
+ [0mComputing post^29 from 44 states.[0m
+ [0m  44 states merged within 54 states.[0m
+ [0mComputing post^30 from 49 states.[0m
+ [0m  48 states merged within 54 states.[0m
+ [0mComputing post^31 from 47 states.[0m
+ [0m  46 states merged within 53 states.[0m
+ [0mComputing post^32 from 45 states.[0m
+ [0m  46 states merged within 54 states.[0m
+ [0mComputing post^33 from 49 states.[0m
+ [0m  49 states merged within 59 states.[0m
+ [0mComputing post^34 from 54 states.[0m
+ [0m  57 states merged within 63 states.[0m
+ [0mComputing post^35 from 55 states.[0m
+ [0m  57 states merged within 64 states.[0m
+ [0mComputing post^36 from 54 states.[0m
+ [0m  53 states merged within 61 states.[0m
+ [0mComputing post^37 from 53 states.[0m
+ [0m  55 states merged within 65 states.[0m
+ [0mComputing post^38 from 59 states.[0m
+ [0m  64 states merged within 70 states.[0m
+ [0mComputing post^39 from 60 states.[0m
+ [0m  64 states merged within 71 states.[0m
+ [0mComputing post^40 from 62 states.[0m
+ [0m  65 states merged within 73 states.[0m
+ [0mComputing post^41 from 62 states.[0m
+ [0m  61 states merged within 71 states.[0m
+ [0mComputing post^42 from 63 states.[0m
+ [0m  69 states merged within 75 states.[0m
+ [0mComputing post^43 from 65 states.[0m
+ [0m  71 states merged within 78 states.[0m
+ [0mComputing post^44 from 67 states.[0m
+ [0m  72 states merged within 80 states.[0m
+ [0mComputing post^45 from 70 states.[0m
+ [0m  73 states merged within 83 states.[0m
+ [0mComputing post^46 from 72 states.[0m
+ [0m  76 states merged within 82 states.[0m
+ [0mComputing post^47 from 69 states.[0m
+ [0m  74 states merged within 81 states.[0m
+ [0mComputing post^48 from 72 states.[0m
+ [0m  78 states merged within 86 states.[0m
+ [0mComputing post^49 from 75 states.[0m
+ [0m  81 states merged within 91 states.[0m
+ [0mComputing post^50 from 80 states.[0m
+ [0m  86 states merged within 92 states.[0m
+ [0mComputing post^51 from 78 states.[0m
+ [0m  82 states merged within 89 states.[0m
+ [0mComputing post^52 from 76 states.[0m
+ [0m  80 states merged within 88 states.[0m
+ [0mComputing post^53 from 80 states.[0m
+ [0m  84 states merged within 94 states.[0m
+ [0mComputing post^54 from 85 states.[0m
+ [0m  94 states merged within 100 states.[0m
+ [0mComputing post^55 from 86 states.[0m
+ [0m  92 states merged within 99 states.[0m
+ [0mComputing post^56 from 85 states.[0m
+ [0m  89 states merged within 97 states.[0m
+ [0mComputing post^57 from 84 states.[0m
+ [0m  91 states merged within 101 states.[0m
+ [0mComputing post^58 from 90 states.[0m
+ [0m  102 states merged within 108 states.[0m
+ [0mComputing post^59 from 91 states.[0m
+ [0m  101 states merged within 108 states.[0m
+ [0mComputing post^60 from 93 states.[0m
+ [0m  99 states merged within 107 states.[0m
+ [0mComputing post^61 from 93 states.[0m
+ [0m  100 states merged within 110 states.[0m
+ [0mComputing post^62 from 94 states.[0m
+ [0m  104 states merged within 110 states.[0m
+ [0mComputing post^63 from 96 states.[0m
+ [0m  102 states merged within 109 states.[0m
+ [0mComputing post^64 from 98 states.[0m
+ [0m  110 states merged within 118 states.[0m
+ [0mComputing post^65 from 101 states.[0m
+ [0m  109 states merged within 119 states.[0m
+ [0mComputing post^66 from 103 states.[0m
+ [0m  111 states merged within 117 states.[0m
+ [0mComputing post^67 from 100 states.[0m
+ [0m  111 states merged within 118 states.[0m
+ [0mComputing post^68 from 103 states.[0m
+ [0m  112 states merged within 120 states.[0m
+ [0mComputing post^69 from 106 states.[0m
+ [0m  118 states merged within 128 states.[0m
+ [0mComputing post^70 from 111 states.[0m
+ [0m  121 states merged within 127 states.[0m
+ [0mComputing post^71 from 109 states.[0m
+ [0m  122 states merged within 129 states.[0m
+ [0mComputing post^72 from 107 states.[0m
+ [0m  119 states merged within 127 states.[0m
+ [0mComputing post^73 from 111 states.[0m
+ [0m  122 states merged within 132 states.[0m
+ [0mComputing post^74 from 116 states.[0m
+ [0m  130 states merged within 136 states.[0m
+ [0mComputing post^75 from 117 states.[0m
+ [0m  129 states merged within 136 states.[0m
+ [0mComputing post^76 from 116 states.[0m
+ [0m  124 states merged within 132 states.[0m
+ [0mComputing post^77 from 115 states.[0m
+ [0m  127 states merged within 137 states.[0m
+ [0mComputing post^78 from 121 states.[0m
+ [0m  136 states merged within 142 states.[0m
+ [0mComputing post^79 from 122 states.[0m
+ [0m  139 states merged within 146 states.[0m
+ [0mComputing post^80 from 124 states.[0m
+ [0m  137 states merged within 145 states.[0m
+ [0mComputing post^81 from 124 states.[0m
+ [0m  135 states merged within 145 states.[0m
+ [0mComputing post^82 from 125 states.[0m
+ [0m  140 states merged within 146 states.[0m
+ [0mComputing post^83 from 127 states.[0m
+ [0m  142 states merged within 149 states.[0m
+ [0mComputing post^84 from 129 states.[0m
+ [0m  145 states merged within 153 states.[0m
+ [0mComputing post^85 from 132 states.[0m
+ [0m  142 states merged within 152 states.[0m
+ [0mComputing post^86 from 134 states.[0m
+ [0m  150 states merged within 156 states.[0m
+ [0mComputing post^87 from 131 states.[0m
+ [0m  146 states merged within 153 states.[0m
+ [0mComputing post^88 from 134 states.[0m
+ [0m  149 states merged within 157 states.[0m
+ [0mComputing post^89 from 137 states.[0m
+ [0m  154 states merged within 164 states.[0m
+ [0mComputing post^90 from 142 states.[0m
+ [0m  159 states merged within 165 states.[0m
+ [0mComputing post^91 from 140 states.[0m
+ [0m  150 states merged within 157 states.[0m
+ [0mComputing post^92 from 138 states.[0m
+ [0m  155 states merged within 163 states.[0m
+ [0mComputing post^93 from 142 states.[0m
+ [0m  155 states merged within 165 states.[0m
+ [0mComputing post^94 from 147 states.[0m
+ [0m  166 states merged within 172 states.[0m
+ [0mComputing post^95 from 148 states.[0m
+ [0m  165 states merged within 172 states.[0m
+ [0mComputing post^96 from 147 states.[0m
+ [0m  162 states merged within 170 states.[0m
+ [0mComputing post^97 from 146 states.[0m
+ [0m  164 states merged within 174 states.[0m
+ [0mComputing post^98 from 152 states.[0m
+ [0m  175 states merged within 181 states.[0m
+ [0mComputing post^99 from 153 states.[0m
+ [0m  171 states merged within 178 states.[0m
+ [0mComputing post^100 from 155 states.[0m
+ [0m  170 states merged within 178 states.[0m
+ [0mComputing post^101 from 155 states.[0m
+ [0m  171 states merged within 181 states.[0m
+ [0mComputing post^102 from 156 states.[0m
+ [0m  176 states merged within 182 states.[0m
+ [0mComputing post^103 from 158 states.[0m
+ [0m  178 states merged within 185 states.[0m
+ [0mComputing post^104 from 160 states.[0m
+ [0m  179 states merged within 187 states.[0m
+ [0mComputing post^105 from 163 states.[0m
+ [0m  184 states merged within 194 states.[0m
+ [0mComputing post^106 from 165 states.[0m
+ [0m  184 states merged within 190 states.[0m
+ [0mComputing post^107 from 162 states.[0m
+ [0m  183 states merged within 190 states.[0m
+ [0mComputing post^108 from 165 states.[0m
+ [0m  187 states merged within 195 states.[0m
+ [0mComputing post^109 from 168 states.[0m
+ [0m  190 states merged within 200 states.[0m
+ [0mComputing post^110 from 173 states.[0m
+ [0m  194 states merged within 200 states.[0m
+ [0mComputing post^111 from 171 states.[0m
+ [0m  188 states merged within 195 states.[0m
+ [0mComputing post^112 from 169 states.[0m
+ [0m  193 states merged within 201 states.[0m
+ [0mComputing post^113 from 173 states.[0m
+ [0m  195 states merged within 205 states.[0m
+ [0mComputing post^114 from 178 states.[0m
+ [0m  202 states merged within 208 states.[0m
+ [0mComputing post^115 from 179 states.[0m
+ [0m  200 states merged within 207 states.[0m
+ [0mComputing post^116 from 178 states.[0m
+ [0m  197 states merged within 205 states.[0m
+ [0mComputing post^117 from 177 states.[0m
+ [0m  201 states merged within 211 states.[0m
+ [0mComputing post^118 from 183 states.[0m
+ [0m  209 states merged within 215 states.[0m
+ [0mComputing post^119 from 184 states.[0m
+ [0m  210 states merged within 217 states.[0m
+ [0mComputing post^120 from 186 states.[0m
+ [0m  207 states merged within 215 states.[0m
+ [0mComputing post^121 from 186 states.[0m
+ [0m  205 states merged within 215 states.[0m
+ [0mComputing post^122 from 187 states.[0m
+ [0m  215 states merged within 221 states.[0m
+ [0mComputing post^123 from 189 states.[0m
+ [0m  213 states merged within 220 states.[0m
+ [0mComputing post^124 from 191 states.[0m
+ [0m  215 states merged within 223 states.[0m
+ [0mComputing post^125 from 194 states.[0m
+ [0m  215 states merged within 225 states.[0m
+ [0mComputing post^126 from 196 states.[0m
+ [0m  223 states merged within 229 states.[0m
+ [0mComputing post^127 from 193 states.[0m
+ [0m  217 states merged within 224 states.[0m
+ [0mComputing post^128 from 196 states.[0m
+ [0m  220 states merged within 228 states.[0m
+ [0mComputing post^129 from 199 states.[0m
+ [0m  226 states merged within 236 states.[0m
+ [0mComputing post^130 from 204 states.[0m
+ [0m  228 states merged within 234 states.[0m
+ [0mComputing post^131 from 202 states.[0m
+ [0m  223 states merged within 230 states.[0m
+ [0mComputing post^132 from 200 states.[0m
+ [0m  226 states merged within 234 states.[0m
+ [0mComputing post^133 from 204 states.[0m
+ [0m  233 states merged within 243 states.[0m
+ [0mComputing post^134 from 209 states.[0m
+ [0m  238 states merged within 244 states.[0m
+ [0mComputing post^135 from 210 states.[0m
+ [0m  237 states merged within 244 states.[0m
+ [0mComputing post^136 from 209 states.[0m
+ [0m  232 states merged within 240 states.[0m
+ [0mComputing post^137 from 208 states.[0m
+ [0m  235 states merged within 245 states.[0m
+ [0mComputing post^138 from 214 states.[0m
+ [0m  242 states merged within 248 states.[0m
+ [0mComputing post^139 from 215 states.[0m
+ [0m  247 states merged within 254 states.[0m
+ [0mComputing post^140 from 217 states.[0m
+ [0m  245 states merged within 253 states.[0m
+ [0mComputing post^141 from 217 states.[0m
+ [0m  242 states merged within 252 states.[0m
+ [0mComputing post^142 from 218 states.[0m
+ [0m  248 states merged within 254 states.[0m
+ [0mComputing post^143 from 220 states.[0m
+ [0m  251 states merged within 258 states.[0m
+ [0mComputing post^144 from 222 states.[0m
+ [0m  253 states merged within 261 states.[0m
+ [0mComputing post^145 from 225 states.[0m
+ [0m  253 states merged within 263 states.[0m
+ [0mComputing post^146 from 227 states.[0m
+ [0m  258 states merged within 264 states.[0m
+ [0mComputing post^147 from 224 states.[0m
+ [0m  262 states merged within 269 states.[0m
+ [0mComputing post^148 from 227 states.[0m
+ [0m  257 states merged within 265 states.[0m
+ [0mComputing post^149 from 230 states.[0m
+ [0m  255 states merged within 265 states.[0m
+ [0mComputing post^150 from 235 states.[0m
+ [0m  264 states merged within 270 states.[0m
+ [0mComputing post^151 from 233 states.[0m
+ [0m  266 states merged within 273 states.[0m
+ [0mComputing post^152 from 231 states.[0m
+ [0m  259 states merged within 267 states.[0m
+ [0mComputing post^153 from 235 states.[0m
+ [0m  264 states merged within 274 states.[0m
+ [0mComputing post^154 from 240 states.[0m
+ [0m  276 states merged within 282 states.[0m
+ [0mComputing post^155 from 241 states.[0m
+ [0m  270 states merged within 277 states.[0m
+ [0mComputing post^156 from 240 states.[0m
+ [0m  270 states merged within 278 states.[0m
+ [0mComputing post^157 from 239 states.[0m
+ [0m  274 states merged within 284 states.[0m
+ [0mComputing post^158 from 245 states.[0m
+ [0m  277 states merged within 283 states.[0m
+ [0mComputing post^159 from 246 states.[0m
+ [0m  280 states merged within 287 states.[0m
+ [0mComputing post^160 from 248 states.[0m
+ [0m  280 states merged within 288 states.[0m
+ [0mComputing post^161 from 248 states.[0m
+ [0m  277 states merged within 287 states.[0m
+ [0mComputing post^162 from 249 states.[0m
+ [0m  289 states merged within 295 states.[0m
+ [0mComputing post^163 from 251 states.[0m
+ [0m  286 states merged within 293 states.[0m
+ [0mComputing post^164 from 253 states.[0m
+ [0m  290 states merged within 298 states.[0m
+ [0mComputing post^165 from 256 states.[0m
+ [0m  288 states merged within 298 states.[0m
+ [0mComputing post^166 from 258 states.[0m
+ [0m  291 states merged within 297 states.[0m
+ [0mComputing post^167 from 255 states.[0m
+ [0m  290 states merged within 297 states.[0m
+ [0mComputing post^168 from 258 states.[0m
+ [0m  295 states merged within 303 states.[0m
+ [0mComputing post^169 from 261 states.[0m
+ [0m  294 states merged within 304 states.[0m
+ [0mComputing post^170 from 266 states.[0m
+ [0m  300 states merged within 306 states.[0m
+ [0mComputing post^171 from 264 states.[0m
+ [0m  301 states merged within 308 states.[0m
+ [0mComputing post^172 from 262 states.[0m
+ [0m  299 states merged within 307 states.[0m
+ [0mComputing post^173 from 266 states.[0m
+ [0m  300 states merged within 310 states.[0m
+ [0mComputing post^174 from 271 states.[0m
+ [0m  308 states merged within 314 states.[0m
+ [0mComputing post^175 from 272 states.[0m
+ [0m  310 states merged within 317 states.[0m
+ [0mComputing post^176 from 271 states.[0m
+ [0m  309 states merged within 317 states.[0m
+ [0mComputing post^177 from 270 states.[0m
+ [0m  304 states merged within 314 states.[0m
+ [0mComputing post^178 from 276 states.[0m
+ [0m  315 states merged within 321 states.[0m
+ [0mComputing post^179 from 277 states.[0m
+ [0m  317 states merged within 324 states.[0m
+ [0mComputing post^180 from 279 states.[0m
+ [0m  314 states merged within 322 states.[0m
+ [0mComputing post^181 from 279 states.[0m
+ [0m  314 states merged within 324 states.[0m
+ [0mComputing post^182 from 280 states.[0m
+ [0m  322 states merged within 328 states.[0m
+ [0mComputing post^183 from 282 states.[0m
+ [0m  323 states merged within 330 states.[0m
+ [0mComputing post^184 from 284 states.[0m
+ [0m  328 states merged within 336 states.[0m
+ [0mComputing post^185 from 287 states.[0m
+ [0m  324 states merged within 334 states.[0m
+ [0mComputing post^186 from 289 states.[0m
+ [0m  331 states merged within 337 states.[0m
+ [0mComputing post^187 from 286 states.[0m
+ [0m  325 states merged within 332 states.[0m
+ [0mComputing post^188 from 289 states.[0m
+ [0m  328 states merged within 336 states.[0m
+ [0mComputing post^189 from 292 states.[0m
+ [0m  329 states merged within 339 states.[0m
+ [0mComputing post^190 from 297 states.[0m
+ [0m  338 states merged within 344 states.[0m
+ [0mComputing post^191 from 295 states.[0m
+ [0m  341 states merged within 348 states.[0m
+ [0mComputing post^192 from 293 states.[0m
+ [0m  335 states merged within 343 states.[0m
+ [0mComputing post^193 from 297 states.[0m
+ [0m  338 states merged within 348 states.[0m
+ [0mComputing post^194 from 302 states.[0m
+ [0m  348 states merged within 354 states.[0m
+ [0mComputing post^195 from 303 states.[0m
+ [0m  342 states merged within 349 states.[0m
+ [0mComputing post^196 from 302 states.[0m
+ [0m  344 states merged within 352 states.[0m
+ [0mComputing post^197 from 301 states.[0m
+ [0m  341 states merged within 351 states.[0m
+ [0mComputing post^198 from 307 states.[0m
+ [0m  346 states merged within 352 states.[0m
+ [0mComputing post^199 from 308 states.[0m
+ [0m  356 states merged within 363 states.[0m
+ [0mComputing post^200 from 310 states.[0m
+ [0m  353 states merged within 361 states.[0m
+ [0mComputing post^201 from 310 states.[0m
+ [0m  353 states merged within 363 states.[0m
+ [0mComputing post^202 from 311 states.[0m
+ [0m  358 states merged within 364 states.[0m
+ [0mComputing post^203 from 313 states.[0m
+ [0m  356 states merged within 363 states.[0m
+ [0mComputing post^204 from 315 states.[0m
+ [0m  359 states merged within 367 states.[0m
+ [0mComputing post^205 from 318 states.[0m
+ [0m  361 states merged within 371 states.[0m
+ [0mComputing post^206 from 320 states.[0m
+ [0m  368 states merged within 374 states.[0m
+ [0mComputing post^207 from 317 states.[0m
+ [0m  363 states merged within 370 states.[0m
+ [0mComputing post^208 from 320 states.[0m
+ [0m  363 states merged within 371 states.[0m
+ [0mComputing post^209 from 323 states.[0m
+ [0m  371 states merged within 381 states.[0m
+ [0mComputing post^210 from 328 states.[0m
+ [0m  375 states merged within 381 states.[0m
+ [0mComputing post^211 from 326 states.[0m
+ [0m  371 states merged within 378 states.[0m
+ [0mComputing post^212 from 324 states.[0m
+ [0m  369 states merged within 377 states.[0m
+ [0mComputing post^213 from 328 states.[0m
+ [0m  373 states merged within 383 states.[0m
+ [0mComputing post^214 from 333 states.[0m
+ [0m  384 states merged within 390 states.[0m
+ [0mComputing post^215 from 334 states.[0m
+ [0m  379 states merged within 386 states.[0m
+ [0mComputing post^216 from 333 states.[0m
+ [0m  376 states merged within 384 states.[0m
+ [0mComputing post^217 from 332 states.[0m
+ [0m  383 states merged within 393 states.[0m
+ [0mComputing post^218 from 338 states.[0m
+ [0m  389 states merged within 395 states.[0m
+ [0mComputing post^219 from 339 states.[0m
+ [0m  392 states merged within 399 states.[0m
+ [0mComputing post^220 from 341 states.[0m
+ [0m  386 states merged within 394 states.[0m
+ [0mComputing post^221 from 341 states.[0m
+ [0m  386 states merged within 396 states.[0m
+ [0mComputing post^222 from 342 states.[0m
+ [0m  393 states merged within 399 states.[0m
+ [0mComputing post^223 from 344 states.[0m
+ [0m  392 states merged within 399 states.[0m
+ [0mComputing post^224 from 346 states.[0m
+ [0m  398 states merged within 406 states.[0m
+ [0mComputing post^225 from 349 states.[0m
+ [0m  400 states merged within 410 states.[0m
+ [0mComputing post^226 from 351 states.[0m
+ [0m  399 states merged within 405 states.[0m
+ [0mComputing post^227 from 348 states.[0m
+ [0m  396 states merged within 403 states.[0m
+ [0mComputing post^228 from 351 states.[0m
+ [0m  399 states merged within 407 states.[0m
+ [0mComputing post^229 from 354 states.[0m
+ [0m  405 states merged within 415 states.[0m
+ [0mComputing post^230 from 359 states.[0m
+ [0m  414 states merged within 420 states.[0m
+ [0mComputing post^231 from 357 states.[0m
+ [0m  408 states merged within 415 states.[0m
+ [0mComputing post^232 from 355 states.[0m
+ [0m  404 states merged within 412 states.[0m
+ [0mComputing post^233 from 359 states.[0m
+ [0m  409 states merged within 419 states.[0m
+ [0mComputing post^234 from 364 states.[0m
+ [0m  419 states merged within 425 states.[0m
+ [0mComputing post^235 from 365 states.[0m
+ [0m  416 states merged within 423 states.[0m
+ [0mComputing post^236 from 364 states.[0m
+ [0m  416 states merged within 424 states.[0m
+ [0mComputing post^237 from 363 states.[0m
+ [0m  410 states merged within 420 states.[0m
+ [0mComputing post^238 from 369 states.[0m
+ [0m  422 states merged within 428 states.[0m
+ [0mComputing post^239 from 370 states.[0m
+ [0m  428 states merged within 435 states.[0m
+ [0mComputing post^240 from 372 states.[0m
+ [0m  429 states merged within 437 states.[0m
+ [0mComputing post^241 from 372 states.[0m
+ [0m  422 states merged within 432 states.[0m
+ [0mComputing post^242 from 373 states.[0m
+ [0m  426 states merged within 432 states.[0m
+ [0mComputing post^243 from 375 states.[0m
+ [0m  428 states merged within 435 states.[0m
+ [0mComputing post^244 from 377 states.[0m
+ [0m  429 states merged within 437 states.[0m
+ [0mComputing post^245 from 380 states.[0m
+ [0m  433 states merged within 443 states.[0m
+ [0mComputing post^246 from 382 states.[0m
+ [0m  436 states merged within 442 states.[0m
+ [0mComputing post^247 from 379 states.[0m
+ [0m  438 states merged within 445 states.[0m
+ [0mComputing post^248 from 382 states.[0m
+ [0m  436 states merged within 444 states.[0m
+ [0mComputing post^249 from 385 states.[0m
+ [0m  438 states merged within 448 states.[0m
+ [0mComputing post^250 from 390 states.[0m
+ [0m  451 states merged within 457 states.[0m
+ [0mComputing post^251 from 388 states.[0m
+ [0m  446 states merged within 453 states.[0m
+ [0mComputing post^252 from 386 states.[0m
+ [0m  444 states merged within 452 states.[0m
+ [0mComputing post^253 from 390 states.[0m
+ [0m  446 states merged within 456 states.[0m
+ [0mComputing post^254 from 395 states.[0m
+ [0m  453 states merged within 459 states.[0m
+ [0mComputing post^255 from 396 states.[0m
+ [0m  453 states merged within 460 states.[0m
+ [0mComputing post^256 from 395 states.[0m
+ [0m  453 states merged within 461 states.[0m
+ [0mComputing post^257 from 394 states.[0m
+ [0m  450 states merged within 460 states.[0m
+ [0mComputing post^258 from 400 states.[0m
+ [0m  455 states merged within 461 states.[0m
+ [0mComputing post^259 from 401 states.[0m
+ [0m  456 states merged within 463 states.[0m
+ [0mComputing post^260 from 403 states.[0m
+ [0m  461 states merged within 469 states.[0m
+ [0mComputing post^261 from 403 states.[0m
+ [0m  463 states merged within 473 states.[0m
+ [0mComputing post^262 from 404 states.[0m
+ [0m  465 states merged within 471 states.[0m
+ [0mComputing post^263 from 406 states.[0m
+ [0m  469 states merged within 476 states.[0m
+ [0mComputing post^264 from 408 states.[0m
+ [0m  472 states merged within 480 states.[0m
+ [0mComputing post^265 from 411 states.[0m
+ [0m  469 states merged within 479 states.[0m
+ [0mComputing post^266 from 413 states.[0m
+ [0m  480 states merged within 486 states.[0m
+ [0mComputing post^267 from 410 states.[0m
+ [0m  471 states merged within 478 states.[0m
+ [0mComputing post^268 from 413 states.[0m
+ [0m  475 states merged within 483 states.[0m
+ [0mComputing post^269 from 416 states.[0m
+ [0m  475 states merged within 485 states.[0m
+ [0mComputing post^270 from 421 states.[0m
+ [0m  481 states merged within 487 states.[0m
+ [0mComputing post^271 from 419 states.[0m
+ [0m  482 states merged within 489 states.[0m
+ [0mComputing post^272 from 417 states.[0m
+ [0m  472 states merged within 480 states.[0m
+ [0mComputing post^273 from 421 states.[0m
+ [0m  483 states merged within 493 states.[0m
+ [0mComputing post^274 from 426 states.[0m
+ [0m  492 states merged within 498 states.[0m
+ [0mComputing post^275 from 427 states.[0m
+ [0m  487 states merged within 494 states.[0m
+ [0mComputing post^276 from 426 states.[0m
+ [0m  485 states merged within 493 states.[0m
+ [0mComputing post^277 from 425 states.[0m
+ [0m  492 states merged within 502 states.[0m
+ [0mComputing post^278 from 431 states.[0m
+ [0m  497 states merged within 503 states.[0m
+ [0mComputing post^279 from 432 states.[0m
+ [0m  501 states merged within 508 states.[0m
+ [0mComputing post^280 from 434 states.[0m
+ [0m  491 states merged within 499 states.[0m
+ [0mComputing post^281 from 434 states.[0m
+ [0m  497 states merged within 507 states.[0m
+ [0mComputing post^282 from 435 states.[0m
+ [0m  504 states merged within 510 states.[0m
+ [0mComputing post^283 from 437 states.[0m
+ [0m  508 states merged within 515 states.[0m
+ [0mComputing post^284 from 439 states.[0m
+ [0m  505 states merged within 513 states.[0m
+ [0mComputing post^285 from 442 states.[0m
+ [0m  508 states merged within 518 states.[0m
+ [0mComputing post^286 from 444 states.[0m
+ [0m  504 states merged within 510 states.[0m
+ [0mComputing post^287 from 441 states.[0m
+ [0m  511 states merged within 518 states.[0m
+ [0mComputing post^288 from 444 states.[0m
+ [0m  509 states merged within 517 states.[0m
+ [0mComputing post^289 from 447 states.[0m
+ [0m  516 states merged within 526 states.[0m
+ [0mComputing post^290 from 452 states.[0m
+ [0m  521 states merged within 527 states.[0m
+ [0mComputing post^291 from 450 states.[0m
+ [0m  518 states merged within 525 states.[0m
+ [0mComputing post^292 from 448 states.[0m
+ [0m  517 states merged within 525 states.[0m
+ [0mComputing post^293 from 452 states.[0m
+ [0m  516 states merged within 526 states.[0m
+ [0mComputing post^294 from 457 states.[0m
+ [0m  523 states merged within 529 states.[0m
+ [0mComputing post^295 from 458 states.[0m
+ [0m  524 states merged within 531 states.[0m
+ [0mComputing post^296 from 457 states.[0m
+ [0m  522 states merged within 530 states.[0m
+ [0mComputing post^297 from 456 states.[0m
+ [0m  530 states merged within 540 states.[0m
+ [0mComputing post^298 from 462 states.[0m
+ [0m  529 states merged within 535 states.[0m
+ [0mComputing post^299 from 463 states.[0m
+ [0m  532 states merged within 539 states.[0m
+ [0mComputing post^300 from 465 states.[0m
+ [0m  533 states merged within 541 states.[0m
+ [0mComputing post^301 from 465 states.[0m
+ [0m  532 states merged within 542 states.[0m
+ [0mComputing post^302 from 466 states.[0m
+ [0m  541 states merged within 547 states.[0m
+ [0mComputing post^303 from 468 states.[0m
+ [0m  536 states merged within 543 states.[0m
+ [0mComputing post^304 from 470 states.[0m
+ [0m  537 states merged within 545 states.[0m
+ [0mComputing post^305 from 473 states.[0m
+ [0m  541 states merged within 551 states.[0m
+ [0mComputing post^306 from 475 states.[0m
+ [0m  546 states merged within 552 states.[0m
+ [0mComputing post^307 from 472 states.[0m
+ [0m  544 states merged within 551 states.[0m
+ [0mComputing post^308 from 475 states.[0m
+ [0m  547 states merged within 555 states.[0m
+ [0mComputing post^309 from 478 states.[0m
+ [0m  551 states merged within 561 states.[0m
+ [0mComputing post^310 from 483 states.[0m
+ [0m  553 states merged within 559 states.[0m
+ [0mComputing post^311 from 481 states.[0m
+ [0m  553 states merged within 560 states.[0m
+ [0mComputing post^312 from 479 states.[0m
+ [0m  552 states merged within 560 states.[0m
+ [0mComputing post^313 from 483 states.[0m
+ [0m  550 states merged within 560 states.[0m
+ [0mComputing post^314 from 488 states.[0m
+ [0m  564 states merged within 570 states.[0m
+ [0mComputing post^315 from 489 states.[0m
+ [0m  562 states merged within 569 states.[0m
+ [0mComputing post^316 from 488 states.[0m
+ [0m  559 states merged within 567 states.[0m
+ [0mComputing post^317 from 487 states.[0m
+ [0m  557 states merged within 567 states.[0m
+ [0mComputing post^318 from 493 states.[0m
+ [0m  574 states merged within 580 states.[0m
+ [0mComputing post^319 from 494 states.[0m
+ [0m  570 states merged within 577 states.[0m
+ [0mComputing post^320 from 496 states.[0m
+ [0m  565 states merged within 573 states.[0m
+ [0mComputing post^321 from 496 states.[0m
+ [0m  562 states merged within 572 states.[0m
+ [0mComputing post^322 from 497 states.[0m
+ [0m  575 states merged within 581 states.[0m
+ [0mComputing post^323 from 499 states.[0m
+ [0m  574 states merged within 581 states.[0m
+ [0mComputing post^324 from 501 states.[0m
+ [0m  579 states merged within 587 states.[0m
+ [0mComputing post^325 from 504 states.[0m
+ [0m  575 states merged within 585 states.[0m
+ [0mComputing post^326 from 506 states.[0m
+ [0m  582 states merged within 588 states.[0m
+ [0mComputing post^327 from 503 states.[0m
+ [0m  574 states merged within 581 states.[0m
+ [0mComputing post^328 from 506 states.[0m
+ [0m  584 states merged within 592 states.[0m
+ [0mComputing post^329 from 509 states.[0m
+ [0m  582 states merged within 592 states.[0m
+ [0mComputing post^330 from 514 states.[0m
+ [0m  588 states merged within 594 states.[0m
+ [0mComputing post^331 from 512 states.[0m
+ [0m  587 states merged within 594 states.[0m
+ [0mComputing post^332 from 510 states.[0m
+ [0m  590 states merged within 598 states.[0m
+ [0mComputing post^333 from 514 states.[0m
+ [0m  591 states merged within 601 states.[0m
+ [0mComputing post^334 from 519 states.[0m
+ [0m  596 states merged within 602 states.[0m
+ [0mComputing post^335 from 520 states.[0m
+ [0m  599 states merged within 606 states.[0m
+ [0mComputing post^336 from 519 states.[0m
+ [0m  597 states merged within 605 states.[0m
+ [0mComputing post^337 from 518 states.[0m
+ [0m  592 states merged within 602 states.[0m
+ [0mComputing post^338 from 524 states.[0m
+ [0m  604 states merged within 610 states.[0m
+ [0mComputing post^339 from 525 states.[0m
+ [0m  607 states merged within 614 states.[0m
+ [0mComputing post^340 from 527 states.[0m
+ [0m  605 states merged within 613 states.[0m
+ [0mComputing post^341 from 527 states.[0m
+ [0m  602 states merged within 612 states.[0m
+ [0mComputing post^342 from 528 states.[0m
+ [0m  609 states merged within 615 states.[0m
+ [0mComputing post^343 from 530 states.[0m
+ [0m  609 states merged within 616 states.[0m
+ [0mComputing post^344 from 532 states.[0m
+ [0m  611 states merged within 619 states.[0m
+ [0mComputing post^345 from 535 states.[0m
+ [0m  615 states merged within 625 states.[0m
+ [0mComputing post^346 from 537 states.[0m
+ [0m  618 states merged within 624 states.[0m
+ [0mComputing post^347 from 534 states.[0m
+ [0m  616 states merged within 623 states.[0m
+ [0mComputing post^348 from 537 states.[0m
+ [0m  615 states merged within 623 states.[0m
+ [0mComputing post^349 from 540 states.[0m
+ [0m  621 states merged within 631 states.[0m
+ [0mComputing post^350 from 545 states.[0m
+ [0m  627 states merged within 633 states.[0m
+ [0mComputing post^351 from 543 states.[0m
+ [0m  625 states merged within 632 states.[0m
+ [0mComputing post^352 from 541 states.[0m
+ [0m  621 states merged within 629 states.[0m
+ [0mComputing post^353 from 545 states.[0m
+ [0m  624 states merged within 634 states.[0m
+ [0mComputing post^354 from 550 states.[0m
+ [0m  628 states merged within 634 states.[0m
+ [0mComputing post^355 from 551 states.[0m
+ [0m  634 states merged within 641 states.[0m
+ [0mComputing post^356 from 550 states.[0m
+ [0m  633 states merged within 641 states.[0m
+ [0mComputing post^357 from 549 states.[0m
+ [0m  635 states merged within 645 states.[0m
+ [0mComputing post^358 from 555 states.[0m
+ [0m  640 states merged within 646 states.[0m
+ [0mComputing post^359 from 556 states.[0m
+ [0m  640 states merged within 647 states.[0m
+ [0mComputing post^360 from 558 states.[0m
+ [0m  639 states merged within 647 states.[0m
+ [0mComputing post^361 from 558 states.[0m
+ [0m  639 states merged within 649 states.[0m
+ [0mComputing post^362 from 559 states.[0m
+ [0m  645 states merged within 651 states.[0m
+ [0mComputing post^363 from 561 states.[0m
+ [0m  644 states merged within 651 states.[0m
+ [0mComputing post^364 from 563 states.[0m
+ [0m  647 states merged within 655 states.[0m
+ [0mComputing post^365 from 566 states.[0m
+ [0m  652 states merged within 662 states.[0m
+ [0mComputing post^366 from 568 states.[0m
+ [0m  648 states merged within 654 states.[0m
+ [0mComputing post^367 from 565 states.[0m
+ [0m  658 states merged within 665 states.[0m
+ [0mComputing post^368 from 568 states.[0m
+ [0m  649 states merged within 657 states.[0m
+ [0mComputing post^369 from 571 states.[0m
+ [0m  659 states merged within 669 states.[0m
+ [0mComputing post^370 from 576 states.[0m
+ [0m  669 states merged within 675 states.[0m
+ [0mComputing post^371 from 574 states.[0m
+ [0m  658 states merged within 665 states.[0m
+ [0mComputing post^372 from 572 states.[0m
+ [0m  655 states merged within 663 states.[0m
+ [0mComputing post^373 from 576 states.[0m
+ [0m  663 states merged within 673 states.[0m
+ [0mComputing post^374 from 581 states.[0m
+ [0m  667 states merged within 673 states.[0m
+ [0mComputing post^375 from 582 states.[0m
+ [0m  674 states merged within 681 states.[0m
+ [0mComputing post^376 from 581 states.[0m
+ [0m  662 states merged within 670 states.[0m
+ [0mComputing post^377 from 580 states.[0m
+ [0m  664 states merged within 674 states.[0m
+ [0mComputing post^378 from 586 states.[0m
+ [0m  674 states merged within 680 states.[0m
+ [0mComputing post^379 from 587 states.[0m
+ [0m  685 states merged within 692 states.[0m
+ [0mComputing post^380 from 589 states.[0m
+ [0m  674 states merged within 682 states.[0m
+ [0mComputing post^381 from 589 states.[0m
+ [0m  673 states merged within 683 states.[0m
+ [0mComputing post^382 from 590 states.[0m
+ [0m  683 states merged within 689 states.[0m
+ [0mComputing post^383 from 592 states.[0m
+ [0m  671 states merged within 678 states.[0m
+ [0mComputing post^384 from 594 states.[0m
+ [0m  687 states merged within 695 states.[0m
+ [0mComputing post^385 from 597 states.[0m
+ [0m  683 states merged within 693 states.[0m
+ [0mComputing post^386 from 599 states.[0m
+ [0m  693 states merged within 699 states.[0m
+ [0mComputing post^387 from 596 states.[0m
+ [0m  684 states merged within 691 states.[0m
+ [0mComputing post^388 from 599 states.[0m
+ [0m  685 states merged within 693 states.[0m
+ [0mComputing post^389 from 602 states.[0m
+ [0m  688 states merged within 698 states.[0m
+ [0mComputing post^390 from 607 states.[0m
+ [0m  693 states merged within 699 states.[0m
+ [0mComputing post^391 from 605 states.[0m
+ [0m  691 states merged within 698 states.[0m
+ [0mComputing post^392 from 603 states.[0m
+ [0m  693 states merged within 701 states.[0m
+ [0mComputing post^393 from 607 states.[0m
+ [0m  697 states merged within 707 states.[0m
+ [0mComputing post^394 from 612 states.[0m
+ [0m  705 states merged within 711 states.[0m
+ [0mComputing post^395 from 613 states.[0m
+ [0m  706 states merged within 713 states.[0m
+ [0mComputing post^396 from 612 states.[0m
+ [0m  706 states merged within 714 states.[0m
+ [0mComputing post^397 from 611 states.[0m
+ [0m  704 states merged within 714 states.[0m
+ [0mComputing post^398 from 617 states.[0m
+ [0m  712 states merged within 718 states.[0m
+ [0mComputing post^399 from 618 states.[0m
+ [0m  714 states merged within 721 states.[0m
+ [0mComputing post^400 from 620 states.[0m
+ [0m  710 states merged within 718 states.[0m
+ [0mComputing post^401 from 620 states.[0m
+ [0m  704 states merged within 714 states.[0m
+ [0mComputing post^402 from 621 states.[0m
+ [0m  717 states merged within 723 states.[0m
+ [0mComputing post^403 from 623 states.[0m
+ [0m  718 states merged within 725 states.[0m
+ [0mComputing post^404 from 625 states.[0m
+ [0m  722 states merged within 730 states.[0m
+ [0mComputing post^405 from 628 states.[0m
+ [0m  715 states merged within 725 states.[0m
+ [0mComputing post^406 from 630 states.[0m
+ [0m  722 states merged within 728 states.[0m
+ [0mComputing post^407 from 627 states.[0m
+ [0m  725 states merged within 732 states.[0m
+ [0mComputing post^408 from 630 states.[0m
+ [0m  727 states merged within 735 states.[0m
+ [0mComputing post^409 from 633 states.[0m
+ [0m  728 states merged within 738 states.[0m
+ [0mComputing post^410 from 638 states.[0m
+ [0m  737 states merged within 743 states.[0m
+ [0mComputing post^411 from 636 states.[0m
+ [0m  730 states merged within 737 states.[0m
+ [0mComputing post^412 from 634 states.[0m
+ [0m  728 states merged within 736 states.[0m
+ [0mComputing post^413 from 638 states.[0m
+ [0m  740 states merged within 750 states.[0m
+ [0mComputing post^414 from 643 states.[0m
+ [0m  743 states merged within 749 states.[0m
+ [0mComputing post^415 from 644 states.[0m
+ [0m  739 states merged within 746 states.[0m
+ [0mComputing post^416 from 643 states.[0m
+ [0m  741 states merged within 749 states.[0m
+ [0mComputing post^417 from 642 states.[0m
+ [0m  737 states merged within 747 states.[0m
+ [0mComputing post^418 from 648 states.[0m
+ [0m  747 states merged within 753 states.[0m
+ [0mComputing post^419 from 649 states.[0m
+ [0m  749 states merged within 756 states.[0m
+ [0mComputing post^420 from 651 states.[0m
+ [0m  742 states merged within 750 states.[0m
+ [0mComputing post^421 from 651 states.[0m
+ [0m  746 states merged within 756 states.[0m
+ [0mComputing post^422 from 652 states.[0m
+ [0m  754 states merged within 760 states.[0m
+ [0mComputing post^423 from 654 states.[0m
+ [0m  748 states merged within 755 states.[0m
+ [0mComputing post^424 from 656 states.[0m
+ [0m  753 states merged within 761 states.[0m
+ [0mComputing post^425 from 659 states.[0m
+ [0m  752 states merged within 762 states.[0m
+ [0mComputing post^426 from 661 states.[0m
+ [0m  761 states merged within 767 states.[0m
+ [0mComputing post^427 from 658 states.[0m
+ [0m  759 states merged within 766 states.[0m
+ [0mComputing post^428 from 661 states.[0m
+ [0m  754 states merged within 762 states.[0m
+ [0mComputing post^429 from 664 states.[0m
+ [0m  758 states merged within 768 states.[0m
+ [0mComputing post^430 from 669 states.[0m
+ [0m  776 states merged within 782 states.[0m
+ [0mComputing post^431 from 667 states.[0m
+ [0m  768 states merged within 775 states.[0m
+ [0mComputing post^432 from 665 states.[0m
+ [0m  769 states merged within 777 states.[0m
+ [0mComputing post^433 from 669 states.[0m
+ [0m  769 states merged within 779 states.[0m
+ [0mComputing post^434 from 674 states.[0m
+ [0m  772 states merged within 778 states.[0m
+ [0mComputing post^435 from 675 states.[0m
+ [0m  780 states merged within 787 states.[0m
+ [0mComputing post^436 from 674 states.[0m
+ [0m  770 states merged within 778 states.[0m
+ [0mComputing post^437 from 673 states.[0m
+ [0m  768 states merged within 778 states.[0m
+ [0mComputing post^438 from 679 states.[0m
+ [0m  787 states merged within 793 states.[0m
+ [0mComputing post^439 from 680 states.[0m
+ [0m  785 states merged within 792 states.[0m
+ [0mComputing post^440 from 682 states.[0m
+ [0m  784 states merged within 792 states.[0m
+ [0mComputing post^441 from 682 states.[0m
+ [0m  780 states merged within 790 states.[0m
+ [0mComputing post^442 from 683 states.[0m
+ [0m  784 states merged within 790 states.[0m
+ [0mComputing post^443 from 685 states.[0m
+ [0m  785 states merged within 792 states.[0m
+ [0mComputing post^444 from 687 states.[0m
+ [0m  786 states merged within 794 states.[0m
+ [0mComputing post^445 from 690 states.[0m
+ [0m  798 states merged within 808 states.[0m
+ [0mComputing post^446 from 692 states.[0m
+ [0m  804 states merged within 810 states.[0m
+ [0mComputing post^447 from 689 states.[0m
+ [0m  791 states merged within 798 states.[0m
+ [0mComputing post^448 from 692 states.[0m
+ [0m  804 states merged within 812 states.[0m
+ [0mComputing post^449 from 695 states.[0m
+ [0m  803 states merged within 813 states.[0m
+ [0mComputing post^450 from 700 states.[0m
+ [0m  808 states merged within 814 states.[0m
+ [0mComputing post^451 from 698 states.[0m
+ [0m  800 states merged within 807 states.[0m
+ [0mComputing post^452 from 696 states.[0m
+ [0m  800 states merged within 808 states.[0m
+ [0mComputing post^453 from 700 states.[0m
+ [0m  808 states merged within 818 states.[0m
+ [0mComputing post^454 from 705 states.[0m
+ [0m  815 states merged within 821 states.[0m
+ [0mComputing post^455 from 706 states.[0m
+ [0m  810 states merged within 817 states.[0m
+ [0mComputing post^456 from 705 states.[0m
+ [0m  815 states merged within 823 states.[0m
+ [0mComputing post^457 from 704 states.[0m
+ [0m  807 states merged within 817 states.[0m
+ [0mComputing post^458 from 710 states.[0m
+ [0m  825 states merged within 831 states.[0m
+ [0mComputing post^459 from 711 states.[0m
+ [0m  822 states merged within 829 states.[0m
+ [0mComputing post^460 from 713 states.[0m
+ [0m  817 states merged within 825 states.[0m
+ [0mComputing post^461 from 713 states.[0m
+ [0m  824 states merged within 834 states.[0m
+ [0mComputing post^462 from 714 states.[0m
+ [0m  822 states merged within 828 states.[0m
+ [0mComputing post^463 from 716 states.[0m
+ [0m  820 states merged within 827 states.[0m
+ [0mComputing post^464 from 718 states.[0m
+ [0m  824 states merged within 832 states.[0m
+ [0mComputing post^465 from 721 states.[0m
+ [0m  829 states merged within 839 states.[0m
+ [0mComputing post^466 from 723 states.[0m
+ [0m  834 states merged within 840 states.[0m
+ [0mComputing post^467 from 720 states.[0m
+ [0m  831 states merged within 838 states.[0m
+ [0mComputing post^468 from 723 states.[0m
+ [0m  837 states merged within 845 states.[0m
+ [0mComputing post^469 from 726 states.[0m
+ [0m  833 states merged within 843 states.[0m
+ [0mComputing post^470 from 731 states.[0m
+ [0m  845 states merged within 851 states.[0m
+ [0mComputing post^471 from 729 states.[0m
+ [0m  848 states merged within 855 states.[0m
+ [0mComputing post^472 from 727 states.[0m
+ [0m  838 states merged within 846 states.[0m
+ [0mComputing post^473 from 731 states.[0m
+ [0m  835 states merged within 845 states.[0m
+ [0mComputing post^474 from 736 states.[0m
+ [0m  848 states merged within 854 states.[0m
+ [0mComputing post^475 from 737 states.[0m
+ [0m  851 states merged within 858 states.[0m
+ [0mComputing post^476 from 736 states.[0m
+ [0m  849 states merged within 857 states.[0m
+ [0mComputing post^477 from 735 states.[0m
+ [0m  846 states merged within 856 states.[0m
+ [0mComputing post^478 from 741 states.[0m
+ [0m  862 states merged within 868 states.[0m
+ [0mComputing post^479 from 742 states.[0m
+ [0m  860 states merged within 867 states.[0m
+ [0mComputing post^480 from 744 states.[0m
+ [0m  857 states merged within 865 states.[0m
+ [0mComputing post^481 from 744 states.[0m
+ [0m  860 states merged within 870 states.[0m
+ [0mComputing post^482 from 745 states.[0m
+ [0m  862 states merged within 868 states.[0m
+ [0mComputing post^483 from 747 states.[0m
+ [0m  862 states merged within 869 states.[0m
+ [0mComputing post^484 from 749 states.[0m
+ [0m  862 states merged within 870 states.[0m
+ [0mComputing post^485 from 752 states.[0m
+ [0m  868 states merged within 878 states.[0m
+ [0mComputing post^486 from 754 states.[0m
+ [0m  874 states merged within 880 states.[0m
+ [0mComputing post^487 from 751 states.[0m
+ [0m  873 states merged within 880 states.[0m
+ [0mComputing post^488 from 754 states.[0m
+ [0m  864 states merged within 872 states.[0m
+ [0mComputing post^489 from 757 states.[0m
+ [0m  870 states merged within 880 states.[0m
+ [0mComputing post^490 from 762 states.[0m
+ [0m  879 states merged within 885 states.[0m
+ [0mComputing post^491 from 760 states.[0m
+ [0m  875 states merged within 882 states.[0m
+ [0mComputing post^492 from 758 states.[0m
+ [0m  877 states merged within 885 states.[0m
+ [0mComputing post^493 from 762 states.[0m
+ [0m  885 states merged within 895 states.[0m
+ [0mComputing post^494 from 767 states.[0m
+ [0m  887 states merged within 893 states.[0m
+ [0mComputing post^495 from 768 states.[0m
+ [0m  882 states merged within 889 states.[0m
+ [0mComputing post^496 from 767 states.[0m
+ [0m  881 states merged within 889 states.[0m
+ [0mComputing post^497 from 766 states.[0m
+ [0m  876 states merged within 886 states.[0m
+ [0mComputing post^498 from 772 states.[0m
+ [0m  891 states merged within 897 states.[0m
+ [0mComputing post^499 from 773 states.[0m
+ [0m  903 states merged within 910 states.[0m
+ [0mComputing post^500 from 775 states.[0m
+ [0m  895 states merged within 903 states.[0m
+ [0mComputing post^501 from 775 states.[0m
+ [0m  895 states merged within 905 states.[0m
+ [0mComputing post^502 from 776 states.[0m

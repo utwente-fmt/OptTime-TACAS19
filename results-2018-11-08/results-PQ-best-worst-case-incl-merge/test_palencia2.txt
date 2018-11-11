@@ -1,0 +1,64 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/test_palencia2.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mComputing the best worst-case bound for EFsynthminpq.[0m
+ [93;40m*** Warning: The discrete 'Token_41' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_31' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_25' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_23' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_21' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_11' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mThe model contains stopwatches.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0mNOTE: some models with nonstandard target locations (e.g. a combination of multiple targets) may have to be updated for correctness sake.[0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0m  2 states merged within 13 states.[0m
+ [0mMerging, iteration: 10, |PQ|: 13 -> 11[0m
+ [0m  1 state merged within 14 states.[0m
+ [0mMerging, iteration: 20, |PQ|: 14 -> 14[0m
+ [0m  3 states merged within 14 states.[0m
+ [0mMerging, iteration: 30, |PQ|: 14 -> 11[0m
+ [0m  2 states merged within 11 states.[0m
+ [0mMerging, iteration: 40, |PQ|: 11 -> 9[0m
+ [0m  2 states merged within 9 states.[0m
+ [0mMerging, iteration: 50, |PQ|: 9 -> 8[0m
+ [0mt_found: 0.308 second[0m
+ [0mBest time to target location: 20.[0m
+ [0m  9 states merged within 19 states.[0m
+ [0mMerging, iteration: 60, |PQ|: 19 -> 13[0m
+ [0m  17 states merged within 35 states.[0m
+ [0mMerging, iteration: 70, |PQ|: 35 -> 18[0m
+ [0mMerging, iteration: 90, |PQ|: 4 -> 4[0m
+ [0m---------------- Ending exploration ------------------[0m
+ [0mCompleted after 97 iterations.[0m
+ [0mStates remaining in priority queue: 0[0m
+ [0mWe found 14 constraint(s) that reach the target in min time 20.[0m
+ [0m[0m
+ [0mt_all:   0.518 second[0m
+ [0m---------------- Ending algorithm --------------------[0m
+ [0m
+   [EF-opttime-PQ] State space exploration completed after 0.530 second.[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m C_task_11 >= 0
+ & C_task_21 >= 0
+ & p_global_time = 20[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 0.530 second)[0m
+

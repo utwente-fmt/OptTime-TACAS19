@@ -1,0 +1,68 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/SLAF14-3.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mComputing the best worst-case bound for EFsynthminpq.[0m
+ [93;40m*** Warning: The synclab 't1_pre' is not used in (at least) the automaton 'sched_CPU1' where it is declared: it will thus be removed from the whole model.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mThe model contains stopwatches.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0mNOTE: some models with nonstandard target locations (e.g. a combination of multiple targets) may have to be updated for correctness sake.[0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0mMerging, iteration: 10, |PQ|: 10 -> 10[0m
+ [0mMerging, iteration: 20, |PQ|: 9 -> 9[0m
+ [0mMerging, iteration: 30, |PQ|: 9 -> 9[0m
+ [0mMerging, iteration: 40, |PQ|: 8 -> 8[0m
+ [0mMerging, iteration: 50, |PQ|: 4 -> 4[0m
+ [0mt_found: 0.187 second[0m
+ [0mBest time to target location: 40.[0m
+ [0mMerging, iteration: 60, |PQ|: 7 -> 7[0m
+ [0m  1 state merged within 12 states.[0m
+ [0mMerging, iteration: 70, |PQ|: 12 -> 11[0m
+ [0mMerging, iteration: 80, |PQ|: 12 -> 12[0m
+ [0mMerging, iteration: 90, |PQ|: 12 -> 12[0m
+ [0mMerging, iteration: 100, |PQ|: 12 -> 12[0m
+ [0m  1 state merged within 3 states.[0m
+ [0mMerging, iteration: 130, |PQ|: 3 -> 2[0m
+ [0m---------------- Ending exploration ------------------[0m
+ [0mCompleted after 134 iterations.[0m
+ [0mStates remaining in priority queue: 0[0m
+ [0mWe found 10 constraint(s) that reach the target in min time 40.[0m
+ [0m[0m
+ [0mt_all:   0.441 second[0m
+ [0m---------------- Ending algorithm --------------------[0m
+ [0m
+   [EF-opttime-PQ] State space exploration completed after 0.449 second.[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m t2_arr_P = 20
+ & t2_D = 20
+ & p_global_time = 40
+ OR
+   t2_arr_P >= 20
+ & 25 > p_global_time
+ & p_global_time >= t2_arr_P
+ & t2_D = p_global_time
+ OR
+   p_global_time >= 20
+ & 100 >= t2_arr_P
+ & 1000000000000*t2_arr_P >= 39999900000001
+ & 25 > p_global_time
+ & t2_D = p_global_time[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 0.449 second)[0m
+

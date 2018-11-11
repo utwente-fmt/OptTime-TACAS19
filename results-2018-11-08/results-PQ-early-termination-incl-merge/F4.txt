@@ -1,0 +1,211 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/F4.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mEarly termination chosen for EFsynthminpq, the algorithm will stop once a single valuation is found that minimizes global_time.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0m  11 states merged within 27 states.[0m
+ [0mMerging, iteration: 10, |PQ|: 27 -> 18[0m
+ [0m  3 states merged within 33 states.[0m
+ [0mMerging, iteration: 20, |PQ|: 33 -> 30[0m
+ [0m  1 state merged within 47 states.[0m
+ [0mMerging, iteration: 30, |PQ|: 47 -> 46[0m
+ [0m  11 states merged within 61 states.[0m
+ [0mMerging, iteration: 40, |PQ|: 61 -> 50[0m
+ [0m  5 states merged within 65 states.[0m
+ [0mMerging, iteration: 50, |PQ|: 65 -> 61[0m
+ [0m  3 states merged within 73 states.[0m
+ [0mMerging, iteration: 60, |PQ|: 73 -> 70[0m
+ [0m  4 states merged within 83 states.[0m
+ [0mMerging, iteration: 70, |PQ|: 83 -> 79[0m
+ [0m  3 states merged within 90 states.[0m
+ [0mMerging, iteration: 80, |PQ|: 90 -> 87[0m
+ [0m  3 states merged within 106 states.[0m
+ [0mMerging, iteration: 90, |PQ|: 106 -> 103[0m
+ [0m  6 states merged within 115 states.[0m
+ [0mMerging, iteration: 100, |PQ|: 115 -> 109[0m
+ [0m  8 states merged within 122 states.[0m
+ [0mMerging, iteration: 110, |PQ|: 122 -> 114[0m
+ [0m  11 states merged within 119 states.[0m
+ [0mMerging, iteration: 120, |PQ|: 119 -> 108[0m
+ [0m  6 states merged within 126 states.[0m
+ [0mMerging, iteration: 130, |PQ|: 126 -> 120[0m
+ [0m  6 states merged within 126 states.[0m
+ [0mMerging, iteration: 140, |PQ|: 126 -> 120[0m
+ [0mMerging, iteration: 150, |PQ|: 128 -> 128[0m
+ [0mMerging, iteration: 160, |PQ|: 132 -> 132[0m
+ [0mMerging, iteration: 170, |PQ|: 132 -> 132[0m
+ [0mMerging, iteration: 180, |PQ|: 142 -> 142[0m
+ [0mMerging, iteration: 190, |PQ|: 156 -> 156[0m
+ [0mMerging, iteration: 200, |PQ|: 164 -> 164[0m
+ [0mMerging, iteration: 210, |PQ|: 172 -> 172[0m
+ [0mMerging, iteration: 220, |PQ|: 190 -> 190[0m
+ [0m  3 states merged within 202 states.[0m
+ [0mMerging, iteration: 230, |PQ|: 202 -> 199[0m
+ [0m  2 states merged within 211 states.[0m
+ [0mMerging, iteration: 240, |PQ|: 211 -> 209[0m
+ [0m  14 states merged within 218 states.[0m
+ [0mMerging, iteration: 250, |PQ|: 218 -> 204[0m
+ [0mMerging, iteration: 260, |PQ|: 218 -> 218[0m
+ [0mMerging, iteration: 270, |PQ|: 228 -> 228[0m
+ [0mMerging, iteration: 280, |PQ|: 234 -> 234[0m
+ [0mMerging, iteration: 290, |PQ|: 240 -> 240[0m
+ [0mMerging, iteration: 300, |PQ|: 244 -> 244[0m
+ [0mMerging, iteration: 310, |PQ|: 256 -> 256[0m
+ [0mMerging, iteration: 320, |PQ|: 266 -> 266[0m
+ [0mMerging, iteration: 330, |PQ|: 279 -> 279[0m
+ [0mMerging, iteration: 340, |PQ|: 292 -> 292[0m
+ [0mMerging, iteration: 350, |PQ|: 307 -> 307[0m
+ [0mMerging, iteration: 360, |PQ|: 322 -> 322[0m
+ [0mMerging, iteration: 370, |PQ|: 336 -> 336[0m
+ [0mMerging, iteration: 380, |PQ|: 350 -> 350[0m
+ [0mMerging, iteration: 390, |PQ|: 364 -> 364[0m
+ [0mMerging, iteration: 400, |PQ|: 384 -> 384[0m
+ [0mMerging, iteration: 410, |PQ|: 396 -> 396[0m
+ [0m  2 states merged within 406 states.[0m
+ [0mMerging, iteration: 420, |PQ|: 406 -> 404[0m
+ [0m  1 state merged within 415 states.[0m
+ [0mMerging, iteration: 430, |PQ|: 415 -> 414[0m
+ [0m  2 states merged within 424 states.[0m
+ [0mMerging, iteration: 440, |PQ|: 424 -> 422[0m
+ [0m  8 states merged within 430 states.[0m
+ [0mMerging, iteration: 450, |PQ|: 430 -> 422[0m
+ [0m  6 states merged within 429 states.[0m
+ [0mMerging, iteration: 460, |PQ|: 429 -> 423[0m
+ [0mMerging, iteration: 470, |PQ|: 436 -> 436[0m
+ [0mMerging, iteration: 480, |PQ|: 450 -> 450[0m
+ [0mMerging, iteration: 490, |PQ|: 463 -> 463[0m
+ [0mMerging, iteration: 500, |PQ|: 474 -> 474[0m
+ [0mMerging, iteration: 510, |PQ|: 480 -> 480[0m
+ [0mMerging, iteration: 520, |PQ|: 485 -> 485[0m
+ [0mMerging, iteration: 530, |PQ|: 488 -> 488[0m
+ [0m  3 states merged within 492 states.[0m
+ [0mMerging, iteration: 540, |PQ|: 492 -> 489[0m
+ [0m  21 states merged within 509 states.[0m
+ [0mMerging, iteration: 550, |PQ|: 509 -> 488[0m
+ [0mt_found: 1.441 seconds[0m
+ [0mBest time to target location: 0.000100000000001[0m
+ [0m  7 states merged within 500 states.[0m
+ [0mMerging, iteration: 560, |PQ|: 500 -> 493[0m
+ [0m  8 states merged within 506 states.[0m
+ [0mMerging, iteration: 570, |PQ|: 506 -> 498[0m
+ [0m  7 states merged within 511 states.[0m
+ [0mMerging, iteration: 580, |PQ|: 511 -> 504[0m
+ [0m  8 states merged within 516 states.[0m
+ [0mMerging, iteration: 590, |PQ|: 516 -> 508[0m
+ [0m  8 states merged within 522 states.[0m
+ [0mMerging, iteration: 600, |PQ|: 522 -> 514[0m
+ [0m  9 states merged within 528 states.[0m
+ [0mMerging, iteration: 610, |PQ|: 528 -> 519[0m
+ [0m  1 state merged within 531 states.[0m
+ [0mMerging, iteration: 620, |PQ|: 531 -> 530[0m
+ [0m  2 states merged within 542 states.[0m
+ [0mMerging, iteration: 630, |PQ|: 542 -> 540[0m
+ [0m  1 state merged within 552 states.[0m
+ [0mMerging, iteration: 640, |PQ|: 552 -> 551[0m
+ [0m  5 states merged within 563 states.[0m
+ [0mMerging, iteration: 650, |PQ|: 563 -> 558[0m
+ [0m  6 states merged within 572 states.[0m
+ [0mMerging, iteration: 660, |PQ|: 572 -> 566[0m
+ [0m  1 state merged within 576 states.[0m
+ [0mMerging, iteration: 670, |PQ|: 576 -> 575[0m
+ [0m  10 states merged within 588 states.[0m
+ [0mMerging, iteration: 680, |PQ|: 588 -> 578[0m
+ [0m  8 states merged within 591 states.[0m
+ [0mMerging, iteration: 690, |PQ|: 591 -> 583[0m
+ [0m  1 state merged within 595 states.[0m
+ [0mMerging, iteration: 700, |PQ|: 595 -> 594[0m
+ [0m  5 states merged within 603 states.[0m
+ [0mMerging, iteration: 710, |PQ|: 603 -> 598[0m
+ [0m  9 states merged within 607 states.[0m
+ [0mMerging, iteration: 720, |PQ|: 607 -> 598[0m
+ [0m  6 states merged within 611 states.[0m
+ [0mMerging, iteration: 730, |PQ|: 611 -> 605[0m
+ [0m  4 states merged within 616 states.[0m
+ [0mMerging, iteration: 740, |PQ|: 616 -> 612[0m
+ [0m  3 states merged within 631 states.[0m
+ [0mMerging, iteration: 750, |PQ|: 631 -> 628[0m
+ [0m  2 states merged within 645 states.[0m
+ [0mMerging, iteration: 760, |PQ|: 645 -> 643[0m
+ [0m  4 states merged within 659 states.[0m
+ [0mMerging, iteration: 770, |PQ|: 659 -> 655[0m
+ [0m  2 states merged within 674 states.[0m
+ [0mMerging, iteration: 780, |PQ|: 674 -> 672[0m
+ [0m  3 states merged within 689 states.[0m
+ [0mMerging, iteration: 790, |PQ|: 689 -> 686[0m
+ [0m  5 states merged within 698 states.[0m
+ [0mMerging, iteration: 800, |PQ|: 698 -> 693[0m
+ [0m  3 states merged within 702 states.[0m
+ [0mMerging, iteration: 810, |PQ|: 702 -> 699[0m
+ [0m  4 states merged within 709 states.[0m
+ [0mMerging, iteration: 820, |PQ|: 709 -> 705[0m
+ [0m  3 states merged within 713 states.[0m
+ [0mMerging, iteration: 830, |PQ|: 713 -> 710[0m
+ [0m  3 states merged within 719 states.[0m
+ [0mMerging, iteration: 840, |PQ|: 719 -> 716[0m
+ [0m  3 states merged within 723 states.[0m
+ [0mMerging, iteration: 850, |PQ|: 723 -> 720[0m
+ [0m  2 states merged within 727 states.[0m
+ [0mMerging, iteration: 860, |PQ|: 727 -> 725[0m
+ [0m  1 state merged within 729 states.[0m
+ [0mMerging, iteration: 870, |PQ|: 729 -> 728[0m
+ [0m  6 states merged within 740 states.[0m
+ [0mMerging, iteration: 880, |PQ|: 740 -> 734[0m
+ [0mMerging, iteration: 890, |PQ|: 744 -> 744[0m
+ [0mMerging, iteration: 900, |PQ|: 756 -> 756[0m
+ [0mMerging, iteration: 910, |PQ|: 766 -> 766[0m
+ [0mMerging, iteration: 920, |PQ|: 779 -> 779[0m
+ [0mMerging, iteration: 930, |PQ|: 790 -> 790[0m
+ [0mMerging, iteration: 940, |PQ|: 802 -> 802[0m
+ [0mMerging, iteration: 950, |PQ|: 813 -> 813[0m
+ [0mMerging, iteration: 960, |PQ|: 824 -> 824[0m
+ [0m  7 states merged within 828 states.[0m
+ [0mMerging, iteration: 970, |PQ|: 828 -> 821[0m
+ [0m  5 states merged within 824 states.[0m
+ [0mMerging, iteration: 980, |PQ|: 824 -> 819[0m
+ [0mMerging, iteration: 990, |PQ|: 826 -> 826[0m
+ [0mMerging, iteration: 1000, |PQ|: 833 -> 833[0m
+ [0mMerging, iteration: 1010, |PQ|: 839 -> 839[0m
+ [0mMerging, iteration: 1020, |PQ|: 842 -> 842[0m
+ [0m  8 states merged within 850 states.[0m
+ [0mMerging, iteration: 1030, |PQ|: 850 -> 842[0m
+ [0m  17 states merged within 859 states.[0m
+ [0mMerging, iteration: 1040, |PQ|: 859 -> 842[0m
+ [0mIteration 1044: Target reached in time: 0.000100000000001[0m
+ [0mt_opt:   1.441 seconds[0m
+ [0mt_prov:  1.441 seconds[0m
+ [0mFound target![0m
+ [0m---------------- Ending exploration ------------------[0m
+ [0mCompleted after 1045 iterations.[0m
+ [0mStates remaining in priority queue: 847[0m
+ [0mWe found 1 constraint(s) that reach the target in min time 0.000100000000001[0m
+ [0m[0m
+ [0mt_all:   4.511 seconds[0m
+ [0m---------------- Ending algorithm --------------------[0m
+ [0m
+   [EF-opttime-PQ] State space exploration completed after 4.515 seconds.[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m delta > Delta
+ & p_global_time > 2*Delta
+ & 200000000001 >= 1000000000000000*p_global_time
+ & Delta >= 0[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 4.515 seconds)[0m
+

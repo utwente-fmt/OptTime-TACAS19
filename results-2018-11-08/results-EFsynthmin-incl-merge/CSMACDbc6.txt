@@ -1,0 +1,49 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/CSMACDbc6.imi[0m
+ [0mMode: EF-synth with minimization.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EFmin…
+ [0m
+ [0mComputing post^1 from 1 state.[0m
+ [0mComputing post^2 from 2 states.[0m
+ [0m  1 state merged within 4 states.[0m
+ [0mComputing post^3 from 3 states.[0m
+ [0mComputing post^4 from 3 states.[0m
+ [0m  [EFmin] Found a first minimum[0m
+ [0m  [EFmin]  p_global_time >= 0[0m
+ [0mt_found: 0.019 second[0m
+ [0mComputing post^5 from 8 states.[0m
+ [0mComputing post^6 from 18 states.[0m
+ [0m  2 states merged within 24 states.[0m
+ [0mComputing post^7 from 22 states.[0m
+ [0m  6 states merged within 56 states.[0m
+ [0mComputing post^8 from 50 states.[0m
+ [0m  2 states merged within 204 states.[0m
+ [0mComputing post^9 from 203 states.[0m
+ [0m  129 states merged within 397 states.[0m
+ [0mComputing post^10 from 276 states.[0m
+ [0m  44 states merged within 1464 states.[0m
+ [0mComputing post^11 from 1438 states.[0m
+ [0m  712 states merged within 2210 states.[0m
+ [0mComputing post^12 from 1518 states.[0m
+ [0m  91 states merged within 6785 states.[0m
+ [0mComputing post^13 from 6728 states.[0m
+ [0m  4213 states merged within 11220 states.[0m
+ [0mComputing post^14 from 7144 states.[0m
+ [0m  425 states merged within 29911 states.[0m
+ [0mComputing post^15 from 29690 states.[0m
+ [0m  19690 states merged within 51130 states.[0m
+ [0mComputing post^16 from 32742 states.[0m

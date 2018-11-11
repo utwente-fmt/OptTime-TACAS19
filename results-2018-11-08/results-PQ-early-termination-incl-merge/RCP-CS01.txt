@@ -1,0 +1,89 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/RCP-CS01.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mEarly termination chosen for EFsynthminpq, the algorithm will stop once a single valuation is found that minimizes global_time.[0m
+ [93;40m*** Warning: The syntax 'initially S1oStart' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0mMerging, iteration: 10, |PQ|: 15 -> 15[0m
+ [0mMerging, iteration: 20, |PQ|: 15 -> 15[0m
+ [0mMerging, iteration: 30, |PQ|: 15 -> 15[0m
+ [0mMerging, iteration: 40, |PQ|: 17 -> 17[0m
+ [0m  2 states merged within 23 states.[0m
+ [0mMerging, iteration: 50, |PQ|: 23 -> 21[0m
+ [0m  1 state merged within 32 states.[0m
+ [0mMerging, iteration: 60, |PQ|: 32 -> 31[0m
+ [0m  1 state merged within 34 states.[0m
+ [0mMerging, iteration: 70, |PQ|: 34 -> 33[0m
+ [0mMerging, iteration: 80, |PQ|: 35 -> 35[0m
+ [0m  1 state merged within 37 states.[0m
+ [0mMerging, iteration: 90, |PQ|: 37 -> 36[0m
+ [0m  1 state merged within 35 states.[0m
+ [0mMerging, iteration: 100, |PQ|: 35 -> 34[0m
+ [0mMerging, iteration: 110, |PQ|: 32 -> 32[0m
+ [0m  1 state merged within 31 states.[0m
+ [0mMerging, iteration: 120, |PQ|: 31 -> 30[0m
+ [0mMerging, iteration: 130, |PQ|: 29 -> 29[0m
+ [0mMerging, iteration: 140, |PQ|: 30 -> 30[0m
+ [0mMerging, iteration: 150, |PQ|: 32 -> 32[0m
+ [0mMerging, iteration: 160, |PQ|: 35 -> 35[0m
+ [0mMerging, iteration: 170, |PQ|: 47 -> 47[0m
+ [0mMerging, iteration: 180, |PQ|: 56 -> 56[0m
+ [0m  4 states merged within 66 states.[0m
+ [0mMerging, iteration: 190, |PQ|: 66 -> 62[0m
+ [0mt_found: 0.466 second[0m
+ [0mBest time to target location: 0.000100000000001[0m
+ [0mMerging, iteration: 200, |PQ|: 74 -> 74[0m
+ [0mMerging, iteration: 210, |PQ|: 84 -> 84[0m
+ [0mMerging, iteration: 220, |PQ|: 95 -> 95[0m
+ [0mMerging, iteration: 230, |PQ|: 107 -> 107[0m
+ [0m  4 states merged within 119 states.[0m
+ [0mMerging, iteration: 240, |PQ|: 119 -> 115[0m
+ [0mMerging, iteration: 250, |PQ|: 120 -> 120[0m
+ [0mMerging, iteration: 260, |PQ|: 128 -> 128[0m
+ [0mMerging, iteration: 270, |PQ|: 133 -> 133[0m
+ [0mIteration 274: Target reached in time: 0.000100000000001[0m
+ [0mt_opt:   0.466 second[0m
+ [0mt_prov:  0.466 second[0m
+ [0mFound target![0m
+ [0m---------------- Ending exploration ------------------[0m
+ [0mCompleted after 275 iterations.[0m
+ [0mStates remaining in priority queue: 135[0m
+ [0mWe found 1 constraint(s) that reach the target in min time 0.000100000000001[0m
+ [0m[0m
+ [0mt_all:   0.908 second[0m
+ [0m---------------- Ending algorithm --------------------[0m
+ [0m
+   [EF-opttime-PQ] State space exploration completed after 0.919 second.[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m rc_fast_max > 0
+ & p_global_time > 0
+ & rc_fast_min >= 0
+ & p_global_time > rc_fast_min
+ & rc_fast_max >= rc_fast_min
+ & rc_fast_max + delay >= p_global_time
+ & delay >= rc_fast_min
+ & 2*delay >= p_global_time
+ & 200000000001 >= 1000000000000000*p_global_time
+ & rc_slow_max >= rc_slow_min
+ & rc_slow_min > rc_fast_max[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 0.919 second)[0m
+

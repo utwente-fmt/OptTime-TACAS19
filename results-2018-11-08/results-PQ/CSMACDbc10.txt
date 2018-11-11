@@ -1,0 +1,24 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/CSMACDbc10.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [93;40m*** Warning: Parameter 'p_global_time' is not necessarily positive in the initial constraint. The behavior of IMITATOR is unspecified in this case. You are advised to add inequality 'p_global_time >= 0' to the initial state of the model.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0mt_found: 0.007 second[0m
+ [0mBest time to target location: 0.[0m
+ [0mIteration 20: Target reached in time: 0.[0m
+ [0mt_opt:   0.007 second[0m
+ [0mt_prov:  0.007 second[0m

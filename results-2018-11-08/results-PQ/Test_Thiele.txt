@@ -1,0 +1,79 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/Test_Thiele.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [93;40m*** Warning: The discrete 'Token_25' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_23' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_21' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_15' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_13' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The discrete 'Token_11' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mThe model contains stopwatches.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0mt_found: 0.995 second[0m
+ [0mBest time to target location: 200000.[0m
+ [0mIteration 1332: Target reached in time: 200000.[0m
+ [0mt_opt:   0.995 second[0m
+ [0mt_prov:  4.322 seconds[0m
+ [0m---------------- Ending exploration ------------------[0m
+ [0mCompleted after 1364 iterations.[0m
+ [0mStates remaining in priority queue: 0[0m
+ [0mWe found 32 constraint(s) that reach the target in min time 200000.[0m
+ [0m[0m
+ [0mt_all:   4.334 seconds[0m
+ [0m---------------- Ending algorithm --------------------[0m
+ [0m
+   [EF-opttime-PQ] State space exploration completed after 4.349 seconds.[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m C_task_11 + C_task_15 >= 190019
+ & C_task_11 > 136936
+ & C_task_15 >= 0
+ & p_global_time = 200000
+ OR
+   C_task_11 >= 127400
+ & 136047 >= C_task_11
+ & C_task_11 + C_task_15 >= 190019
+ & p_global_time = 200000
+ OR
+   90910 >= C_task_11
+ & C_task_11 >= 0
+ & C_task_11 + C_task_15 >= 190019
+ & p_global_time = 200000
+ OR
+   C_task_11 >= 91799
+ & 126511 >= C_task_11
+ & C_task_11 + C_task_15 >= 190019
+ & p_global_time = 200000
+ OR
+   136936 >= C_task_11
+ & C_task_11 > 136047
+ & C_task_15 >= 53083
+ & p_global_time = 200000
+ OR
+   127400 >= C_task_11
+ & C_task_11 > 126511
+ & C_task_15 >= 62619
+ & p_global_time = 200000
+ OR
+   91799 >= C_task_11
+ & C_task_11 > 90910
+ & C_task_15 >= 98220
+ & p_global_time = 200000[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 4.351 seconds)[0m
+

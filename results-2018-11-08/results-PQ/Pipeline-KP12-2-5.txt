@@ -1,0 +1,23 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/Pipeline-KP12-2-5.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [0mThis model is an L/U-PTA:[0m
+ [0m- lower-bound parameters {a, e, c}[0m
+ [0m- upper-bound parameters {b, f, d, p_global_time}[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0mt_found: 39.459 seconds[0m
+ [0mBest time to target location: 5.[0m

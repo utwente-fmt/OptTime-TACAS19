@@ -1,0 +1,547 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/WFAS-BBLS15.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mComputing the best worst-case bound for EFsynthminpq.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0mNOTE: some models with nonstandard target locations (e.g. a combination of multiple targets) may have to be updated for correctness sake.[0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0mt_found: 0.004 second[0m
+ [0mBest time to target location: 21.9999000001[0m
+ [0mBest time to target location: 4.99990000001[0m
+ [0mMerging, iteration: 10, |PQ|: 15 -> 15[0m
+ [0mBest time to target location: 4.49990000001[0m
+ [0mBest time to target location: 3.99990000001[0m
+ [0mBest time to target location: 3.74990000001[0m
+ [0mMerging, iteration: 20, |PQ|: 30 -> 30[0m
+ [0mBest time to target location: 3.59990000001[0m
+ [0mBest time to target location: 3.49990000001[0m
+ [0mMerging, iteration: 30, |PQ|: 45 -> 45[0m
+ [0mBest time to target location: 3.42847142858[0m
+ [0mBest time to target location: 3.37490000001[0m
+ [0mBest time to target location: 3.33323333334[0m
+ [0mMerging, iteration: 40, |PQ|: 60 -> 60[0m
+ [0mBest time to target location: 3.29990000001[0m
+ [0mBest time to target location: 3.27262727273[0m
+ [0mMerging, iteration: 50, |PQ|: 75 -> 75[0m
+ [0mBest time to target location: 3.24990000001[0m
+ [0mBest time to target location: 3.23066923077[0m
+ [0mBest time to target location: 3.21418571429[0m
+ [0mMerging, iteration: 60, |PQ|: 90 -> 90[0m
+ [0mBest time to target location: 3.19990000001[0m
+ [0mBest time to target location: 3.18740000001[0m
+ [0mMerging, iteration: 70, |PQ|: 105 -> 105[0m
+ [0mBest time to target location: 3.17637058824[0m
+ [0mBest time to target location: 3.16656666667[0m
+ [0mBest time to target location: 3.15779473685[0m
+ [0mMerging, iteration: 80, |PQ|: 120 -> 120[0m
+ [0mBest time to target location: 3.14990000001[0m
+ [0mBest time to target location: 3.14275714286[0m
+ [0mMerging, iteration: 90, |PQ|: 135 -> 135[0m
+ [0mBest time to target location: 3.13626363637[0m
+ [0mBest time to target location: 3.13033478261[0m
+ [0mBest time to target location: 3.12490000001[0m
+ [0mMerging, iteration: 100, |PQ|: 150 -> 150[0m
+ [0mBest time to target location: 3.11990000001[0m
+ [0mBest time to target location: 3.11528461539[0m
+ [0mMerging, iteration: 110, |PQ|: 165 -> 165[0m
+ [0mBest time to target location: 3.11101111112[0m
+ [0mBest time to target location: 3.10704285715[0m
+ [0mBest time to target location: 3.10334827587[0m
+ [0mMerging, iteration: 120, |PQ|: 180 -> 180[0m
+ [0mBest time to target location: 3.09990000001[0m
+ [0mBest time to target location: 3.09667419355[0m
+ [0mMerging, iteration: 130, |PQ|: 195 -> 195[0m
+ [0mBest time to target location: 3.09365000001[0m
+ [0mBest time to target location: 3.09080909091[0m
+ [0mBest time to target location: 3.08813529412[0m
+ [0mMerging, iteration: 140, |PQ|: 210 -> 210[0m
+ [0mBest time to target location: 3.08561428572[0m
+ [0mBest time to target location: 3.08323333334[0m
+ [0mMerging, iteration: 150, |PQ|: 225 -> 225[0m
+ [0mBest time to target location: 3.08098108109[0m
+ [0mBest time to target location: 3.07884736843[0m
+ [0mBest time to target location: 3.07682307693[0m
+ [0mMerging, iteration: 160, |PQ|: 240 -> 240[0m
+ [0mBest time to target location: 3.07490000001[0m
+ [0mBest time to target location: 3.07307073171[0m
+ [0mMerging, iteration: 170, |PQ|: 255 -> 255[0m
+ [0mBest time to target location: 3.07132857143[0m
+ [0mBest time to target location: 3.06966744187[0m
+ [0mBest time to target location: 3.06808181819[0m
+ [0mMerging, iteration: 180, |PQ|: 270 -> 270[0m
+ [0mBest time to target location: 3.06656666667[0m
+ [0mBest time to target location: 3.06511739131[0m
+ [0mMerging, iteration: 190, |PQ|: 285 -> 285[0m
+ [0mBest time to target location: 3.06372978724[0m
+ [0mBest time to target location: 3.06240000001[0m
+ [0mBest time to target location: 3.0611244898[0m
+ [0mMerging, iteration: 200, |PQ|: 300 -> 300[0m
+ [0mBest time to target location: 3.05990000001[0m
+ [0mBest time to target location: 3.05872352942[0m
+ [0mMerging, iteration: 210, |PQ|: 315 -> 315[0m
+ [0mBest time to target location: 3.0575923077[0m
+ [0mBest time to target location: 3.05650377359[0m
+ [0mBest time to target location: 3.05545555556[0m
+ [0mMerging, iteration: 220, |PQ|: 330 -> 330[0m
+ [0mBest time to target location: 3.05444545455[0m
+ [0mBest time to target location: 3.05347142858[0m
+ [0mMerging, iteration: 230, |PQ|: 345 -> 345[0m
+ [0mBest time to target location: 3.05253157895[0m
+ [0mBest time to target location: 3.05162413794[0m
+ [0mBest time to target location: 3.05074745763[0m
+ [0mMerging, iteration: 240, |PQ|: 360 -> 360[0m
+ [0mBest time to target location: 3.04990000001[0m
+ [0mBest time to target location: 3.04908032787[0m
+ [0mMerging, iteration: 250, |PQ|: 375 -> 375[0m
+ [0mBest time to target location: 3.04828709678[0m
+ [0mBest time to target location: 3.04751904762[0m
+ [0mBest time to target location: 3.04677500001[0m
+ [0mMerging, iteration: 260, |PQ|: 390 -> 390[0m
+ [0mBest time to target location: 3.04605384616[0m
+ [0mBest time to target location: 3.04535454546[0m
+ [0mMerging, iteration: 270, |PQ|: 405 -> 405[0m
+ [0mBest time to target location: 3.04467611941[0m
+ [0mBest time to target location: 3.04401764706[0m
+ [0mBest time to target location: 3.04337826087[0m
+ [0mMerging, iteration: 280, |PQ|: 420 -> 420[0m
+ [0mBest time to target location: 3.04275714286[0m
+ [0mBest time to target location: 3.04215352113[0m
+ [0mMerging, iteration: 290, |PQ|: 435 -> 435[0m
+ [0mBest time to target location: 3.04156666667[0m
+ [0mBest time to target location: 3.04099589042[0m
+ [0mBest time to target location: 3.04044054055[0m
+ [0mMerging, iteration: 300, |PQ|: 450 -> 450[0m
+ [0mBest time to target location: 3.03990000001[0m
+ [0mBest time to target location: 3.03937368422[0m
+ [0mMerging, iteration: 310, |PQ|: 465 -> 465[0m
+ [0mBest time to target location: 3.03886103897[0m
+ [0mBest time to target location: 3.03836153847[0m
+ [0mBest time to target location: 3.03787468355[0m
+ [0mMerging, iteration: 320, |PQ|: 480 -> 480[0m
+ [0mBest time to target location: 3.03740000001[0m
+ [0mBest time to target location: 3.03693703704[0m
+ [0mMerging, iteration: 330, |PQ|: 495 -> 495[0m
+ [0mBest time to target location: 3.03648536586[0m
+ [0mBest time to target location: 3.03604457832[0m
+ [0mBest time to target location: 3.03561428572[0m
+ [0mMerging, iteration: 340, |PQ|: 510 -> 510[0m
+ [0mBest time to target location: 3.03519411765[0m
+ [0mBest time to target location: 3.03478372094[0m
+ [0mMerging, iteration: 350, |PQ|: 525 -> 525[0m
+ [0mBest time to target location: 3.03438275863[0m
+ [0mBest time to target location: 3.0339909091[0m
+ [0mBest time to target location: 3.03360786517[0m
+ [0mMerging, iteration: 360, |PQ|: 540 -> 540[0m
+ [0mBest time to target location: 3.03323333334[0m
+ [0mBest time to target location: 3.03286703297[0m
+ [0mMerging, iteration: 370, |PQ|: 555 -> 555[0m
+ [0mBest time to target location: 3.03250869566[0m
+ [0mBest time to target location: 3.03215806452[0m
+ [0mBest time to target location: 3.03181489362[0m
+ [0mMerging, iteration: 380, |PQ|: 570 -> 570[0m
+ [0mBest time to target location: 3.03147894737[0m
+ [0mBest time to target location: 3.03115000001[0m
+ [0mMerging, iteration: 390, |PQ|: 585 -> 585[0m
+ [0mBest time to target location: 3.03082783506[0m
+ [0mBest time to target location: 3.0305122449[0m
+ [0mBest time to target location: 3.03020303031[0m
+ [0mMerging, iteration: 400, |PQ|: 600 -> 600[0m
+ [0mBest time to target location: 3.02990000001[0m
+ [0mBest time to target location: 3.0296029703[0m
+ [0mMerging, iteration: 410, |PQ|: 615 -> 615[0m
+ [0mBest time to target location: 3.02931176471[0m
+ [0mBest time to target location: 3.0290262136[0m
+ [0mBest time to target location: 3.02874615385[0m
+ [0mMerging, iteration: 420, |PQ|: 630 -> 630[0m
+ [0mBest time to target location: 3.02847142858[0m
+ [0mBest time to target location: 3.0282018868[0m
+ [0mMerging, iteration: 430, |PQ|: 645 -> 645[0m
+ [0mBest time to target location: 3.02793738318[0m
+ [0mBest time to target location: 3.02767777778[0m
+ [0mBest time to target location: 3.02742293578[0m
+ [0mMerging, iteration: 440, |PQ|: 660 -> 660[0m
+ [0mBest time to target location: 3.02717272728[0m
+ [0mBest time to target location: 3.02692702703[0m
+ [0mMerging, iteration: 450, |PQ|: 675 -> 675[0m
+ [0mBest time to target location: 3.02668571429[0m
+ [0mBest time to target location: 3.02644867257[0m
+ [0mBest time to target location: 3.02621578948[0m
+ [0mMerging, iteration: 460, |PQ|: 690 -> 690[0m
+ [0mBest time to target location: 3.02598695653[0m
+ [0mBest time to target location: 3.02576206897[0m
+ [0mMerging, iteration: 470, |PQ|: 705 -> 705[0m
+ [0mBest time to target location: 3.02554102565[0m
+ [0mBest time to target location: 3.02532372882[0m
+ [0mBest time to target location: 3.02511008404[0m
+ [0mMerging, iteration: 480, |PQ|: 720 -> 720[0m
+ [0mBest time to target location: 3.02490000001[0m
+ [0mBest time to target location: 3.02469338843[0m
+ [0mMerging, iteration: 490, |PQ|: 735 -> 735[0m
+ [0mBest time to target location: 3.02449016394[0m
+ [0mBest time to target location: 3.02429024391[0m
+ [0mBest time to target location: 3.02409354839[0m
+ [0mMerging, iteration: 500, |PQ|: 750 -> 750[0m
+ [0mBest time to target location: 3.02390000001[0m
+ [0mBest time to target location: 3.02370952381[0m
+ [0mMerging, iteration: 510, |PQ|: 765 -> 765[0m
+ [0mBest time to target location: 3.02352204725[0m
+ [0mBest time to target location: 3.02333750001[0m
+ [0mBest time to target location: 3.02315581396[0m
+ [0mMerging, iteration: 520, |PQ|: 780 -> 780[0m
+ [0mBest time to target location: 3.02297692308[0m
+ [0mBest time to target location: 3.02280076336[0m
+ [0mMerging, iteration: 530, |PQ|: 795 -> 795[0m
+ [0mBest time to target location: 3.02262727273[0m
+ [0mBest time to target location: 3.02245639098[0m
+ [0mBest time to target location: 3.02228805971[0m
+ [0mMerging, iteration: 540, |PQ|: 810 -> 810[0m
+ [0mBest time to target location: 3.02212222223[0m
+ [0mBest time to target location: 3.02195882353[0m
+ [0mMerging, iteration: 550, |PQ|: 825 -> 825[0m
+ [0mBest time to target location: 3.02179781022[0m
+ [0mBest time to target location: 3.02163913044[0m
+ [0mBest time to target location: 3.02148273382[0m
+ [0mMerging, iteration: 560, |PQ|: 840 -> 840[0m
+ [0mBest time to target location: 3.02132857143[0m
+ [0mBest time to target location: 3.02117659575[0m
+ [0mMerging, iteration: 570, |PQ|: 855 -> 855[0m
+ [0mBest time to target location: 3.02102676057[0m
+ [0mBest time to target location: 3.02087902098[0m
+ [0mBest time to target location: 3.02073333334[0m
+ [0mMerging, iteration: 580, |PQ|: 870 -> 870[0m
+ [0mBest time to target location: 3.02058965518[0m
+ [0mBest time to target location: 3.02044794521[0m
+ [0mMerging, iteration: 590, |PQ|: 885 -> 885[0m
+ [0mBest time to target location: 3.02030816327[0m
+ [0mBest time to target location: 3.02017027028[0m
+ [0mBest time to target location: 3.02003422819[0m
+ [0mMerging, iteration: 600, |PQ|: 900 -> 900[0m
+ [0mBest time to target location: 3.01990000001[0m
+ [0mBest time to target location: 3.01976754967[0m
+ [0mMerging, iteration: 610, |PQ|: 915 -> 915[0m
+ [0mBest time to target location: 3.01963684211[0m
+ [0mBest time to target location: 3.01950784314[0m
+ [0mBest time to target location: 3.01938051949[0m
+ [0mMerging, iteration: 620, |PQ|: 930 -> 930[0m
+ [0mBest time to target location: 3.01925483871[0m
+ [0mBest time to target location: 3.01913076924[0m
+ [0mMerging, iteration: 630, |PQ|: 945 -> 945[0m
+ [0mBest time to target location: 3.01900828026[0m
+ [0mBest time to target location: 3.01888734178[0m
+ [0mBest time to target location: 3.01876792453[0m
+ [0mMerging, iteration: 640, |PQ|: 960 -> 960[0m
+ [0mBest time to target location: 3.01865000001[0m
+ [0mBest time to target location: 3.01853354038[0m
+ [0mMerging, iteration: 650, |PQ|: 975 -> 975[0m
+ [0mBest time to target location: 3.01841851852[0m
+ [0mBest time to target location: 3.01830490798[0m
+ [0mBest time to target location: 3.01819268293[0m
+ [0mMerging, iteration: 660, |PQ|: 990 -> 990[0m
+ [0mBest time to target location: 3.01808181819[0m
+ [0mBest time to target location: 3.01797228916[0m
+ [0mMerging, iteration: 670, |PQ|: 1005 -> 1005[0m
+ [0mBest time to target location: 3.01786407186[0m
+ [0mBest time to target location: 3.01775714286[0m
+ [0mBest time to target location: 3.01765147929[0m
+ [0mMerging, iteration: 680, |PQ|: 1020 -> 1020[0m
+ [0mBest time to target location: 3.01754705883[0m
+ [0mBest time to target location: 3.01744385965[0m
+ [0mMerging, iteration: 690, |PQ|: 1035 -> 1035[0m
+ [0mBest time to target location: 3.01734186047[0m
+ [0mBest time to target location: 3.01724104047[0m
+ [0mBest time to target location: 3.01714137932[0m
+ [0mMerging, iteration: 700, |PQ|: 1050 -> 1050[0m
+ [0mBest time to target location: 3.01704285715[0m
+ [0mBest time to target location: 3.01694545455[0m
+ [0mMerging, iteration: 710, |PQ|: 1065 -> 1065[0m
+ [0mBest time to target location: 3.01684915255[0m
+ [0mBest time to target location: 3.01675393259[0m
+ [0mBest time to target location: 3.01665977654[0m
+ [0mMerging, iteration: 720, |PQ|: 1080 -> 1080[0m
+ [0mBest time to target location: 3.01656666667[0m
+ [0mBest time to target location: 3.01647458564[0m
+ [0mMerging, iteration: 730, |PQ|: 1095 -> 1095[0m
+ [0mBest time to target location: 3.01638351649[0m
+ [0mBest time to target location: 3.01629344263[0m
+ [0mBest time to target location: 3.01620434783[0m
+ [0mMerging, iteration: 740, |PQ|: 1110 -> 1110[0m
+ [0mBest time to target location: 3.01611621622[0m
+ [0mBest time to target location: 3.01602903226[0m
+ [0mMerging, iteration: 750, |PQ|: 1125 -> 1125[0m
+ [0mBest time to target location: 3.01594278075[0m
+ [0mBest time to target location: 3.01585744681[0m
+ [0mBest time to target location: 3.01577301588[0m
+ [0mMerging, iteration: 760, |PQ|: 1140 -> 1140[0m
+ [0mBest time to target location: 3.01568947369[0m
+ [0mBest time to target location: 3.01560680629[0m
+ [0mMerging, iteration: 770, |PQ|: 1155 -> 1155[0m
+ [0mBest time to target location: 3.01552500001[0m
+ [0mBest time to target location: 3.01544404146[0m
+ [0mBest time to target location: 3.01536391753[0m
+ [0mMerging, iteration: 780, |PQ|: 1170 -> 1170[0m
+ [0mBest time to target location: 3.01528461539[0m
+ [0mBest time to target location: 3.01520612245[0m
+ [0mMerging, iteration: 790, |PQ|: 1185 -> 1185[0m
+ [0mBest time to target location: 3.0151284264[0m
+ [0mBest time to target location: 3.01505151516[0m
+ [0mBest time to target location: 3.01497537689[0m
+ [0mMerging, iteration: 800, |PQ|: 1200 -> 1200[0m
+ [0mBest time to target location: 3.01490000001[0m
+ [0mBest time to target location: 3.01482537314[0m
+ [0mMerging, iteration: 810, |PQ|: 1215 -> 1215[0m
+ [0mBest time to target location: 3.01475148515[0m
+ [0mBest time to target location: 3.01467832513[0m
+ [0mBest time to target location: 3.01460588236[0m
+ [0mMerging, iteration: 820, |PQ|: 1230 -> 1230[0m
+ [0mBest time to target location: 3.01453414635[0m
+ [0mBest time to target location: 3.0144631068[0m
+ [0mMerging, iteration: 830, |PQ|: 1245 -> 1245[0m
+ [0mBest time to target location: 3.01439275363[0m
+ [0mBest time to target location: 3.01432307693[0m
+ [0mBest time to target location: 3.01425406699[0m
+ [0mMerging, iteration: 840, |PQ|: 1260 -> 1260[0m
+ [0mBest time to target location: 3.01418571429[0m
+ [0mBest time to target location: 3.01411800948[0m
+ [0mMerging, iteration: 850, |PQ|: 1275 -> 1275[0m
+ [0mBest time to target location: 3.0140509434[0m
+ [0mBest time to target location: 3.01398450705[0m
+ [0mBest time to target location: 3.01391869159[0m
+ [0mMerging, iteration: 860, |PQ|: 1290 -> 1290[0m
+ [0mBest time to target location: 3.01385348838[0m
+ [0mBest time to target location: 3.01378888889[0m
+ [0mMerging, iteration: 870, |PQ|: 1305 -> 1305[0m
+ [0mBest time to target location: 3.0137248848[0m
+ [0mBest time to target location: 3.01366146789[0m
+ [0mBest time to target location: 3.01359863014[0m
+ [0mMerging, iteration: 880, |PQ|: 1320 -> 1320[0m
+ [0mBest time to target location: 3.01353636364[0m
+ [0mBest time to target location: 3.01347466064[0m
+ [0mMerging, iteration: 890, |PQ|: 1335 -> 1335[0m
+ [0mBest time to target location: 3.01341351352[0m
+ [0mBest time to target location: 3.0133529148[0m
+ [0mBest time to target location: 3.01329285715[0m
+ [0mMerging, iteration: 900, |PQ|: 1350 -> 1350[0m
+ [0mBest time to target location: 3.01323333334[0m
+ [0mBest time to target location: 3.01317433629[0m
+ [0mMerging, iteration: 910, |PQ|: 1365 -> 1365[0m
+ [0mBest time to target location: 3.01311585904[0m
+ [0mBest time to target location: 3.01305789474[0m
+ [0mBest time to target location: 3.01300043669[0m
+ [0mMerging, iteration: 920, |PQ|: 1380 -> 1380[0m
+ [0mBest time to target location: 3.01294347827[0m
+ [0mBest time to target location: 3.01288701299[0m
+ [0mMerging, iteration: 930, |PQ|: 1395 -> 1395[0m
+ [0mBest time to target location: 3.01283103449[0m
+ [0mBest time to target location: 3.01277553649[0m
+ [0mBest time to target location: 3.01272051283[0m
+ [0mMerging, iteration: 940, |PQ|: 1410 -> 1410[0m
+ [0mBest time to target location: 3.01266595745[0m
+ [0mBest time to target location: 3.01261186441[0m
+ [0mMerging, iteration: 950, |PQ|: 1425 -> 1425[0m
+ [0mBest time to target location: 3.01255822785[0m
+ [0mBest time to target location: 3.01250504202[0m
+ [0mBest time to target location: 3.01245230126[0m
+ [0mMerging, iteration: 960, |PQ|: 1440 -> 1440[0m
+ [0mBest time to target location: 3.01240000001[0m
+ [0mBest time to target location: 3.01234813279[0m
+ [0mMerging, iteration: 970, |PQ|: 1455 -> 1455[0m
+ [0mBest time to target location: 3.01229669422[0m
+ [0mBest time to target location: 3.01224567902[0m
+ [0mBest time to target location: 3.01219508197[0m
+ [0mMerging, iteration: 980, |PQ|: 1470 -> 1470[0m
+ [0mBest time to target location: 3.01214489796[0m
+ [0mBest time to target location: 3.01209512196[0m
+ [0mMerging, iteration: 990, |PQ|: 1485 -> 1485[0m
+ [0mBest time to target location: 3.01204574899[0m
+ [0mBest time to target location: 3.0119967742[0m
+ [0mBest time to target location: 3.01194819278[0m
+ [0mMerging, iteration: 1000, |PQ|: 1500 -> 1500[0m
+ [0mBest time to target location: 3.01190000001[0m
+ [0mBest time to target location: 3.01185219124[0m
+ [0mMerging, iteration: 1010, |PQ|: 1515 -> 1515[0m
+ [0mBest time to target location: 3.01180476191[0m
+ [0mBest time to target location: 3.01175770751[0m
+ [0mBest time to target location: 3.01171102363[0m
+ [0mMerging, iteration: 1020, |PQ|: 1530 -> 1530[0m
+ [0mBest time to target location: 3.01166470589[0m
+ [0mBest time to target location: 3.01161875001[0m
+ [0mMerging, iteration: 1030, |PQ|: 1545 -> 1545[0m
+ [0mBest time to target location: 3.01157315176[0m
+ [0mBest time to target location: 3.01152790698[0m
+ [0mBest time to target location: 3.01148301159[0m
+ [0mMerging, iteration: 1040, |PQ|: 1560 -> 1560[0m
+ [0mBest time to target location: 3.01143846154[0m
+ [0mBest time to target location: 3.01139425288[0m
+ [0mMerging, iteration: 1050, |PQ|: 1575 -> 1575[0m
+ [0mBest time to target location: 3.01135038168[0m
+ [0mBest time to target location: 3.01130684411[0m
+ [0mBest time to target location: 3.01126363637[0m
+ [0mMerging, iteration: 1060, |PQ|: 1590 -> 1590[0m
+ [0mBest time to target location: 3.01122075472[0m
+ [0mBest time to target location: 3.01117819549[0m
+ [0mMerging, iteration: 1070, |PQ|: 1605 -> 1605[0m
+ [0mBest time to target location: 3.01113595506[0m
+ [0mBest time to target location: 3.01109402986[0m
+ [0mBest time to target location: 3.01105241636[0m
+ [0mMerging, iteration: 1080, |PQ|: 1620 -> 1620[0m
+ [0mBest time to target location: 3.01101111112[0m
+ [0mBest time to target location: 3.01097011071[0m
+ [0mMerging, iteration: 1090, |PQ|: 1635 -> 1635[0m
+ [0mBest time to target location: 3.01092941177[0m
+ [0mBest time to target location: 3.01088901099[0m
+ [0mBest time to target location: 3.01084890511[0m
+ [0mMerging, iteration: 1100, |PQ|: 1650 -> 1650[0m
+ [0mBest time to target location: 3.01080909091[0m
+ [0mBest time to target location: 3.01076956522[0m
+ [0mMerging, iteration: 1110, |PQ|: 1665 -> 1665[0m
+ [0mBest time to target location: 3.01073032491[0m
+ [0mBest time to target location: 3.01069136691[0m
+ [0mBest time to target location: 3.01065268818[0m
+ [0mMerging, iteration: 1120, |PQ|: 1680 -> 1680[0m
+ [0mBest time to target location: 3.01061428572[0m
+ [0mBest time to target location: 3.01057615659[0m
+ [0mMerging, iteration: 1130, |PQ|: 1695 -> 1695[0m
+ [0mBest time to target location: 3.01053829788[0m
+ [0mBest time to target location: 3.01050070672[0m
+ [0mBest time to target location: 3.01046338029[0m
+ [0mMerging, iteration: 1140, |PQ|: 1710 -> 1710[0m
+ [0mBest time to target location: 3.01042631579[0m
+ [0mBest time to target location: 3.01038951049[0m
+ [0mMerging, iteration: 1150, |PQ|: 1725 -> 1725[0m
+ [0mBest time to target location: 3.01035296168[0m
+ [0mBest time to target location: 3.01031666667[0m
+ [0mBest time to target location: 3.01028062284[0m
+ [0mMerging, iteration: 1160, |PQ|: 1740 -> 1740[0m
+ [0mBest time to target location: 3.01024482759[0m
+ [0mBest time to target location: 3.01020927836[0m
+ [0mMerging, iteration: 1170, |PQ|: 1755 -> 1755[0m
+ [0mBest time to target location: 3.01017397261[0m
+ [0mBest time to target location: 3.01013890785[0m
+ [0mBest time to target location: 3.01010408164[0m
+ [0mMerging, iteration: 1180, |PQ|: 1770 -> 1770[0m
+ [0mBest time to target location: 3.01006949153[0m
+ [0mBest time to target location: 3.01003513514[0m
+ [0mMerging, iteration: 1190, |PQ|: 1785 -> 1785[0m
+ [0mBest time to target location: 3.01000101011[0m
+ [0mBest time to target location: 3.0099671141[0m
+ [0mBest time to target location: 3.00993344482[0m
+ [0mMerging, iteration: 1200, |PQ|: 1800 -> 1800[0m
+ [0mBest time to target location: 3.00990000001[0m
+ [0mBest time to target location: 3.00986677741[0m
+ [0mMerging, iteration: 1210, |PQ|: 1815 -> 1815[0m
+ [0mBest time to target location: 3.00983377484[0m
+ [0mBest time to target location: 3.0098009901[0m
+ [0mBest time to target location: 3.00976842106[0m
+ [0mMerging, iteration: 1220, |PQ|: 1830 -> 1830[0m
+ [0mBest time to target location: 3.00973606558[0m
+ [0mBest time to target location: 3.00970392157[0m
+ [0mMerging, iteration: 1230, |PQ|: 1845 -> 1845[0m
+ [0mBest time to target location: 3.00967198698[0m
+ [0mBest time to target location: 3.00964025975[0m
+ [0mBest time to target location: 3.00960873787[0m
+ [0mMerging, iteration: 1240, |PQ|: 1860 -> 1860[0m
+ [0mBest time to target location: 3.00957741936[0m
+ [0mBest time to target location: 3.00954630226[0m
+ [0mMerging, iteration: 1250, |PQ|: 1875 -> 1875[0m
+ [0mBest time to target location: 3.00951538462[0m
+ [0mBest time to target location: 3.00948466454[0m
+ [0mBest time to target location: 3.00945414013[0m
+ [0mMerging, iteration: 1260, |PQ|: 1890 -> 1890[0m
+ [0mBest time to target location: 3.00942380953[0m
+ [0mBest time to target location: 3.00939367089[0m
+ [0mMerging, iteration: 1270, |PQ|: 1905 -> 1905[0m
+ [0mBest time to target location: 3.0093637224[0m
+ [0mBest time to target location: 3.00933396227[0m
+ [0mBest time to target location: 3.00930438872[0m
+ [0mMerging, iteration: 1280, |PQ|: 1920 -> 1920[0m
+ [0mBest time to target location: 3.00927500001[0m
+ [0mBest time to target location: 3.0092457944[0m
+ [0mMerging, iteration: 1290, |PQ|: 1935 -> 1935[0m
+ [0mBest time to target location: 3.00921677019[0m
+ [0mBest time to target location: 3.0091879257[0m
+ [0mBest time to target location: 3.00915925926[0m
+ [0mMerging, iteration: 1300, |PQ|: 1950 -> 1950[0m
+ [0mBest time to target location: 3.00913076924[0m
+ [0mBest time to target location: 3.00910245399[0m
+ [0mMerging, iteration: 1310, |PQ|: 1965 -> 1965[0m
+ [0mBest time to target location: 3.00907431193[0m
+ [0mBest time to target location: 3.00904634147[0m
+ [0mBest time to target location: 3.00901854104[0m
+ [0mMerging, iteration: 1320, |PQ|: 1980 -> 1980[0m
+ [0mBest time to target location: 3.0089909091[0m
+ [0mBest time to target location: 3.00896344411[0m
+ [0mMerging, iteration: 1330, |PQ|: 1995 -> 1995[0m
+ [0mBest time to target location: 3.00893614458[0m
+ [0mBest time to target location: 3.00890900901[0m
+ [0mBest time to target location: 3.00888203593[0m
+ [0mMerging, iteration: 1340, |PQ|: 2010 -> 2010[0m
+ [0mBest time to target location: 3.00885522389[0m
+ [0mBest time to target location: 3.00882857143[0m
+ [0mMerging, iteration: 1350, |PQ|: 2025 -> 2025[0m
+ [0mBest time to target location: 3.00880207716[0m
+ [0mBest time to target location: 3.00877573965[0m
+ [0mBest time to target location: 3.00874955753[0m
+ [0mMerging, iteration: 1360, |PQ|: 2040 -> 2040[0m
+ [0mBest time to target location: 3.00872352942[0m
+ [0mBest time to target location: 3.00869765396[0m
+ [0mMerging, iteration: 1370, |PQ|: 2055 -> 2055[0m
+ [0mBest time to target location: 3.00867192983[0m
+ [0mBest time to target location: 3.00864635569[0m
+ [0mBest time to target location: 3.00862093024[0m
+ [0mMerging, iteration: 1380, |PQ|: 2070 -> 2070[0m
+ [0mBest time to target location: 3.00859565218[0m
+ [0mBest time to target location: 3.00857052024[0m
+ [0mMerging, iteration: 1390, |PQ|: 2085 -> 2085[0m
+ [0mBest time to target location: 3.00854553315[0m
+ [0mBest time to target location: 3.00852068966[0m
+ [0mBest time to target location: 3.00849598854[0m
+ [0mMerging, iteration: 1400, |PQ|: 2100 -> 2100[0m
+ [0mBest time to target location: 3.00847142858[0m
+ [0mBest time to target location: 3.00844700855[0m
+ [0mMerging, iteration: 1410, |PQ|: 2115 -> 2115[0m
+ [0mBest time to target location: 3.00842272728[0m
+ [0mBest time to target location: 3.00839858357[0m
+ [0mBest time to target location: 3.00837457628[0m
+ [0mMerging, iteration: 1420, |PQ|: 2130 -> 2130[0m
+ [0mBest time to target location: 3.00835070423[0m
+ [0mBest time to target location: 3.0083269663[0m
+ [0mMerging, iteration: 1430, |PQ|: 2145 -> 2145[0m
+ [0mBest time to target location: 3.00830336135[0m
+ [0mBest time to target location: 3.00827988827[0m
+ [0mBest time to target location: 3.00825654597[0m
+ [0mMerging, iteration: 1440, |PQ|: 2160 -> 2160[0m
+ [0mBest time to target location: 3.00823333334[0m
+ [0mBest time to target location: 3.00821024931[0m
+ [0mMerging, iteration: 1450, |PQ|: 2175 -> 2175[0m
+ [0mBest time to target location: 3.00818729282[0m
+ [0mBest time to target location: 3.00816446281[0m
+ [0mBest time to target location: 3.00814175825[0m
+ [0mMerging, iteration: 1460, |PQ|: 2190 -> 2190[0m
+ [0mBest time to target location: 3.00811917809[0m
+ [0mBest time to target location: 3.00809672132[0m
+ [0mMerging, iteration: 1470, |PQ|: 2205 -> 2205[0m
+ [0mBest time to target location: 3.00807438693[0m
+ [0mBest time to target location: 3.00805217392[0m
+ [0mBest time to target location: 3.00803008131[0m
+ [0mMerging, iteration: 1480, |PQ|: 2220 -> 2220[0m
+ [0mBest time to target location: 3.00800810811[0m
+ [0mBest time to target location: 3.00798625337[0m
+ [0mMerging, iteration: 1490, |PQ|: 2235 -> 2235[0m
+ [0mBest time to target location: 3.00796451613[0m
+ [0mBest time to target location: 3.00794289545[0m
+ [0mBest time to target location: 3.00792139038[0m

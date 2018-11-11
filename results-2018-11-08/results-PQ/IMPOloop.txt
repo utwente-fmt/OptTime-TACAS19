@@ -1,0 +1,175 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/IMPOloop.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [93;40m*** Warning: The synclab 'iUp' is not used in (at least) the automaton 'EnvI' where it is declared: it will thus be removed from the whole model.[0m
+ [93;40m*** Warning: Parameter 'p_global_time' is not necessarily positive in the initial constraint. The behavior of IMITATOR is unspecified in this case. You are advised to add inequality 'p_global_time >= 0' to the initial state of the model.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0mt_found: 0.050 second[0m
+ [0mBest time to target location: 0.[0m
+ [0mIteration 37: Target reached in time: 0.[0m
+ [0mt_opt:   0.050 second[0m
+ [0mt_prov:  0.050 second[0m
+ [0m---------------- Ending exploration ------------------[0m
+ [0mCompleted after 199 iterations.[0m
+ [0mStates remaining in priority queue: 0[0m
+ [0mWe found 44 constraint(s) that reach the target in min time 0.[0m
+ [0m[0m
+ [0mt_all:   0.739 second[0m
+ [0m---------------- Ending algorithm --------------------[0m
+ [0m
+   [EF-opttime-PQ] State space exploration completed after 0.756 second.[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m p_global_time >= dNot1_l + dNot3_l + 2*dAnd_l
+ & di_l >= 0
+ & dNot1_u + dNot3_u >= dAnd_l
+ & di_u + dNot2_u >= dNot1_l + dNot3_l + dAnd_l
+ & di_u + dNot1_u + dNot2_u + dNot3_u >= p_global_time
+ & dNot3_l >= 0
+ & di_u + dNot2_u + dAnd_u >= p_global_time
+ & dAnd_u >= dAnd_l
+ & dNot3_u >= dNot3_l
+ & dAnd_u >= dNot1_l + dNot3_l
+ & 2*dNot1_u + 2*dNot3_u + dAnd_u >= p_global_time
+ & di_u >= di_l
+ & p_global_time >= di_l + dNot2_l + dAnd_l
+ & dNot1_l >= 0
+ & dNot1_u + dNot3_u + 2*dAnd_u >= p_global_time
+ & dNot2_l >= 0
+ & dNot2_u >= dNot2_l
+ & dAnd_l >= 0
+ & dNot1_u >= dNot1_l
+ & 100000000001 >= 1000000000000000*p_global_time
+ OR
+   p_global_time >= dNot1_l + dNot3_l + dAnd_l
+ & di_u + dNot2_u >= dAnd_l
+ & 2*dNot1_u + 2*dNot3_u >= p_global_time
+ & dAnd_u >= dAnd_l
+ & di_l >= 0
+ & di_u + dNot1_u + dNot2_u + dNot3_u >= p_global_time
+ & dNot1_l >= 0
+ & p_global_time >= 2*dAnd_l
+ & dNot3_l >= 0
+ & di_u + dNot2_u >= dNot1_l + dNot3_l
+ & di_u + dNot2_u + dAnd_u >= p_global_time
+ & dNot1_u >= dNot1_l
+ & dAnd_u >= dNot1_l
+ & dNot3_u >= dNot3_l
+ & dNot1_u + dAnd_u >= dNot1_l + dNot3_l
+ & p_global_time >= di_l + dNot2_l + dAnd_l
+ & di_u >= di_l
+ & dNot1_u + dNot3_u + dAnd_u >= p_global_time
+ & dNot2_l >= 0
+ & dNot2_u >= dNot2_l
+ & dAnd_l >= 0
+ & 100000000001 >= 1000000000000000*p_global_time
+ OR
+   dNot3_u + 3*dAnd_u >= p_global_time
+ & di_l >= 0
+ & di_u + dNot2_u + dNot3_u + 2*dAnd_u >= p_global_time
+ & 2*dNot1_u + 2*dNot3_u >= p_global_time
+ & dAnd_l >= 0
+ & 2*dAnd_u >= dNot1_l
+ & di_u + dNot2_u + dAnd_u >= dNot1_l
+ & dNot3_l >= 0
+ & dNot1_u + dNot3_u >= di_l + dNot2_l + dAnd_l
+ & p_global_time >= di_l + dNot2_l + 2*dAnd_l
+ & dAnd_u >= dAnd_l
+ & di_u + dNot1_u + dNot2_u + 2*dAnd_u >= p_global_time
+ & dNot1_u + dNot3_u + dAnd_u >= p_global_time
+ & dNot1_u + 3*dAnd_u >= p_global_time
+ & di_u + dNot1_u + dNot2_u + dAnd_u >= dNot1_l + dNot3_l
+ & p_global_time >= dNot1_l + dNot3_l + dAnd_l
+ & dNot3_u >= dNot3_l
+ & dNot1_u + 2*dAnd_u >= dNot1_l + dNot3_l
+ & dAnd_u >= di_l + dNot2_l
+ & di_u >= di_l
+ & dNot1_l >= 0
+ & dNot2_l >= 0
+ & dNot2_u >= dNot2_l
+ & 100000000001 >= 1000000000000000*p_global_time
+ & dNot1_u >= dNot1_l
+ OR
+   dNot1_l >= 0
+ & di_u + dNot1_u + dNot2_u + dNot3_u >= p_global_time
+ & di_u + dNot1_u + dNot2_u >= dNot1_l + dNot3_l
+ & di_u + dNot2_u >= dNot1_l
+ & di_u + dNot2_u >= dAnd_l
+ & 2*dNot1_u + 2*dNot3_u >= p_global_time
+ & p_global_time >= 2*dAnd_l
+ & di_u + dNot2_u + dNot3_u + dAnd_u >= p_global_time
+ & di_u + dNot1_u + dNot2_u + dAnd_u >= p_global_time
+ & di_l >= 0
+ & dAnd_l >= 0
+ & dNot3_l >= 0
+ & p_global_time >= dNot1_l + dNot3_l + dAnd_l
+ & dAnd_u >= dAnd_l
+ & dNot3_u + 2*dAnd_u >= p_global_time
+ & dNot1_u + 2*dAnd_u >= p_global_time
+ & dNot1_u + dNot3_u + dAnd_u >= p_global_time
+ & p_global_time >= di_l + dNot2_l + dAnd_l
+ & dNot1_u + dAnd_u >= dNot1_l + dNot3_l
+ & dNot3_u >= dNot3_l
+ & dAnd_u >= dNot1_l
+ & dNot1_u >= dNot1_l
+ & dNot1_u + dNot3_u >= di_l + dNot2_l
+ & dNot1_u + dAnd_u >= di_l + dNot2_l
+ & dNot3_u + dAnd_u >= di_l + dNot2_l
+ & di_u >= di_l
+ & dNot2_l >= 0
+ & dNot2_u >= dNot2_l
+ & 100000000001 >= 1000000000000000*p_global_time
+ OR
+   dNot3_l >= 0
+ & di_l >= 0
+ & dAnd_l >= 0
+ & p_global_time >= di_l + dNot2_l
+ & dAnd_u >= dAnd_l
+ & 2*dAnd_u >= p_global_time
+ & di_u + dNot2_u + dAnd_u >= p_global_time
+ & dNot3_u >= dNot3_l
+ & p_global_time >= dNot1_l + dNot3_l
+ & di_u >= di_l
+ & dAnd_u >= di_l + dNot2_l
+ & dNot2_l >= 0
+ & dNot2_u >= dNot2_l
+ & dNot1_l >= 0
+ & dNot1_u >= dNot1_l
+ & dNot1_u + dNot3_u >= p_global_time
+ & 100000000001 >= 1000000000000000*p_global_time
+ OR
+   p_global_time >= dNot1_l + dNot3_l
+ & dNot1_l >= 0
+ & dAnd_l >= 0
+ & di_l >= 0
+ & dAnd_u >= dAnd_l
+ & dAnd_u >= dNot1_l + dNot3_l
+ & dNot1_u >= dNot1_l
+ & dNot3_l >= 0
+ & dNot3_u >= dNot3_l
+ & 2*dAnd_u >= p_global_time
+ & di_u >= di_l
+ & p_global_time >= di_l + dNot2_l
+ & dNot2_u >= dNot2_l
+ & dNot1_u + dNot3_u + dAnd_u >= p_global_time
+ & dNot2_l >= 0
+ & di_u + dNot2_u >= p_global_time
+ & 100000000001 >= 1000000000000000*p_global_time[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 1.330 seconds)[0m
+

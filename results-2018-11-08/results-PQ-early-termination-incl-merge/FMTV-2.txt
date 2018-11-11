@@ -1,0 +1,82 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/FMTV-2.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mEarly termination chosen for EFsynthminpq, the algorithm will stop once a single valuation is found that minimizes global_time.[0m
+ [93;40m*** Warning: The synclab 'T2_pre' is not used in (at least) the automaton 'sched_sched' where it is declared: it will thus be removed from the whole model.[0m
+ [93;40m*** Warning: The clock 'p5' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [93;40m*** Warning: The clock 'p7' is declared but never used in the model; it is therefore removed from the model. Use option -no-var-autoremove to keep it.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mThe model contains stopwatches.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0m  2 states merged within 6 states.[0m
+ [0mMerging, iteration: 10, |PQ|: 6 -> 4[0m
+ [0mMerging, iteration: 20, |PQ|: 8 -> 8[0m
+ [0m  1 state merged within 8 states.[0m
+ [0mMerging, iteration: 30, |PQ|: 8 -> 8[0m
+ [0m  1 state merged within 10 states.[0m
+ [0mMerging, iteration: 40, |PQ|: 10 -> 9[0m
+ [0m  1 state merged within 9 states.[0m
+ [0mMerging, iteration: 50, |PQ|: 9 -> 8[0m
+ [0m  1 state merged within 11 states.[0m
+ [0mMerging, iteration: 60, |PQ|: 11 -> 11[0m
+ [0m  3 states merged within 13 states.[0m
+ [0mMerging, iteration: 70, |PQ|: 13 -> 10[0m
+ [0mMerging, iteration: 80, |PQ|: 14 -> 14[0m
+ [0mMerging, iteration: 90, |PQ|: 16 -> 16[0m
+ [0mMerging, iteration: 100, |PQ|: 15 -> 15[0m
+ [0m  1 state merged within 15 states.[0m
+ [0mMerging, iteration: 110, |PQ|: 15 -> 14[0m
+ [0mMerging, iteration: 120, |PQ|: 15 -> 15[0m
+ [0m  1 state merged within 19 states.[0m
+ [0mMerging, iteration: 130, |PQ|: 19 -> 18[0m
+ [0mt_found: 0.274 second[0m
+ [0mBest time to target location: 49.0001000001[0m
+ [0m  1 state merged within 20 states.[0m
+ [0mMerging, iteration: 140, |PQ|: 20 -> 20[0m
+ [0m  1 state merged within 18 states.[0m
+ [0mMerging, iteration: 150, |PQ|: 18 -> 17[0m
+ [0m  1 state merged within 17 states.[0m
+ [0mMerging, iteration: 160, |PQ|: 17 -> 17[0m
+ [0m  2 states merged within 16 states.[0m
+ [0mMerging, iteration: 170, |PQ|: 16 -> 14[0m
+ [0m  1 state merged within 7 states.[0m
+ [0mMerging, iteration: 180, |PQ|: 7 -> 7[0m
+ [0mIteration 189: Target reached in time: 49.0001000001[0m
+ [0mt_opt:   0.274 second[0m
+ [0mt_prov:  0.419 second[0m
+ [0mFound target![0m
+ [0m---------------- Ending exploration ------------------[0m
+ [0mCompleted after 190 iterations.[0m
+ [0mStates remaining in priority queue: 2[0m
+ [0mWe found 1 constraint(s) that reach the target in min time 49.0001000001[0m
+ [0m[0m
+ [0mt_all:   0.419 second[0m
+ [0m---------------- Ending algorithm --------------------[0m
+ [0m
+   [EF-opttime-PQ] State space exploration completed after 0.429 second.[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m 1001 >= 25*P2_uncertain
+ & 25*P2_uncertain >= 999
+ & D > 49
+ & 49000200000000007 >= 1000000000000000*p_global_time
+ & p_global_time >= D[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 0.483 second)[0m
+

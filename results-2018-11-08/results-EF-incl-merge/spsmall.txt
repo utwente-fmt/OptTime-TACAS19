@@ -1,0 +1,177 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/spsmall.imi[0m
+ [0mMode: EF-synthesis.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [93;40m*** Warning: The syntax 'initially init_abs_net27' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially e_01_1_wela' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially init_not_net13a' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially e0d1_U_reg_net45' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially e0d0_U_reg_d_int' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially init_not_en_latchd' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially init_not_en_latchwen' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially init_ret_wen_h' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially init_ret_d_h' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially init_env' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially waiting' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The synclab 'up_wen' is not used in (at least) the automaton 'env' where it is declared: it will thus be removed from the whole model.[0m
+ [93;40m*** Warning: Parameter 'p_global_time' is not necessarily positive in the initial constraint. The behavior of IMITATOR is unspecified in this case. You are advised to add inequality 'p_global_time >= 0' to the initial state of the model.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm AGsafe…
+ [0m
+ [0mComputing post^1 from 1 state.[0m
+ [0mComputing post^2 from 1 state.[0m
+ [0mComputing post^3 from 1 state.[0m
+ [0mComputing post^4 from 2 states.[0m
+ [0m  1 state merged within 3 states.[0m
+ [0mComputing post^5 from 2 states.[0m
+ [0mComputing post^6 from 3 states.[0m
+ [0m  1 state merged within 4 states.[0m
+ [0mComputing post^7 from 3 states.[0m
+ [0m  2 states merged within 5 states.[0m
+ [0mComputing post^8 from 3 states.[0m
+ [0m  2 states merged within 5 states.[0m
+ [0mComputing post^9 from 3 states.[0m
+ [0m  2 states merged within 6 states.[0m
+ [0mComputing post^10 from 5 states.[0m
+ [0m  6 states merged within 11 states.[0m
+ [0mComputing post^11 from 7 states.[0m
+ [0m  4 states merged within 14 states.[0m
+ [0mComputing post^12 from 12 states.[0m
+ [0m  12 states merged within 24 states.[0m
+ [0mComputing post^13 from 14 states.[0m
+ [0m  6 states merged within 22 states.[0m
+ [0mComputing post^14 from 17 states.[0m
+ [0m  10 states merged within 25 states.[0m
+ [0mComputing post^15 from 17 states.[0m
+ [0m  10 states merged within 22 states.[0m
+ [0mComputing post^16 from 17 states.[0m
+ [0m  7 states merged within 22 states.[0m
+ [0mComputing post^17 from 19 states.[0m
+ [0m  8 states merged within 21 states.[0m
+ [0mComputing post^18 from 19 states.[0m
+ [0m  7 states merged within 19 states.[0m
+ [0mComputing post^19 from 18 states.[0m
+ [0m  6 states merged within 18 states.[0m
+ [0mComputing post^20 from 17 states.[0m
+ [0m  5 states merged within 17 states.[0m
+ [0mComputing post^21 from 17 states.[0m
+ [0m  5 states merged within 17 states.[0m
+ [0mComputing post^22 from 17 states.[0m
+ [0m  5 states merged within 18 states.[0m
+ [0mComputing post^23 from 18 states.[0m
+ [0m  5 states merged within 19 states.[0m
+ [0mComputing post^24 from 19 states.[0m
+ [0m  5 states merged within 19 states.[0m
+ [0mComputing post^25 from 19 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  7 states merged within 23 states.[0m
+ [0mComputing post^26 from 21 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  8 states merged within 26 states.[0m
+ [0mComputing post^27 from 26 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  13 states merged within 28 states.[0m
+ [0mComputing post^28 from 25 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  13 states merged within 30 states.[0m
+ [0mComputing post^29 from 25 states.[0m
+ [0m  12 states merged within 27 states.[0m
+ [0mComputing post^30 from 25 states.[0m
+ [0m  10 states merged within 19 states.[0m
+ [0mComputing post^31 from 19 states.[0m
+ [0m  6 states merged within 11 states.[0m
+ [0mComputing post^32 from 11 states.[0m
+ [0m  3 states merged within 6 states.[0m
+ [0mComputing post^33 from 6 states.[0m
+ [0m  [AGsafe] Found a new state violating the property.[0m
+ [0m  2 states merged within 4 states.[0m
+ [0mComputing post^34 from 4 states.[0m
+ [0m  2 states merged within 2 states.[0m
+ [0mComputing post^35 from 2 states.[0m
+ [0m
+ Fixpoint reached at a depth of 36: 355 states with 443 transitions in the final state space.[0m
+ [0m
+   [AGsafe] Algorithm completed after 1.169 seconds.[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m tsetupd >= 0
+ & 65 >= tsetupwen
+ & tsetupwen >= 0
+ & 65 > tsetupd
+ & p_global_time = 220
+ OR
+   tsetupwen >= 0
+ & 30 >= tsetupwen
+ & tsetupd > 110
+ & p_global_time = 220
+ OR
+   tsetupwen > 30
+ & 65 >= tsetupwen
+ & tsetupd > 99
+ & p_global_time = 220
+ OR
+   tsetupd >= 0
+ & tsetupwen >= 0
+ & p_global_time > 276
+ OR
+   276 > p_global_time
+ & tsetupd >= 0
+ & tsetupwen >= 0
+ & p_global_time > 220
+ OR
+   tsetupd >= 0
+ & tsetupwen > 30
+ & p_global_time = 276
+ OR
+   30 >= tsetupwen
+ & tsetupwen >= 0
+ & tsetupd > 67
+ & p_global_time = 276
+ OR
+   30 >= tsetupwen
+ & 65 > tsetupd
+ & tsetupd >= 0
+ & tsetupwen >= 0
+ & p_global_time = 276
+ OR
+   tsetupd >= 0
+ & tsetupwen >= 0
+ & 220 > p_global_time
+ OR
+   tsetupd >= 0
+ & tsetupwen > 65
+ & p_global_time = 220[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 1.195 seconds)[0m
+

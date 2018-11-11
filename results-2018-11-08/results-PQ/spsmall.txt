@@ -1,0 +1,81 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/spsmall.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [93;40m*** Warning: The syntax 'initially init_abs_net27' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially e_01_1_wela' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially init_not_net13a' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially e0d1_U_reg_net45' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially e0d0_U_reg_d_int' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially init_not_en_latchd' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially init_not_en_latchwen' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially init_ret_wen_h' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially init_ret_d_h' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially init_env' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially waiting' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The synclab 'up_wen' is not used in (at least) the automaton 'env' where it is declared: it will thus be removed from the whole model.[0m
+ [93;40m*** Warning: Parameter 'p_global_time' is not necessarily positive in the initial constraint. The behavior of IMITATOR is unspecified in this case. You are advised to add inequality 'p_global_time >= 0' to the initial state of the model.[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0mt_found: 5.028 seconds[0m
+ [0mBest time to target location: 220.[0m
+ [0mIteration 2780: Target reached in time: 220.[0m
+ [0mt_opt:   5.028 seconds[0m
+ [0mt_prov:  5.734 seconds[0m
+ [0m---------------- Ending exploration ------------------[0m
+ [0mCompleted after 3415 iterations.[0m
+ [0mStates remaining in priority queue: 0[0m
+ [0mWe found 419 constraint(s) that reach the target in min time 220.[0m
+ [0m[0m
+ [0mt_all:   6.508 seconds[0m
+ [0m---------------- Ending algorithm --------------------[0m
+ [0m
+   [EF-opttime-PQ] State space exploration completed after 6.518 seconds.[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m tsetupwen >= 0
+ & tsetupd >= 65
+ & 97 >= tsetupd
+ & 65 >= tsetupwen
+ & p_global_time = 220
+ OR
+   tsetupwen + 95 >= tsetupd
+ & tsetupd >= 97
+ & 65 >= tsetupwen
+ & 99 >= tsetupd
+ & p_global_time = 220
+ OR
+   tsetupd >= 103
+ & tsetupwen >= 0
+ & 30 >= tsetupwen
+ & 110 >= tsetupd
+ & p_global_time = 220
+ OR
+   tsetupwen >= 4
+ & tsetupd >= 99
+ & 103 >= tsetupd
+ & 30 >= tsetupwen
+ & p_global_time = 220
+ OR
+   tsetupwen >= 0
+ & tsetupd >= 95 + tsetupwen
+ & tsetupd >= 97
+ & 103 >= tsetupd
+ & 4 >= tsetupwen
+ & p_global_time = 220[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 6.613 seconds)[0m
+

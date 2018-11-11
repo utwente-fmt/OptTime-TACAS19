@@ -1,0 +1,59 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/FischerAHV93.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [93;40m*** Warning: The syntax 'initially lock0' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially P1_0' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [93;40m*** Warning: The syntax 'initially P2_0' is deprecated and is NOT taken into account. Initial locations must be defined in the initial state definition.[0m
+ [0mThis model is an L/U-PTA:[0m
+ [0m- lower-bound parameters {a, c}[0m
+ [0m- upper-bound parameters {b, p_global_time, d}[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0m  2 states merged within 8 states.[0m
+ [0mMerging, iteration: 10, |PQ|: 8 -> 6[0m
+ [0mMerging, iteration: 20, |PQ|: 4 -> 4[0m
+ [0mt_found: 0.018 second[0m
+ [0mBest time to target location: 0.000100000000001[0m
+ [0m  1 state merged within 5 states.[0m
+ [0mMerging, iteration: 30, |PQ|: 5 -> 4[0m
+ [0mIteration 31: Target reached in time: 0.000100000000001[0m
+ [0mt_opt:   0.018 second[0m
+ [0mt_prov:  0.018 second[0m
+ [0mMerging, iteration: 40, |PQ|: 4 -> 4[0m
+ [0mMerging, iteration: 60, |PQ|: 1 -> 1[0m
+ [0m---------------- Ending exploration ------------------[0m
+ [0mCompleted after 63 iterations.[0m
+ [0mStates remaining in priority queue: 0[0m
+ [0mWe found 5 constraint(s) that reach the target in min time 0.000100000000001[0m
+ [0m[0m
+ [0mt_all:   0.036 second[0m
+ [0m---------------- Ending algorithm --------------------[0m
+ [0m
+   [EF-opttime-PQ] State space exploration completed after 0.039 second.[0m
+ [0m
+ Final constraint such that the system is correct:[0m
+ [92;40m p_global_time > a + c
+ & 200000000001 > 1000000000000000*a + 1000000000000000*c
+ & d > c
+ & a >= 0
+ & c >= 0
+ & b > a[0m
+ [94mThis good constraint is exact (sound and complete)[0m
+
+ [0m[1mIMITATOR successfully terminated[0m (after 0.039 second)[0m
+

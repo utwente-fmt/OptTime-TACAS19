@@ -1,0 +1,69 @@
+ [0m************************************************************
+ *  [1mIMITATOR 2.10.4 "Butter Jellyfish"[0m                      *
+ *                                                          *
+ *                                    Etienne Andre et al.  *
+ *                                             2009 - 2018  *
+ *                       LSV, ENS de Cachan & CNRS, France  *
+ *                       LIPN, Universite Paris 13, France  *
+ *                                         www.imitator.fr  *
+ *                                                          *
+ *                   Build: 2541 (2018-10-26 14:19:01 UTC)  *
+ *                                        optreach/a5cbb3e  *
+ ************************************************************[0m
+ [0mModel: models-global-time-param/Pipeline-KP12-2-3.imi[0m
+ [0mMode: EF-synth with minimal reachability.[0m
+ [0mConsidering fixpoint variant with monodirectional inclusion of symbolic zones (instead of equality).[0m
+ [0mMerging technique of [AFS13] enabled.[0m
+ [0mThis model is an L/U-PTA:[0m
+ [0m- lower-bound parameters {a, e, c}[0m
+ [0m- upper-bound parameters {b, f, d, p_global_time}[0m
+ [0mA global time clock 'global_time' has been detected.[0m
+ [0mStarting running algorithm EF-opttime-PQ…
+ [0m
+ [0m---------------- Starting exploration ----------------[0m
+ [0m  5 states merged within 14 states.[0m
+ [0mMerging, iteration: 10, |PQ|: 14 -> 9[0m
+ [0m  9 states merged within 28 states.[0m
+ [0mMerging, iteration: 20, |PQ|: 28 -> 21[0m
+ [0m  17 states merged within 46 states.[0m
+ [0mMerging, iteration: 30, |PQ|: 46 -> 32[0m
+ [0m  16 states merged within 56 states.[0m
+ [0mMerging, iteration: 40, |PQ|: 56 -> 45[0m
+ [0m  23 states merged within 68 states.[0m
+ [0mMerging, iteration: 50, |PQ|: 68 -> 48[0m
+ [0mt_found: 0.382 second[0m
+ [0mBest time to target location: 5.[0m
+ [0m  15 states merged within 70 states.[0m
+ [0mMerging, iteration: 60, |PQ|: 70 -> 56[0m
+ [0m  5 states merged within 76 states.[0m
+ [0mMerging, iteration: 70, |PQ|: 76 -> 71[0m
+ [0m  12 states merged within 91 states.[0m
+ [0mMerging, iteration: 80, |PQ|: 91 -> 82[0m
+ [0m  7 states merged within 100 states.[0m
+ [0mMerging, iteration: 90, |PQ|: 100 -> 93[0m
+ [0m  10 states merged within 108 states.[0m
+ [0mMerging, iteration: 100, |PQ|: 108 -> 98[0m
+ [0m  5 states merged within 113 states.[0m
+ [0mMerging, iteration: 110, |PQ|: 113 -> 108[0m
+ [0m  7 states merged within 125 states.[0m
+ [0mMerging, iteration: 120, |PQ|: 125 -> 118[0m
+ [0m  5 states merged within 130 states.[0m
+ [0mMerging, iteration: 130, |PQ|: 130 -> 125[0m
+ [0m  8 states merged within 141 states.[0m
+ [0mMerging, iteration: 140, |PQ|: 141 -> 133[0m
+ [0m  2 states merged within 145 states.[0m
+ [0mMerging, iteration: 150, |PQ|: 145 -> 143[0m
+ [0m  8 states merged within 160 states.[0m
+ [0mMerging, iteration: 160, |PQ|: 160 -> 152[0m
+ [0m  9 states merged within 173 states.[0m
+ [0mMerging, iteration: 170, |PQ|: 173 -> 164[0m
+ [0m  5 states merged within 186 states.[0m
+ [0mMerging, iteration: 180, |PQ|: 186 -> 181[0m
+ [0m  11 states merged within 205 states.[0m
+ [0mMerging, iteration: 190, |PQ|: 205 -> 194[0m
+ [0m  5 states merged within 219 states.[0m
+ [0mMerging, iteration: 200, |PQ|: 219 -> 214[0m
+ [0m  12 states merged within 243 states.[0m
+ [0mMerging, iteration: 210, |PQ|: 243 -> 231[0m
+ [0m  15 states merged within 256 states.[0m
+ [0mMerging, iteration: 220, |PQ|: 256 -> 241[0m
