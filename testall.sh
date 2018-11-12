@@ -20,7 +20,6 @@ then
 else
     echo "Creating folders"
     mkdir "results"
-    mkdir "results/results-PQ-best-worst-case-incl-merge"
     mkdir "results/results-PQ-early-termination-incl-merge"
     mkdir "results/results-PQ"
     mkdir "results/results-PQ-incl-merge"
@@ -42,7 +41,6 @@ do
     fi
     model="models-global-time-param/$m"
     timeout $timeout $imit $model -mode EFsynthminpq -early-terminate -incl -merge &> "results/results-PQ-early-termination-incl-merge/${m%.imi}.txt"
-    timeout $timeout $imit $model -mode EFsynthminpq -best-worst-case -incl -merge &> "results/results-PQ-best-worst-case-incl-merge/${m%.imi}.txt"
     timeout $timeout $imit $model -mode EFsynthminpq &> "results/results-PQ/${m%.imi}.txt"
     timeout $timeout $imit $model -mode EFsynthminpq -incl -merge -merge-heuristic iter10 &> "results/results-PQ-incl-merge/${m%.imi}.txt"
     timeout $timeout $imit $model -mode EFmin -incl -merge &> "results/results-EFmin-incl-merge/${m%.imi}.txt"

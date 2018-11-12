@@ -44,8 +44,7 @@ internal clocks.*
 reached, but we also address the following questions: what is the minimum
 time to reach the goal location? and for which parameter values can we achieve
 this? We analyse the problem and present an algorithm that solves it. We also
-discuss and provide solutions for variants: minimizing the upper-bound on the
-time to reach the goal location, and minimizing a specific parameter value to
+discuss and provide solutions for minimizing a specific parameter value to
 still reach the goal.*
 
 *We empirically study the performance of these algorithms on a benchmark set

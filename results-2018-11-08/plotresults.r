@@ -172,9 +172,6 @@ ggsave(paste(plotsdir,"PQim-SMim.pdf",sep="/"), width=ww, height=hh)
 f_scatterplot_time(results, results$results.PQ.early.termination.incl.merge, results$results.PQ.incl.merge, "Time MTReach (sec)", "Time MTSynth (sec)")
 ggsave(paste(plotsdir,"PQetim-PQim.pdf",sep="/"), width=ww, height=hh)
 
-f_scatterplot_time(results, results$results.PQ.incl.merge, results$results.PQ.best.worst.case.incl.merge, "Time MTSynth (sec)", "Time MUBTSynth (sec)")
-ggsave(paste(plotsdir,"PQim-PQubim.pdf",sep="/"), width=ww, height=hh)
-
 f_scatterplot_time(results, results$results.PQ.incl.merge, results$results.PQ, "Time MTSynth (sec)", "Time MTSynth-noRed (sec)")
 ggsave(paste(plotsdir,"PQim-PQ.pdf",sep="/"), width=ww, height=hh)
 
