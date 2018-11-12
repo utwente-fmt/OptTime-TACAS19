@@ -36,6 +36,11 @@ function getcomptime_EF_csv() {
             fi
         fi
     fi
+    # Prevent division by 0 errors
+    if [ "$result" = "0.000" ]
+    then
+        result="0.001"
+    fi
 	OUTPUT="$result"
 }
 

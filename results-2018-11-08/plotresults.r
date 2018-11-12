@@ -178,3 +178,6 @@ ggsave(paste(plotsdir,"PQim-PQ.pdf",sep="/"), width=ww, height=hh)
 f_scatterplot_time(results, results$results.EFsynthmin.incl.merge, results$results.EF.incl.merge, "Time MinPSynth (sec)", "Time Synth (sec)")
 ggsave(paste(plotsdir,"SMim-EFim.pdf",sep="/"), width=ww, height=hh)
 
+f_scatterplot_time(results, results$results.EFmin.incl.merge, results$results.EFsynthmin.incl.merge, "Time MPReach (sec)",  "Time MPSynth (sec)")
+ggsave(paste(plotsdir,"SMim-EFminim.pdf",sep="/"), width=ww, height=hh)
+
