@@ -1,4 +1,4 @@
-# Optimal-Time Synthesis for Parametric Timed Automata
+# Minimal-Time Synthesis for Parametric Timed Automata
 
 This repository hosts the results for the paper.
 
@@ -48,7 +48,7 @@ discuss and provide solutions for minimizing a specific parameter value to
 still reach the goal.*
 
 *We empirically study the performance of these algorithms on a benchmark set
-for PTAs and show that minimum-time synthesis is more efficient to compute
+for PTAs and show that minimum-time reachability synthesis is more efficient to compute
 than the standard synthesis algorithm for reachability.*
 
 
