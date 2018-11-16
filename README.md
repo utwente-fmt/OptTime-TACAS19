@@ -41,14 +41,14 @@ specified goal location, regardless of how much time has passed for the
 internal clocks.*
 
 *We focus on synthesizing parameters such that not only the goal location is
-reached, but we also address the following questions: what is the minimum
+reached, but we also address the following questions: what is the minimal
 time to reach the goal location? and for which parameter values can we achieve
 this? We analyse the problem and present an algorithm that solves it. We also
 discuss and provide solutions for minimizing a specific parameter value to
 still reach the goal.*
 
 *We empirically study the performance of these algorithms on a benchmark set
-for PTAs and show that minimum-time reachability synthesis is more efficient to compute
+for PTAs and show that minimal-time reachability synthesis is more efficient to compute
 than the standard synthesis algorithm for reachability.*
 
 
