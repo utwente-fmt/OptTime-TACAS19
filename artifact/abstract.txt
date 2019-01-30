@@ -1,0 +1,28 @@
+This artifact contains the means to reproduce the experimental results from the
+paper. In the paper we propose algorithms that synthesize a/all parameter
+valuation(s) in a PTA, such that the time to reach the target location is
+minimized. Additionally, we also propose algorithms that synthesize a/all
+parameter valuation(s) that minimize a specific parameter.
+
+We consider the following algorithms in our experiments:
+- Synth: the classical synthesis algorithm (without time minimization)
+- MTSynth: our minimal-time synthesis algorithm
+- MPSynth: our minimal-parameter synthesis algorithm (which is used to compute
+  the minimal time)
+- MTSynth-noRed: Our MTSynth algorithm without using state-space reductions
+- MTReach: our minimal-time reachability algorithm (that returns at least one
+  parameter valuation that reaches the target location in minimal time)
+- MPReach: our minimal-parameter reachability algorithm (see MTReach)
+
+For the experiments, we collected 68 PTA models and properties from the
+IMITATOR benchmarks library, and ran each experiment (algorithm+model
+combination).
+
+The most interesting result is that the minimal-time synthesis version is in
+general faster in computing results when compared to the classical synthesis
+algorithm. We can also observe that MTSynth is faster than MPSynth (in MTSynth
+we use a shortest-path search, and in MPSynth we do not). When comparing
+reachability with synthesis, we see that the results are fairly similar, with
+only a few instances in which only reachability is computable in the allowed
+time.
+

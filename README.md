@@ -6,7 +6,7 @@ Please note that all experiments in the paper were performed on an
 Intel Core<sup>TM</sup> i7-4710MQ processor with 2.50GHz and 7.4Gib memory,
 running Debian Stretch.
 
-Submitted to [TACAS 2019].
+Accepted at [TACAS 2019].
 
 This work is partially supported by the ANR national research program PACS
 (ANR-14-CE28-0002) and PHC Van Gogh project PAMPAS.
@@ -50,6 +50,12 @@ still reach the goal.*
 *We empirically study the performance of these algorithms on a benchmark set
 for PTAs and show that minimal-time reachability synthesis is more efficient to compute
 than the standard synthesis algorithm for reachability.*
+
+Artifact
+---
+
+We have provided an artifact for our experiments in the `artifact` directory,
+please consult the abstract and README files provided.
 
 
 Installation
